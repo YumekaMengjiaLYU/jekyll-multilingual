@@ -29,6 +29,3 @@ You can check the demo on [sylvaindurand.github.io/jekyll-multilingual/](https:/
 After having written an article about having a multilingual *Jekyll* website, [sigul](https://talk.jekyllrb.com/t/a-vanilla-jekyll-theme-multilingual-with-no-plugins/) gave the idea to provide a minimal working example. Here we are!
 
 The [source code](https://github.com/sylvaindurand/jekyll-multilingual) is freely available on [GitHub](https://github.com/sylvaindurand/jekyll-multilingual). The *Jekyll* default theme is released under the MIT License, such as the modifications shown in this repository.
-
-## Question?
-Please feel free to [open an issue](https://github.com/sylvaindurand/jekyll-multilingual/issues) or to [push a commit](https://github.com/sylvaindurand/jekyll-multilingual/pulls).
