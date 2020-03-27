@@ -7,18 +7,18 @@
 
 # Site settings
 title:
-  en: Your awesome title
-  fr: Votre titre génial
-email: your-email@domain.com
+  en: Mengjia Lyu and Machine Learning
+  cn: 梦嘉和机器学习
+email: mengjia.lyu@outlook.com
 description:
-  en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.
+  en: When ML meets ML
+  cn: 当梦嘉遇见机器学习
 index:
   en:
-  fr: accueil.html
+  cn: accueil.html
 feed:
   en: /feed.xml
-  fr: /flux.xml
+  cn: /flux.xml
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://mengjialyu.info" # the base hostname & protocol for your site
 twitter_username: jekyllrb
