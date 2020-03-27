@@ -8,11 +8,11 @@
 # Site settings
 title:
   en: Mengjia Lyu and Machine Learning
-  cn: 梦嘉和机器学习
+  cn: 梦嘉和ML
 email: mengjia.lyu@outlook.com
 description:
   en: When ML meets ML
-  cn: 当梦嘉遇见机器学习
+  cn: 当梦嘉遇见ML
 index:
   en:
   cn: accueil.html
