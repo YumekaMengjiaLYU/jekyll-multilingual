@@ -21,8 +21,8 @@ feed:
   cn: /flux.xml
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://mengjialyu.info" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: kayql131
+github_username:  YumekaMengjiaLYU
 
 # Build settings
 markdown: kramdown
