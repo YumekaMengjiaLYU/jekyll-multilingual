@@ -57,4 +57,5 @@ print(mean_squared_error)
 Our mean squared error is computed to be 0.069, which is slightly less than 10% of the actual mean 0.724. 
 
 This indicates that our linear regression model is reasonably accurate and can make good predictions!
+
 [here]: https://www.kaggle.com/mohansacharya/graduate-admissions/data
