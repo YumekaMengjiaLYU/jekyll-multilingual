@@ -2,13 +2,13 @@
 layout: post
 title:  "Linear Regression in Python"
 ref: welcome
-date:   2020-03-27 09:48:44 +0100
+date:   2020-03-27 
 categories: algorithms
 lang: en
 ---
-Linear regression, as its name suggests, solves a regression problem. It is a simple approach for supervised learning and is especially useful for predicting a quantitative response. 
+Linear regression, as its name suggests, solves a regression problem. It is a simple approach for supervised learning and is especially useful for predicting a quantitative response. Depending on the number of predictors `x`, we can classify linear regression models into two types: binary linear regression and multiple linear regression. 
 
-The dataset can be downloaded [here][here].
+For this tutorial, we are going to use multiple linear regression to predict the chance of graduate school admissions. The dataset can be downloaded [here][here].
 
 We can import all the required libraries and our dataset:
 
@@ -25,6 +25,9 @@ grad_admissions = pd.readcsv('/Users/mengjialyu/Documents/Kaggle/graduate-admiss
 
 Using the `LinearRegression()` function from `sklearn`, we can fit a linear regression model to our data.
 
+`train_test_split()` is an especially useful function. It splits a given dataset into random train and test subsets. The argument `test_size` varies between 0.0 and 1.0, and represents the proportion of the dataset to include in the train split. Another argument `random_state` represents the [seed][seed] used by the random number generator. 
+
+Let's fit the linear regression model to our data:
 {% highlight python %}
 
 X = grad_admissions[['GRE Score', 'TOEFL Score', 'University Rating', 'LOR ', 'SOP', 'CGPA', 'Research']].values
@@ -37,6 +40,7 @@ regressor = LinearRegression()
 
 regressor.fit(X_train, y_train)
 {% endhighlight %}
+
 
 We can evaluate our model by calculating the mean squared error of the model.
 
@@ -59,3 +63,8 @@ Our mean squared error is computed to be 0.069, which is slightly less than 10% 
 This indicates that our linear regression model is reasonably accurate and can make good predictions!
 
 [here]: https://www.kaggle.com/mohansacharya/graduate-admissions/data
+[seed]: https://www.statisticshowto.datasciencecentral.com/random-seed-definition/
+
+References:
+[Medium Post][ref-1]
+[ref-1]:https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f
