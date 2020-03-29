@@ -2,7 +2,7 @@
 layout: page
 title: 关于
 ref: about
-lang: cn
+lang: 中文
 ---
 
 欢迎来到梦嘉的技术博。
