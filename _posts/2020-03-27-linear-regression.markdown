@@ -6,7 +6,7 @@ date:   2020-03-27
 categories: algorithms
 lang: en
 ---
-Linear regression, as its name suggests, solves a regression problem. It is a simple approach for supervised learning and is especially useful for predicting a quantitative response. Depending on the number of predictors `x`, we can classify linear regression models into two types: binary linear regression and multiple linear regression. 
+Linear regression, as its name suggests, predict the value of the outcome variable `y` by finding out a linear relationship between input `x` and output `y`. It is a simple approach for supervised learning and is especially useful for predicting a quantitative response. Depending on the number of predictors `x`, we can classify linear regression models into two types: binary linear regression and multiple linear regression. 
 
 For this tutorial, we are going to use multiple linear regression to predict the chance of graduate school admissions. The dataset can be downloaded [here][here].
 
