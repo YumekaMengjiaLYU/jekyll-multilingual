@@ -66,5 +66,7 @@ This indicates that our linear regression model is reasonably accurate and can m
 [seed]: https://www.statisticshowto.datasciencecentral.com/random-seed-definition/
 
 References:
+
 [Medium Post][ref-1]
+
 [ref-1]:https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f

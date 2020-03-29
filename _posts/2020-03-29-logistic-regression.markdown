@@ -46,7 +46,7 @@ print(confusion_matrix(y_test, y_pred))
 
 References:
 
-[Course Note][ref-1]
+[Advanced Methods for Data Analysis Course Note][ref-1]
 
 [Notes Andrew NG Course][ref-2]
 
