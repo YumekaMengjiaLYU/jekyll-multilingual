@@ -45,9 +45,13 @@ print(confusion_matrix(y_test, y_pred))
 [here]: https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
 
 References:
+
 [Course Note][ref-1]
+
 [Notes Andrew NG Course][ref-2]
+
 [Medium Post][ref-3]
+
 [ref-1]: https://www.stat.cmu.edu/~ryantibs/advmethods/notes/logreg.pdf
 [ref-2]: https://joparga3.github.io/standford_logistic_regression/index.html#what-is-logistic-regression
 [ref-3]: https://medium.com/@anishsingh20/logistic-regression-in-python-423c8d32838b
