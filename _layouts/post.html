@@ -13,3 +13,7 @@ layout: default_post
   </div>
 
 </article>
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}

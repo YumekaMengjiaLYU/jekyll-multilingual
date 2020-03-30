@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Linear Regression in Python"
 ref: welcome
 date:   2020-03-27 
