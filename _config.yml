@@ -8,17 +8,17 @@
 # Site settings
 title:
   en: Mengjia Lyu and Machine Learning
-  cn: 梦嘉和ML
+  中文: 梦嘉和ML
 email: mengjia.lyu@outlook.com
 description:
   en: When ML meets ML
-  cn: 当梦嘉遇见ML
+  中文: 当梦嘉遇见ML
 index:
   en:
-  cn: accueil.html
+  中文: accueil.html
 feed:
   en: /feed.xml
-  cn: /flux.xml
+  中文: /flux.xml
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://mengjialyu.info" # the base hostname & protocol for your site
 twitter_username: kayql131
