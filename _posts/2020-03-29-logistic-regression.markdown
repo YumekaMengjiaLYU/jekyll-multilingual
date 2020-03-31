@@ -82,7 +82,7 @@ print(result.params)
 
 
 The results show that `const`, `male`, `age`, `cigsPerDay`, `totChol`, `sysBP`, `glucose` are features that matter!
-From the [data-description][here], we know that Sex-`male` is nominal variables. To apply a egression analysis on any dataset, normally we have to first tranform categorical features to dummy variables using the `get_dummies()` function from pandas. Dummy variables assign numerical values to the original categorical levels so that the computers can compute on them :) (More about [one-hot encoding][one-hot encode]) 
+From the [data-description][here], we know that `male` is a nominal variable. To apply a egression analysis on any dataset, normally we have to first tranform categorical features to dummy variables using the `get_dummies()` function from pandas. Dummy variables assign numerical values to the original categorical levels so that the computers can compute on them :) (More about [one-hot encoding][one-hot encode]) 
 
 However for categorical variable with only two levels, there is no need to create dummy variables. As `sex` is binary in our dataset, we can leave it as it is.
 
