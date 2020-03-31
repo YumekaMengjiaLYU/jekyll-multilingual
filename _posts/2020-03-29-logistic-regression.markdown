@@ -69,7 +69,7 @@ def back_feature_elem (data_frame,dep_var,col_list):
 
 result=back_feature_elem(heart_add_const,heart_disease.TenYearCHD,cols)
 print(result.params)
-{% enghighlight %}
+{% endhighlight %}
 
 
 > const        -9.129843
@@ -85,6 +85,7 @@ The results show that `const`, `male`, `age`, `cigsPerDay`, `totChol`, `sysBP`, 
 From the [data-description][here], we know that Sex-`male` is nominal variables. To apply a egression analysis on any dataset, normally we have to first tranform categorical features to dummy variables using the `get_dummies()` function from pandas. Dummy variables assign numerical values to the original categorical levels so that the computers can compute on them :) (More about [one-hot encoding][one-hot encode]) 
 
 However for categorical variable with only two levels, there is no need to create dummy variables. As `sex` is binary in our dataset, we can leave it as it is.
+
 {% highlight python %}
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
@@ -98,6 +99,7 @@ y_pred = log_regressor.predict(X_test)
 {% endhighlight %}
 
 _how acccurate is our model?_
+
 {% highlight python %}
 print(classification_report(y_test, y_pred))
 
