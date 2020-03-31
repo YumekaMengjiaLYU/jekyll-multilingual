@@ -25,6 +25,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 
 grad_admissions = pd.readcsv('/Users/mengjialyu/Documents/Kaggle/graduate-admissions/Admission_Predict.csv')
+
 {% endhighlight %}
 Data preprocessing is an important initial step when doing machine learning projects. `seaborn` is a great library that can provide  a visualization of missing data. The `cmap` here refers to the mapping from data values to color space, abd 
 
@@ -36,11 +37,16 @@ sns.heatmap(heart_disease.isnull(), yticklabels = False, cbar= False)
 Now we have this pretty little graph :)
 ![heatmap](/assets/2020-03-30-heatmap.png)
 
-Let's fit the logistic regression model to our data:
+It looks like do not have much missing data. So let's move on and fit a logistic regression model to our data.
 
+From the [data-description][here], we know that Sex-`male`, Current Smoker-`currentSmoker`, BP Meds-`BPMeds`, Prevalent Stroke-`prevalentStroke`, Prevalent Hyp-`prevalentHyp` and Diabetes-`diabetes` are nominal variables. To apply a egression analysis on any dataset, we have to first tranform categorical features to dummy variables using the `get_dummies` function from pandas. Dummy variables assign numerical values to the original categorical levels so that the computers can compute on them :) Note that we [one-hot encode][one-hot encode] our data by setting the parameter `drop_first` to `True`.
 {% highlight python %}
+heart_disease = pd.get_dummies(heart_disease, columns = ['male','currentSmoker','BPMeds','prevalentStroke', 'prevalentHyp', 'diabetes'])
 
-X_train, X_test, y_train, y_test = train_test_split(heart_disease, test_size=0.2, random_state=0)
+X = heart_disease.loc[:, heart_disease.columns != 'TenYearCHD']
+y = heart_disease.loc[:, 'TenYearCHD']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 log_regressor = LogisticRegression()
 log_regressor.fit(X_train, y_train)
@@ -52,7 +58,7 @@ print(classification_report(y_test, y_pred))
 print(confusion_matrix(y_test, y_pred))
 {% endhighlight %}
 [here]: https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
-
+[one-hot encode]: https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
 References:
 
 [Advanced Methods for Data Analysis Course Note][ref-1]
