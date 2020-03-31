@@ -37,9 +37,14 @@ sns.heatmap(heart_disease.isnull(), yticklabels = False, cbar= False)
 Now we have this pretty little graph :)
 ![heatmap](/assets/2020-03-30-heatmap.png)
 
-It looks like do not have much missing data. So let's move on and fit a logistic regression model to our data.
+It looks like do not have much missing data. So we can exclude the rows with missing values.
+{% highlight python %}
+heart_disease.dropna(axis = 0, inplace = True)
+{% endhighlight python %}
 
-From the [data-description][here], we know that Sex-`male`, Current Smoker-`currentSmoker`, BP Meds-`BPMeds`, Prevalent Stroke-`prevalentStroke`, Prevalent Hyp-`prevalentHyp` and Diabetes-`diabetes` are nominal variables. To apply a egression analysis on any dataset, we have to first tranform categorical features to dummy variables using the `get_dummies` function from pandas. Dummy variables assign numerical values to the original categorical levels so that the computers can compute on them :) Note that we [one-hot encode][one-hot encode] our data by setting the parameter `drop_first` to `True`.
+Let's move on and fit a logistic regression model to our data.
+
+From the [data-description][here], we know that Sex-`male`, Current Smoker-`currentSmoker`, BP Meds-`BPMeds`, Prevalent Stroke-`prevalentStroke`, Prevalent Hyp-`prevalentHyp` and Diabetes-`diabetes` are nominal variables. To apply a egression analysis on any dataset, we have to first tranform categorical features to dummy variables using the `get_dummies()` function from pandas. Dummy variables assign numerical values to the original categorical levels so that the computers can compute on them :) Note that we [one-hot encode][one-hot encode] our data by setting the parameter `drop_first` to `True`.
 {% highlight python %}
 heart_disease = pd.get_dummies(heart_disease, columns = ['male','currentSmoker','BPMeds','prevalentStroke', 'prevalentHyp', 'diabetes'])
 
