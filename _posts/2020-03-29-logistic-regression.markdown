@@ -26,6 +26,15 @@ from sklearn import metrics
 
 grad_admissions = pd.readcsv('/Users/mengjialyu/Documents/Kaggle/graduate-admissions/Admission_Predict.csv')
 {% endhighlight %}
+Data preprocessing is an important initial step when doing machine learning projects. `seaborn` is a great library that can provide  a visualization of missing data. The `cmap` here refers to the mapping from data values to color space, abd 
+
+{% highlight python %}
+# Set the palette to the "pastel" default palette:
+sns.set_palette("pastel")
+sns.heatmap(heart_disease.isnull(), yticklabels = False, cbar= False)
+{% endhighlight python %}
+Now we have this pretty little graph :)
+![heatmap]('/Users/mengjialyu/Documents/Blogging/heatmap.png'){:class="img-responsive"}
 
 Let's fit the logistic regression model to our data:
 
