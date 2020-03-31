@@ -44,9 +44,10 @@ Now we have this pretty little graph :)
 ![heatmap](/assets/2020-03-30-heatmap.png)
 
 It looks like do not have much missing data. So we can exclude the rows with missing values.
+
 {% highlight python %}
 heart_disease.dropna(axis = 0, inplace = True)
-{% endhighlight python %}
+{% endhighlight %}
 
 Let's move on and fit a logistic regression model to our data.
 First we need to filter out the features that really matters.
@@ -68,7 +69,7 @@ def back_feature_elem (data_frame,dep_var,col_list):
 
 result=back_feature_elem(heart_add_const,heart_disease.TenYearCHD,cols)
 print(result.params)
-{% enghighlight python %}
+{% enghighlight %}
 
 
 > const        -9.129843
