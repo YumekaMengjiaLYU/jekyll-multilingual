@@ -34,7 +34,7 @@ sns.set_palette("pastel")
 sns.heatmap(heart_disease.isnull(), yticklabels = False, cbar= False)
 {% endhighlight python %}
 Now we have this pretty little graph :)
-![heatmap]('/Users/mengjialyu/Documents/Blogging/heatmap.png'){:class="img-responsive"}
+![heatmap](/assets/heatmap.png)
 
 Let's fit the logistic regression model to our data:
 
