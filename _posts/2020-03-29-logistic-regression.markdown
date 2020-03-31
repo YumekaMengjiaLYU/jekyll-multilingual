@@ -72,13 +72,13 @@ print(result.params)
 
 
 > const        -9.129843
-> male          0.561446
-> age           0.065896
-> cigsPerDay    0.019226
-> totChol       0.002272
-> sysBP         0.017534
-> glucose       0.007280
-> dtype: float64
+male          0.561446
+age           0.065896
+cigsPerDay    0.019226
+totChol       0.002272
+sysBP         0.017534
+glucose       0.007280
+dtype: float64
 
 The results show that `const`, `male`, `age`, `cigsPerDay`, `totChol`, `sysBP`, `glucose` are features that matter!
 From the [data-description][here], we know that Sex-`male` is nominal variables. To apply a egression analysis on any dataset, normally we have to first tranform categorical features to dummy variables using the `get_dummies()` function from pandas. Dummy variables assign numerical values to the original categorical levels so that the computers can compute on them :) (More about [one-hot encoding][one-hot encode]) 
@@ -105,7 +105,7 @@ print(confusion_matrix(y_test, y_pred))
 
 accuracy_score(y_test,y_pred)
 {% endhighlight %}
-The accuracy given is 85.5%. Call that enough for now.
+The accuracy given is 85.5%. Good enough.
 
 [here]: https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
 [one-hot encode]: https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
