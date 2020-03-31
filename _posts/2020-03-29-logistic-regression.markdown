@@ -108,7 +108,7 @@ print(confusion_matrix(y_test, y_pred))
 
 accuracy_score(y_test,y_pred)
 {% endhighlight %}
-The accuracy given is 85.5%. Good enough.
+The accuracy turns out to be 85.5%. Good enough ;)
 
 [here]: https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
 [one-hot encode]: https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
