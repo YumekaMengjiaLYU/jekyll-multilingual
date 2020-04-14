@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "心里的发条"
+ref: welcome
+date:   2020-04-13
+categories: life
+lang: 中文
+---
+
+“人是需要上发条的”。JH今天口吐金句。对，是发条精灵的发条。
