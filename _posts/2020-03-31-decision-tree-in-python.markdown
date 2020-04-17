@@ -87,7 +87,8 @@ ctg_entropy.fit(X_train, y_train)
 {% endhighlight %}
 
 ## Calculating Prediction Accuracy Score
-The function accuracy_score() will be used to print accuracy of Decision Tree algorithm. Accuracy is represented by the ratio of the correctly predicted data points to all the predicted data points. It helps to understand the effectiveness of our algorithm. 
+
+The function **accuracy_score()** will be used to print accuracy of Decision Tree algorithm. Accuracy is represented by the ratio of the correctly predicted data points to all the predicted data points. It helps to understand the effectiveness of our algorithm. 
 {% highlight python %}
 ctg_entropy = DecisionTreeClassifier(criterion = "entropy", random_state = 100,
                                max_depth=3, min_samples_leaf=5)
@@ -111,7 +112,7 @@ print ("Accuracy using gini index is ", accuracy_score(y_test,y_pred_entro)*100)
 
 Output:
 >Accuracy using gini index is  88.02816901408451
-Accuracy using gini index is  87.32394366197182
+>Accuracy using gini index is  87.32394366197182
 
 [ref-2]: https://github.com/YumekaMengjiaLYU/tutorials
 [ref-3]: https://archive.ics.uci.edu/ml/datasets/Cardiotocography
