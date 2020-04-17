@@ -31,7 +31,7 @@ The full code is [here][ref-2]
 
 ## Data Import
 We are going to use the [cardiotocography data set][ref-3]. 
-After downloading the data file, we will use Pandas **read_excel()** method to import data into pandas dataframe. Since there is no header in our data, we set _header_ parameter's value to **0**. Since the raw data is located in the third sheet of the Excel workbook, we set _sheet-name_ parameter's value to **2**. Since the last three rows at bottom of the worksheet are irrelevant data, we set _skipfooter_ parameter's value to **3**.
+After downloading the data file, we will use Pandas **read_excel()** method to import data into pandas dataframe. Since there is no header in our data, we set _header_ parameter's value to **0**. Since the raw data is located in the third sheet of the Excel workbook, we set _sheet_name_ parameter's value to **2**. Since the last three rows at bottom of the worksheet are irrelevant data, we set _skipfooter_ parameter's value to **3**.
 
 {% highlight python %}
 import pandas as pd
@@ -66,12 +66,32 @@ from sklearn.model_selection import train_test_split
 # Partition the data into training and test sets.
 Xtrain, Xtest, Ytrain, Ytest = train_test_split(X, Y, test_size=0.2, random_state=0)
 {% endhighlight %}
-The parameter _test_size_ is given value 0.2; it means test sets will be 20% of whole dataset and training dataset’s size will be 80% of the entire dataset. random_state variable is a pseudo-random number generator state used for random sampling. If you want to replicate our results, then use the same value of random_state.
+The parameter _test_size_ is given value 0.2; it means test sets will be 20% of whole dataset and training dataset’s size will be 80% of the entire dataset. _random_state_ variable is a pseudo-random number generator state used for random sampling. If you want to replicate our results, then use the same value of random_state.
 
+## Decision Tree Training
+
+### Using Gini Index as criterion
+{% highlight python %}
+from sklearn.tree import DecisionTreeClassifier
+
+ctg_gini = DecisionTreeClassifier(criterion = "gini", random_state = 100,
+                               max_depth=3, min_samples_leaf=5)
+ctg_gini.fit(X_train, y_train)
+{% endhighlight %}
+
+### Using Information Gain as criterion
+{% highlight python %}
+
+
+ctg_entropy = DecisionTreeClassifier(criterion = "entropy", random_state = 100,
+                               max_depth=3, min_samples_leaf=5)
+ctg_entropy.fit(X_train, y_train)
+{% endhighlight %}
 
 [ref-2]: https://github.com/YumekaMengjiaLYU/tutorials
 [ref-3]: https://archive.ics.uci.edu/ml/datasets/Cardiotocography
 References:
+
 [Programming Assignment 1A][ref-4]:http://www.cse.chalmers.se/~richajo/dit866/pa1a.html
 
 [ref-1]: https://learning.oreilly.com/library/view/machine-learning-with/9781787121515/697c4c5f-1109-4058-8938-d01482389ce3.xhtml
