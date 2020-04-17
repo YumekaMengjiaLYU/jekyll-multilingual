@@ -74,19 +74,17 @@ The parameter _test_size_ is given value 0.2; it means test sets will be 20% of 
 {% highlight python %}
 from sklearn.tree import DecisionTreeClassifier
 
-ctg_gini = DecisionTreeClassifier(criterion = "gini", random_state = 100,
-                               max_depth=3, min_samples_leaf=5)
+ctg_gini = DecisionTreeClassifier(criterion = "gini", random_state = 100, max_depth=3, min_samples_leaf=5)
 ctg_gini.fit(X_train, y_train)
 {% endhighlight %}
 
 ### Using Information Gain as criterion
 {% highlight python %}
-ctg_entropy = DecisionTreeClassifier(criterion = "entropy", random_state = 100,
-                               max_depth=3, min_samples_leaf=5)
+ctg_entropy = DecisionTreeClassifier(criterion = "entropy", random_state = 100, max_depth=3, min_samples_leaf=5)
 ctg_entropy.fit(X_train, y_train)
 {% endhighlight %}
 
-### Calculating Prediction Accuracy Score
+## Calculating Prediction Accuracy Score
 
 The function **accuracy_score()** will be used to print accuracy of Decision Tree algorithm. Accuracy is represented by the ratio of the correctly predicted data points to all the predicted data points. It helps to understand the effectiveness of our algorithm. 
 {% highlight python %}
