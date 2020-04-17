@@ -81,17 +81,43 @@ ctg_gini.fit(X_train, y_train)
 
 ### Using Information Gain as criterion
 {% highlight python %}
-
-
 ctg_entropy = DecisionTreeClassifier(criterion = "entropy", random_state = 100,
                                max_depth=3, min_samples_leaf=5)
 ctg_entropy.fit(X_train, y_train)
 {% endhighlight %}
+
+## Calculating Prediction Accuracy Score
+The function accuracy_score() will be used to print accuracy of Decision Tree algorithm. Accuracy is represented by the ratio of the correctly predicted data points to all the predicted data points. It helps to understand the effectiveness of our algorithm. 
+{% highlight python %}
+ctg_entropy = DecisionTreeClassifier(criterion = "entropy", random_state = 100,
+                               max_depth=3, min_samples_leaf=5)
+ctg_entropy.fit(X_train, y_train)
+{% endhighlight %}
+
+{% highlight python %}
+from sklearn.metrics import accuracy_score
+# Prediction for Decision Tree classifier with criterion as gini index
+y_pred_gini = ctg_gini.predict(X_test)
+
+# Prediction for Decision Tree classifier with criterion as entropy
+y_pred_entro = ctg_entropy.predict(X_test)
+
+# Accuracy for Decision Tree classifier with criterion as gini index
+print ("Accuracy using gini index is ", accuracy_score(y_test,y_pred_gini)*100)
+
+# Accuracy for Decision Tree classifier with criterion as entropy
+print ("Accuracy using gini index is ", accuracy_score(y_test,y_pred_entro)*100)
+{% enghighlight %}
+
+Output:
+>Accuracy using gini index is  88.02816901408451
+Accuracy using gini index is  87.32394366197182
 
 [ref-2]: https://github.com/YumekaMengjiaLYU/tutorials
 [ref-3]: https://archive.ics.uci.edu/ml/datasets/Cardiotocography
 References:
 
 [Programming Assignment 1A][ref-4]:http://www.cse.chalmers.se/~richajo/dit866/pa1a.html
+[Building Decision Tree Algorithm in Python with Scikit Learn-Rahul Saxena][ref-5]:https://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/
 
 [ref-1]: https://learning.oreilly.com/library/view/machine-learning-with/9781787121515/697c4c5f-1109-4058-8938-d01482389ce3.xhtml
