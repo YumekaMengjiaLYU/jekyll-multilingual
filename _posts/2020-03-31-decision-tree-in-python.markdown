@@ -7,7 +7,7 @@ date:   2020-04-06
 categories: algorithms
 lang: en
 ---
-Decision tree is another algorithm for classification. 
+Decision tree is popular supervised learning algorithm that can be used for both regression and classification. 
 Its pros and cons can be summarized as follows, copied from [Machine Learning with Swift][ref-1]: 
 
 Pros:
@@ -27,9 +27,17 @@ Cons:
 + Inflexible, in the sense that you can't incorporate a new data into them easily. If you obtained new labeled data, you should retrain the tree from scratch on the whole dataset.
 
 
+The link is [here][ref-2]
+
+## Data Import
+We are going to use the [cardiotocography-data-set][ref-3]. 
 
 
+
+
+[ref-2]: https://github.com/YumekaMengjiaLYU/tutorials
+[ref-3]: https://archive.ics.uci.edu/ml/datasets/Cardiotocography
 References:
 
-[Machine Learning with Swift][ref-1]
+
 [ref-1]: https://learning.oreilly.com/library/view/machine-learning-with/9781787121515/697c4c5f-1109-4058-8938-d01482389ce3.xhtml
