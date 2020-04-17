@@ -60,11 +60,18 @@ def to_label(y):
 Y = data_shuffled['NSP'].apply(to_label)
 {% endhighlight %}
 
+Let's split our data into training and test set using sklearn's **train_test_split()** method. 
+{% highlight python %}
+from sklearn.model_selection import train_test_split
+# Partition the data into training and test sets.
+Xtrain, Xtest, Ytrain, Ytest = train_test_split(X, Y, test_size=0.2, random_state=0)
+{% endhighlight %}
+The parameter _test_size_ is given value 0.2; it means test sets will be 20% of whole dataset and training dataset’s size will be 80% of the entire dataset. random_state variable is a pseudo-random number generator state used for random sampling. If you want to replicate our results, then use the same value of random_state.
 
 
 [ref-2]: https://github.com/YumekaMengjiaLYU/tutorials
 [ref-3]: https://archive.ics.uci.edu/ml/datasets/Cardiotocography
 References:
-
+[Programming Assignment 1A][ref-4]:http://www.cse.chalmers.se/~richajo/dit866/pa1a.html
 
 [ref-1]: https://learning.oreilly.com/library/view/machine-learning-with/9781787121515/697c4c5f-1109-4058-8938-d01482389ce3.xhtml
