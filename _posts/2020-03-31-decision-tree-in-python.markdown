@@ -86,7 +86,7 @@ ctg_entropy = DecisionTreeClassifier(criterion = "entropy", random_state = 100,
 ctg_entropy.fit(X_train, y_train)
 {% endhighlight %}
 
-## Calculating Prediction Accuracy Score
+### Calculating Prediction Accuracy Score
 
 The function **accuracy_score()** will be used to print accuracy of Decision Tree algorithm. Accuracy is represented by the ratio of the correctly predicted data points to all the predicted data points. It helps to understand the effectiveness of our algorithm. 
 {% highlight python %}
@@ -114,8 +114,7 @@ Output:
 >Accuracy using gini index is  88.02816901408451
 >Accuracy using gini index is  87.32394366197182
 
-[ref-2]: https://github.com/YumekaMengjiaLYU/tutorials
-[ref-3]: https://archive.ics.uci.edu/ml/datasets/Cardiotocography
+
 References:
 
 [Programming Assignment 1A][ref-4]
@@ -123,5 +122,7 @@ References:
 [Building Decision Tree Algorithm in Python with Scikit Learn-Rahul Saxena][ref-5]
 
 [ref-1]: https://learning.oreilly.com/library/view/machine-learning-with/9781787121515/697c4c5f-1109-4058-8938-d01482389ce3.xhtml
+[ref-2]: https://github.com/YumekaMengjiaLYU/tutorials
+[ref-3]: https://archive.ics.uci.edu/ml/datasets/Cardiotocography
 [ref-4]:http://www.cse.chalmers.se/~richajo/dit866/pa1a.html
 [ref-5]:https://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/
