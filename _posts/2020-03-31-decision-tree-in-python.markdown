@@ -106,7 +106,7 @@ print ("Accuracy using gini index is ", accuracy_score(y_test,y_pred_gini)*100)
 
 # Accuracy for Decision Tree classifier with criterion as entropy
 print ("Accuracy using gini index is ", accuracy_score(y_test,y_pred_entro)*100)
-{% enghighlight %}
+{% endhighlight %}
 
 Output:
 >Accuracy using gini index is  88.02816901408451
