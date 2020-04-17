@@ -118,7 +118,10 @@ Output:
 [ref-3]: https://archive.ics.uci.edu/ml/datasets/Cardiotocography
 References:
 
-[Programming Assignment 1A][ref-4]:http://www.cse.chalmers.se/~richajo/dit866/pa1a.html
-[Building Decision Tree Algorithm in Python with Scikit Learn-Rahul Saxena][ref-5]:https://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/
+[Programming Assignment 1A][ref-4]
+
+[Building Decision Tree Algorithm in Python with Scikit Learn-Rahul Saxena][ref-5]
 
 [ref-1]: https://learning.oreilly.com/library/view/machine-learning-with/9781787121515/697c4c5f-1109-4058-8938-d01482389ce3.xhtml
+[ref-4]:http://www.cse.chalmers.se/~richajo/dit866/pa1a.html
+[ref-5]:https://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/
