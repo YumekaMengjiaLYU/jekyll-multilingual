@@ -58,7 +58,7 @@ Sample Questions
 
 
 I bumped into this great [post][ref-2]. So let's go through all these wonderful interview questions!
-## Modeling
+### Modeling
 + What type of problem does the model try to solve?
 + Is it prone to over-fitting? If so – what can be done about this?
 + Does the model make any important assumptions about the data? When might these be unrealistic? How do we examine the data to test whether these assumptions are satisfied?
@@ -71,7 +71,7 @@ How interpretable is the model?
 + How fast is prediction compared to other models? How fast is training compared to other models?
 + Does the model have any meta-parameters and thus require tuning? How do we do this?
 
-## ML Theory
+### ML Theory
 + What is deep learning and what are some of the main characteristics that distinguish it from traditional machine learning
 + What is linear in a generalized linear model?
 + What is a probabilistic graphical model? What is the difference between Markov networks and Bayesian networks?
@@ -83,9 +83,10 @@ How interpretable is the model?
 + What is supervised learning and unsupervised learning? 
 + What kind of problems can be solved by supervised learning or unsupervised learning?
 + Give some examples for supervised learning and unsupervised learning.
-## Tools and Research
+### Tools and Research
 + Do you have any research experience in machine learning or a related field? Do you have any publications?
 + What tools and environments have you used to train and assess models?
 + Do you have experience with Spark ML or another platform for building machine learning models using very large datasets?
+
 [ref-1]:https://blog.udacity.com/2016/05/prepare-machine-learning-interview.html
 [ref-2]:https://resources.workable.com/machine-learning-engineer-interview-questions

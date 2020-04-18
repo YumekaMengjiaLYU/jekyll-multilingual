@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Support Vector Machines"
+ref: welcome
+date:   2020-04-19 
+categories: algorithms
+lang: en
+---
