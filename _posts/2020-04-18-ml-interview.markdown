@@ -12,8 +12,10 @@ I bumped into this great [post][ref-1] on Udacity. So let's go through all these
 ## Computer Science Fundamentals and Programming
 Sample Questions
 How would you check if a linked list has cycles?
+
 +
 Given two elements in a binary search tree, find their lowest common ancestor.
+
 +
 Write a function to sort a given stack.
 +
@@ -60,4 +62,5 @@ You run an ecommerce website. When a user clicks on an item to open its details 
 What data would you like to collect from an online video player (like YouTube) to measure user engagement and video popularity?
 A very simple spam detection system works as follows: It processes one email at a time and counts the number of occurrences of each unique word in it (term frequency), and then it compares those counts with those of previously seen emails which have been marked as spam or not. In order to scale up this system to handle a large volume of email traffic, can you design a map-reduce scheme that can run on a cluster of computers?
 You want to generate a live visualization of what portion of a webpage users are currently viewing and clicking, sort of like a heat map. What components/services/APIs do you need in place, on the client and server end, to enable this?
+
 [ref-1]:https://blog.udacity.com/2016/05/prepare-machine-learning-interview.html
