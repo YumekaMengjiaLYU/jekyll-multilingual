@@ -6,3 +6,5 @@ date:   2020-04-19
 categories: algorithms
 lang: en
 ---
+
+Support Vector Machine is popular supervised learning algorithm that can be used for both regression and classification. 

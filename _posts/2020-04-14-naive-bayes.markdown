@@ -18,7 +18,11 @@ We apply Bayes' theorem in the classfier's decision rule.
 NBC classify, meaning it predicts which set of categories a new observation belongs.
 
 Naive Bayes classifiers are a family of probabilistic classifiers that is able to predict, given an observation of input, a probability distribution over a set of classes.
-Support Vector Machine is popular supervised learning algorithm that can be used for both regression and classification. 
+Given a problem instance to be classified, represented by a vector $${\displaystyle \mathbf {x} =(x_{1},\ldots ,x_{n})}{\displaystyle \mathbf {x} =(x_{1},\ldots ,x_{n})}$$ representing some n features (independent variables), it assigns to this instance probabilities
+
+{\displaystyle p(C_{k}\mid x_{1},\ldots ,x_{n})\,}{\displaystyle p(C_{k}\mid x_{1},\ldots ,x_{n})\,}
+for each of K possible outcomes or classes {\displaystyle C_{k}}C_{k}
+
 Its pros and cons can be summarized as follows
 Pros:
 
