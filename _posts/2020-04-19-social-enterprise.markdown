@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "社企派～"
+title:  "探寻社企"
 ref: welcome
 date:   2020-04-19
 categories: reading
