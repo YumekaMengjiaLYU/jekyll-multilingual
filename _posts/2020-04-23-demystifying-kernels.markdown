@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Beautiful Bayes"
+title:  "Kernels Demystified"
 ref: welcome
-date:   2020-04-18 
+date:   2020-04-23 
 categories: career
 lang: en
 ---
