@@ -14,6 +14,7 @@ We assume that every feature is independent of the other ones.
 
 ### Why Bayes?
 We apply Bayes' theorem in the classfier's decision rule.
+Naive Bayes can be trained very efficiently. With a single pass over the training data, it computes the conditional probability distribution of each feature given each label. For prediction, it applies Bayes’ theorem to compute the conditional probability distribution of each label given an observation.
 ### Why Classifiers?
 NBC classify, meaning it predicts which set of categories a new observation belongs.
 
