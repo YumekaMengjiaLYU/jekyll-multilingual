@@ -28,6 +28,8 @@ It is enough to know the inner products between the object and the training poin
 
 How liberating!
 
+Hilbert space
+
 Now let us formally introduce kernel:
 
 Given $$\phi: \mathcal {X} -> \mathcal {K}$$ feature mapping, the kernel is the corresponding inner product function. 
