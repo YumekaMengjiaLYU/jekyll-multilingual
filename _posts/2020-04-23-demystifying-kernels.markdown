@@ -17,7 +17,20 @@ Several algorithms, such as Perceptron Algorithm, Suppport Vector Machines and G
 
 Worried about not being able to linearly separate your data? Here's the panacea:
 **m general points in an m-1 dimensional space is always linearly separable by a hyperplane**
+If the kernel is positive semi-definite, then we can construct a feature map.
+
+For the classification of a new object (x,y), we only have to evaluate
+$$y\Sigma_{i=1}^m \alpha_i <x, x_i>$$
+
+That is, we do not have to know the actual values of x--in other words--$$\phi(x)$$!
+
+It is enough to know the inner products between the object and the training points.
+
+How liberating!
+
+
 References:
+
 [Kernel Methods Wiki][ref-1]
 [Kernel Methods][ref-2]
 [ref-1]:https://en.wikipedia.org/wiki/Kernel_method
