@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kernels Demystified"
+title:  "Kernel Demystified"
 ref: welcome
 date:   2020-04-23 
 categories: career
@@ -31,6 +31,12 @@ How liberating!
 Now let us formally introduce kernel:
 
 Given $$\phi: \mathcal {X} -> \mathcal {K}$$ feature mapping, the kernel is the corresponding inner product function. 
+
+Then let us introduce a child of kernel: kernel technique:
+
+$$G \in $$
+
+Our problem is transformed to finding feature map $$\phi$$ and feature space $$\mathcal {K}$$.
 
 References:
 
