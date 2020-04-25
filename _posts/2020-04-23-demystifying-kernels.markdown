@@ -40,22 +40,19 @@ Our problem is transformed to finding feature map $$\phi$$ and feature space $$\
 
 Perceptron Algorithm:
 $$
-\usepackage[ruled,vlined]{algorithm2e}
-\begin{algorithm}[H]
-\SetAlgoLined
-\KwResult{Write here the result }
- initialization\;
- \While{While condition}{
-  instructions\;
-  \eIf{condition}{
-   instructions1\;
-   instructions2\;
-   }{
-   instructions3\;
-  }
- }
- \caption{How to write algorithms}
-\end{algorithm}
+\usepackage{algorithmic}
+Example
+
+\begin{algorithmic}
+\STATE $i\gets 10$
+\IF {$i\geq 5$} 
+        \STATE $i\gets i-1$
+\ELSE
+        \IF {$i\leq 3$}
+                \STATE $i\gets i+2$
+        \ENDIF
+\ENDIF 
+\end{algorithmic}
 $$
 
 References:
