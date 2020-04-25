@@ -28,10 +28,15 @@ It is enough to know the inner products between the object and the training poin
 
 How liberating!
 
+Now let us formally introduce kernel:
+
+Given $$\phi: \mathcal {X} -> \mathcal {K}$$ feature mapping, the kernel is the corresponding inner product function. 
 
 References:
 
 [Kernel Methods Wiki][ref-1]
+
 [Kernel Methods][ref-2]
+
 [ref-1]:https://en.wikipedia.org/wiki/Kernel_method
 [ref-2]:http://www.cs.cmu.edu/~aarti/Class/10701_Spring14/slides/kernel_methods.pdf
