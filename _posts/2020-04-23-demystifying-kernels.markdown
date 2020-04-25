@@ -40,6 +40,7 @@ Our problem is transformed to finding feature map $$\phi$$ and feature space $$\
 
 Perceptron Algorithm:
 $$
+\usepackage[ruled,vlined]{algorithm2e}
 \begin{algorithm}[H]
 \SetAlgoLined
 \KwResult{Write here the result }
@@ -54,7 +55,8 @@ $$
   }
  }
  \caption{How to write algorithms}
-\end{algorithm}$$
+\end{algorithm}
+$$
 
 References:
 
