@@ -38,6 +38,24 @@ $$G \in $$
 
 Our problem is transformed to finding feature map $$\phi$$ and feature space $$\mathcal {K}$$.
 
+Perceptron Algorithm:
+$$
+\begin{algorithm}[H]
+\SetAlgoLined
+\KwResult{Write here the result }
+ initialization\;
+ \While{While condition}{
+  instructions\;
+  \eIf{condition}{
+   instructions1\;
+   instructions2\;
+   }{
+   instructions3\;
+  }
+ }
+ \caption{How to write algorithms}
+\end{algorithm}$$
+
 References:
 
 [Kernel Methods Wiki][ref-1]
