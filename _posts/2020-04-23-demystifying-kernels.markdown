@@ -41,31 +41,22 @@ $$G \in $$
 Our problem is transformed to finding feature map $$\phi$$ and feature space $$\mathcal {K}$$.
 
 Perceptron Algorithm:
-$$
-\usepackage{algorithmic}
-Example
 
-\begin{algorithmic}
-\STATE $i\gets 10$
-\IF {$i\geq 5$} 
-        \STATE $i\gets i-1$
-\ELSE
-        \IF {$i\leq 3$}
-                \STATE $i\gets i+2$
-        \ENDIF
-\ENDIF 
-\end{algorithmic}
-$$
+Kernel functions are at the basis of the kernel trick which allows many learning algorithms based on linear models to build nonlinear models easily. A kernel function takes two input vectors as arguments and returns a real value corresponding to the inner product of the images of these vectors in some feature space without having to actually map the points to the feature space.
 
+Techincally, a kernel function is a positive definite function associated to a reproducing kernel Hilbert space (RKHS) which must fulfill the basic requirement of corresponding to the inner product of the images of its arguments in some feature space.
+
+Common kernel functions include the linear kernel, the polynomial kernel and the Gaussian kernel. Other kernel functions can be constructed from these basic kernels.
 References:
 
 [Kernel Methods Wiki][ref-1]
 
 [Kernel Methods][ref-2]
 
+[An Interactive Journey into Machine Learning][ref-3]
 [ref-1]:https://en.wikipedia.org/wiki/Kernel_method
 [ref-2]:http://www.cs.cmu.edu/~aarti/Class/10701_Spring14/slides/kernel_methods.pdf
-
+[ref-3]:https://mlweb.loria.fr/book/en/kernels.html
 <pre id="quicksort" style="display:hidden;">
     % This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
     \begin{algorithm}

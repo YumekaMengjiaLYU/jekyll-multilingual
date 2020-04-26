@@ -90,3 +90,15 @@ How interpretable is the model?
 
 [ref-1]:https://blog.udacity.com/2016/05/prepare-machine-learning-interview.html
 [ref-2]:https://resources.workable.com/machine-learning-engineer-interview-questions
+
+Other resources:
+
+[Machine Learning Interview Questions][ref-3]
+
+[40 Interview Questions asked at Startups in Machine Learning/Data Science][ref-4]
+
+[Columbia Data Science Society Interview Prep][ref-5]
+
+[ref-3]:https://www.springboard.com/blog/machine-learning-interview-questions/
+[ref-4]:https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/
+[ref-5]:https://cdssatcu.com/interview-prep/
