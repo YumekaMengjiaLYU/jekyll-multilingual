@@ -27,10 +27,7 @@ linkedin_username: mengjialyu
 # Build settings
 markdown: kramdown
 
-# category function
-collections:
-  category:
-    output: true
+
 
 
 # Disqus Comments
