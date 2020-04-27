@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Singular Value Decomposition | Eigendecomposition"
+title:  "Singular Value Decomposition"
 ref: welcome
 date:   2020-04-27
 tags: career

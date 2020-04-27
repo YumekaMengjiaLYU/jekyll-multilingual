@@ -58,6 +58,8 @@ FRANCES HODGSON BURNETT,  _A Little Princess_
 
 「"I don't like it, papa," she said. "But then I dare say soldiers—even brave ones—don't really LIKE going into battle."」
 
+「"It IS a story," said Sara. "EVERYTHING'S a story. You are a story—I am a story. Miss Minchin is a story."」
+
 啊，是这样的，从文字中汲取养分，满足感官的饥渴。
 
 你们在另外一个世界要元气啊，如果能做朋友该多好。
