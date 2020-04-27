@@ -3,7 +3,7 @@ layout: post
 title:  "Bayes Naive Classifiers"
 ref: welcome
 date:   2020-04-14 
-categories: algorithms
+tags: algorithms
 lang: en
 ---
 

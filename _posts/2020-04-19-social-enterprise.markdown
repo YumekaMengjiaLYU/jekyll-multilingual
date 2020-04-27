@@ -3,7 +3,7 @@ layout: post
 title:  "探寻潜意识"
 ref: welcome
 date:   2020-04-19
-categories: reading
+tags: reading
 lang: 中文
 ---
 

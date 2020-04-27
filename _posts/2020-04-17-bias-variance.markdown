@@ -4,7 +4,7 @@ comments: true
 title:  "On Bias and Variance"
 ref: welcome
 date:   2020-04-17
-categories: theory
+tags: theory
 lang: en
 ---
 

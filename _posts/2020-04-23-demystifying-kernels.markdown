@@ -4,8 +4,7 @@ title:  "Kernel Demystified"
 
 date:   2020-04-23 
 tags: career
-categories: 
-- career
+
 lang: en
 ---
 

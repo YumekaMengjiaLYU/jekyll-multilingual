@@ -3,7 +3,7 @@ layout: post
 title:  "Reinforcement Learning"
 ref: welcome
 date:   2020-04-26
-categories: career
+tags: career
 lang: en
 ---
 It is about taking suitable action to maximize reward in a particular situation. It is employed by various software and machines to find the best possible behavior or path it should take in a specific situation. Different from supervised learning, it learns from its experience.

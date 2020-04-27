@@ -3,7 +3,7 @@ layout: post
 title:  "那些发光的句子"
 ref: welcome
 date:   2020-04-13
-categories: life
+tags: life
 lang: 中文
 ---
 

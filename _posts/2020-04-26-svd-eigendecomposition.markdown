@@ -3,7 +3,7 @@ layout: post
 title:  "Singular Value Decomposition | Eigendecomposition"
 ref: welcome
 date:   2020-04-27
-categories: career
+tags: career
 lang: en
 ---
 
