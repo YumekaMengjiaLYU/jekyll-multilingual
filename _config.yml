@@ -32,13 +32,7 @@ collections:
   category:
     output: true
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
+
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
