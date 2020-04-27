@@ -1,6 +1,16 @@
 ---
 layout: default_post
 ---
+<p>Posts in category "basic" are:</p>
+
+<ul>
+  {% for post in site.categories.basic %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
