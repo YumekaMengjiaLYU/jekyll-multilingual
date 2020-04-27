@@ -1,7 +1,12 @@
 ---
 layout: default_post
 ---
-
+<span>[
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% endfor %}
+  ]</span>
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -16,12 +21,7 @@ layout: default_post
 
 </article>
 
-<span>[
-    {% for tag in page.tags %}
-      {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-    {% endfor %}
-  ]</span>
+
 
 {% if site.disqus.shortname %}
   {% include disqus_comments.html %}
