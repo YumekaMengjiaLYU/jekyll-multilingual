@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Kernel Demystified"
-ref: welcome
+
 date:   2020-04-23 
-categories: career
+categories: 
+- career
 lang: en
 ---
 
