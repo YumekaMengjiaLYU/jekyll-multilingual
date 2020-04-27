@@ -37,9 +37,13 @@ Cons:
 ### Construct Naive Bayers
 
 References:
+
 [MIT 15.097 Course Notes][ref-1]
+
 [Naive Bayes Classifier Wiki][ref-2]
+
 [Medium Post by Soner Yildirim][ref-3]
+
 [ref-1]:https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec07.pdf&sa=U&ved=2ahUKEwi-18iFy-_oAhVgmHIEHenxAIwQFjAAegQIABAB&usg=AOvVaw1uQhAK5Np4e23kDR_1BqEd
 [ref-2]:https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 [ref-3]:https://towardsdatascience.com/naive-bayes-classifier-explained-50f9723571ed
