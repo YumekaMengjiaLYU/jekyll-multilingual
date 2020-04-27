@@ -47,6 +47,7 @@ Kernel functions are at the basis of the kernel trick which allows many learning
 Techincally, a kernel function is a positive definite function associated to a reproducing kernel Hilbert space (RKHS) which must fulfill the basic requirement of corresponding to the inner product of the images of its arguments in some feature space.
 
 Common kernel functions include the linear kernel, the polynomial kernel and the Gaussian kernel. Other kernel functions can be constructed from these basic kernels.
+
 References:
 
 [Kernel Methods Wiki][ref-1]

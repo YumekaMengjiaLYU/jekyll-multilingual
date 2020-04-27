@@ -19,6 +19,18 @@ A good balance between intensification and diversification should be found durin
 
 A good combination of these two major components will usually ensure that global optimality is achievable.
 
+NP-complete problems
+problem-specific approximating solutions
+chess alpha-beta pruning heurisitic algorithm
+
+meta-heuristic algorithms are problem independent; don't know anything about the problem we want to solve
+black box method
+use underlying features of the problems
+
+genetic heuristic
+simulated annealing 
+particle swarm optimization 
+metaheuristic
 
 
 References:
