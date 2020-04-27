@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tagpage
 title:  "Singular Value Decomposition | Eigendecomposition"
 ref: welcome
 date:   2020-04-27
