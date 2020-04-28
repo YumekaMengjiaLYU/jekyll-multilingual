@@ -60,6 +60,8 @@ FRANCES HODGSON BURNETT,  _A Little Princess_
 
 「"It IS a story," said Sara. "EVERYTHING'S a story. You are a story—I am a story. Miss Minchin is a story."」
 
+「"Sometimes I can and sometimes I can't," she said stoutly. "But when I CAN I'm all right. And what I believe is that we always could—if we practiced enough. I've been practicing a good deal lately, and it's beginning to be easier than it used to be. When things are horrible—just horrible—**I think as hard as ever I can of being a princess**. I say to myself, 'I am a princess, and I am a fairy one, and because I am a fairy nothing can hurt me or make me uncomfortable.' You don't know how it makes you forget"—with a laugh.」
+
 啊，是这样的，从文字中汲取养分，满足感官的饥渴。
 
 你们在另外一个世界要元气啊，如果能做朋友该多好。
