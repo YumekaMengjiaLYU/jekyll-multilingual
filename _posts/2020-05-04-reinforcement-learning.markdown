@@ -2,7 +2,7 @@
 layout: post
 title:  "Reinforcement Learning"
 ref: welcome
-date:   2020-04-26
+date:   2020-05-04
 tags: career
 lang: en
 ---
