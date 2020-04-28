@@ -9,19 +9,22 @@ lang: en
 ---
 
 Trade-offs are _everywhere_. As an EE undergraduate taking courses in circuits, I was taught how circuit design is a game of trade-offs and there is never free lunch: we have to trade one thing for other desirable properties.    
-For example, in analog design, we have to consider many aspects of the circuit performance such as linearity, noise, input/output impedance, stability, and voltage swings. There are usually trade-offs between these parameters and we cannot improve all of them simultaneously[3]. 
+For example, in analog design, we have to consider many aspects of the circuit performance such as linearity, noise, input/output impedance, stability, and voltage swings. Normally we cannot optimize all of these parameters and have to trade some aspects for others. Sometimes we have to resort to trials and errors by treaking the dials and knobs available to us.
+Therefore, it isn't surprising for me to come across tradeoff again in machine learning.
+
 What is a bias-variance tradeoff?
 
+Starting from the definition of variance:
+$${ \operatorname {Var} [X]=\operatorname {E} [X^{2}]-{\Big (}\operatorname {E} [X]{\Big )}^{2}.}$$
 
-$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
 References:
 
-[1.Bias Variance Tradeoff][ref-1]
+[Bias Variance Tradeoff][ref-1]
 
-[2.Trade-off][ref-2]
+[Trade-off][ref-2]
 
-[3.Analog Design Trade-Offs in Applying Linearization Techniques Using Example CMOS Circuits][ref-3]
+[Analog Design Trade-Offs in Applying Linearization Techniques Using Example CMOS Circuits][ref-3]
 
 [ref-1]:https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
 [ref-2]:https://en.wikipedia.org/wiki/Trade-off
