@@ -62,6 +62,29 @@ FRANCES HODGSON BURNETT,  _A Little Princess_
 
 「"Sometimes I can and sometimes I can't," she said stoutly. "But when I CAN I'm all right. And what I believe is that we always could—if we practiced enough. I've been practicing a good deal lately, and it's beginning to be easier than it used to be. When things are horrible—just horrible—**I think as hard as ever I can of being a princess**. I say to myself, 'I am a princess, and I am a fairy one, and because I am a fairy nothing can hurt me or make me uncomfortable.' You don't know how it makes you forget"—with a laugh.」
 
+Paulo Coelho, _The Alchemist_
+
+「Intense, unexpected suffering passes more quickly than suffering that is apparently bearable; the latter goes on for years and, without our noticing, eats away at our soul, until, one day, we are no longer able to free ourselves from the bitterness and it stays with us for the rest of our lives.」
+
+「The mere possibility of getting what we want fills the soul of the ordinary person with guilt. We look around at all those who have failed to get what they want and feel that we do not deserve to get what we want either. We forget about all the obstacles we overcame, all the suffering we endured, all the things we had to give up in order to get this far.」
+
+「This is the most dangerous of the obstacles because it has a kind of saintly aura about it: renouncing joy and conquest. But if you believe yourself worthy of the thing you fought so hard to get, then you became an instrument of God, you help the Soul of the World, and you understand why you are here.」
+
+「And he knew that shepherds, like seamen and like traveling salesmen, always found a town where there was someone who could make them forget the joys of carefree wandering.」
+
+「The boy could see in his father's gaze a desire to be able, himself, to travel the world - a desire that was still alive, despite his father's having had to bury it, over dozens of years, under the burden of struggling for water to drink, food to eat, and the same place to sleep every night of his life.」
+
+「It's the simple things in life that are the most ectraordinary」
+
+「It's this: that at a certain point in our lives, we lose control of what's happening to us, and our lives become controlled by fate. That's the world's greatest lie.」
+
+「It's a force that appears to be negative, but actually shows you how to realize your Personal Legend. It prepares your spirit and your will, because there is one greatest truth on this planet: whoever you are, or whatever it is that you do, when you really want something, it's because that desire originated in the soul of the universe. It's your mission on earth.」
+
+「And, when you want something, all the universe conspires in helping you to achieve it.」
+
+
+
+
 啊，是这样的，从文字中汲取养分，满足感官的饥渴。
 
 你们在另外一个世界要元气啊，如果能做朋友该多好。
