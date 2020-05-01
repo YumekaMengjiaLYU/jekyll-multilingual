@@ -43,6 +43,12 @@ Our problem is transformed to finding feature map $$\phi$$ and feature space $$\
 
 Perceptron Algorithm:
 
+A perceptron receives multiple inputs, applies various transformations and functions and provides an output. It models a neuron which has a set of inputs, each of which is given a specific weight.
+
+initialize the weights and threshold
+provide the input and calculate the output
+update the weights
+repeat steps 2 and 3
 Kernel functions are at the basis of the kernel trick which allows many learning algorithms based on linear models to build nonlinear models easily. A kernel function takes two input vectors as arguments and returns a real value corresponding to the inner product of the images of these vectors in some feature space without having to actually map the points to the feature space.
 
 Techincally, a kernel function is a positive definite function associated to a reproducing kernel Hilbert space (RKHS) which must fulfill the basic requirement of corresponding to the inner product of the images of its arguments in some feature space.

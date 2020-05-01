@@ -70,9 +70,15 @@ How interpretable is the model?
 + Can we update the model without retraining it from the beginning?
 + How fast is prediction compared to other models? How fast is training compared to other models?
 + Does the model have any meta-parameters and thus require tuning? How do we do this?
++ In training a neural network, you notice that the loss does not decrease in the few starting epochs. What could be the reason?
+++ The learning rate is too low.
+++ Regularizaton parameter is high.
+++ Stuck at local minima. 
 
 ### ML Theory
 + What is deep learning and what are some of the main characteristics that distinguish it from traditional machine learning
+++ ML algorthms are not very useful when working with high dimensional data.
+++ The second major challenge is to tell the computer what are the features it should look for in predicting the outcome as well as to achieve better accuracy while doing so.
 + What is linear in a generalized linear model?
 + What is a probabilistic graphical model? What is the difference between Markov networks and Bayesian networks?
 + Give an example of an application of non-negative matrix factorization
@@ -83,10 +89,78 @@ How interpretable is the model?
 + What is supervised learning and unsupervised learning? 
 + What kind of problems can be solved by supervised learning or unsupervised learning?
 + Give some examples for supervised learning and unsupervised learning.
++ What are the benefits of mini-batch gradient descent?
+++ This is more effective compared to stochastic gradient descent.
+++ The generalization by finding the minima.
+++ Mini-batches allow help to approximate the gradient of the entire training set which helps us to avoid local minima.
++ What are the steps for using a gradient descent algorithm?
+++ Initialize random weight and bias.
+++ Pass an input through the network and get values from the output layer.
+++ Calculate the error between the actual value and the predicted value.
+++ Go to each neuron which contributes to the error and then change its respective values to reduce the error.
+++ Reiterate until you find the best weights of the network. 
++ What are the drawbacks of single-layer perceptron?
+++ Single-layer perceptron cannot classify non-linearly separable data points
+++ Complex problems, that involve a lot of parameters cannot be solved by single-layer perceptrons.
++ What is a multi-layer perceptron?
+++ A MLP is a deep, artifical neural network. It is composed of more than one perceptron.
+++ THey are composed of an input layer to receive the signal, an output layer that makes a decision or prediction about the input, and in between those two, an arbitrary number of hidden layers that are the true computational engine of the MLP. 
++ What is data normalization and why do we need it?
+++ Data normalization is very important pre-processing step, used to rescale values to fit in a specific range to assure better convergence during backpropagation.
+++ In general, it boils down to subtracting the mean of each data point and dividing by its standard deviation.  
++ Why is weight initialization important in neural networks?
+++ Weight initialization is one of the very important steps. A bad weight initialization can prevent a network from learning but good weight initialization helps in giving a quicker convergence and a better overall error.
+++ Biases can be generally initialized to zero. The rule for getting the weights is to be close to zero without being to small.
+
++ What are the hyperparameters?
+++ They are the variables which determine the network structure and the variables which determine how the network is trained. Hyperparameters are set before training.
+Examples include number of hidden units and the learning rate. 
++ Explain the different hyperparameters related to Networking and Training.
+++ Number of Hidden Layers.
+++ Network weight initialization.
+++ Activation function.
+++ Batch size.
+++ Number of epochs.
+++ Momentum.
+++ Learning rate. 
++ What is dropout?
+++ Dropout is a regularization technique to avoid overfitting thus increasing the generalizing power.
+++ Generally, we should use a small dropout value of 20-50% of neurons. A dropout value too low has minimal effect and a value too high results in underlearning by the network.
++ What is a CNN?
+++ CNN is a class of deep neural networks, most commonly applied to analyzing visual imagery.
+++ Unlike neural networks, where the input is a vector, here the input is a multi-channeled image. CNNs use a variation of multilayer perceptrons designed to require minimum pre-processing.
++ Explain the different layers of CNN.
+++ Convolution: The convolution layer comprises of a set of independent filters.
+++ ReLU: This layer is used with the convolutional layer.
+++ Pooling: Its function is to progressively reduce the spatial size of the representation to reduce the number of parameters and computation in the network.
+++ Full Connectedness: Neurons in a fully connected layer have full connections to all activations in the previous layer.
++ What is an RNN?
+++ RNN is a type of artificial neural network designed to recognize patterns in sequences of data, siuch as text, genomes, handwriting, the spoken word, numerical times series data.
+++ RNN use backpropagation algorithm for training. Because of their internal memory, RNN's are able to remember important things about the input they received which enables them to be very precise in predicting what's coming next.
++ What is vanishing gradient?
+
++ What is exploding gradient decsent?
+++ Exploding gradients are a problem when large error gradients accumulate and result in very large updates to neural network model weights during training.
+++ GD works best when these updates are small and controlled.
+++ When the magnitudes of the gradients accumulate, an unstable network is likely to occur, which can cause poor prediction of results or even a model that reports nothing useful what so ever.
++ Explain the importance of LSTM.
+++ LSTM is an artificial RNN architecture used in the field of DL.
+++ Unlike standard feedforward neural networks, LSTM has feedback connections that make it a "general purpose computer".
+++ It can not only process single data points, but also entire sequences of data.
+++ They are a special kind of RNN which are capable of learning long term dependencies.
 ### Tools and Research
 + Do you have any research experience in machine learning or a related field? Do you have any publications?
 + What tools and environments have you used to train and assess models?
 + Do you have experience with Spark ML or another platform for building machine learning models using very large datasets?
++ Name a few deep learning frameworks
+++ TensorFlow, PyTorch, Caffe, Chainer, Keras, CNTK 
++ List a few advantages of TensorFlow
+++ It has platform flexibility.
+++ It is easily trainable on CPU as well as GPU for distributed computing.
+++ TensorFlow has auto differentiation capabilities.
+++ It has advanced support for threads, asynchronous computation.
+++ It is customizable and open source. 
+
 
 [ref-1]:https://blog.udacity.com/2016/05/prepare-machine-learning-interview.html
 [ref-2]:https://resources.workable.com/machine-learning-engineer-interview-questions

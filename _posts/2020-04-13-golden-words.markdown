@@ -82,6 +82,27 @@ Paulo Coelho, _The Alchemist_
 
 「And, when you want something, all the universe conspires in helping you to achieve it.」
 
+「He never realized that people are capable, at any time in their lives, of doing what they dream of.」
+
+「In the long run, what people think about shepherds and bakers becomes more important for them than their own Personal Legends.」
+
+「In any case, it's good that you've learned that everything in life has its price. This is what the Warriors of the Light try to teach.」
+
+「There was nothing to hold him back except himself. The sheep, the merchant's daughter, and the fields of Andalusia were only steps along the way to his Personal Legend.」
+
+「Because there is a force that wants you to realize your Personal Legend; it whets your appetite with a taste of success.」
+
+「In order to find the treasure, you will have to follow the omens. God has prepared a path for everyone to follow. You just have to read the omens that he left for you.」
+
+「The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.」
+
+「“You must always know what it is that you want," the old king had said. The boy knew, and was now working toward it.」
+
+「But the sheep had taught him something even more important: that there was a language in the world that everyone understood, a language the boy had used throughout the time that he was trying to improve things at the shop. It was the language of enthusiasm, of things accomplished with love and purpose, and as part of a search for something believed in and desired.」
+
+「the mysterious chain that links one thing to another, the same chain that had caused him to become a shepherd, that had caused his recurring dream, that had brought him to a city near Africa, to find a king, and to be robbed in order to meet a crystal merchant, and ...」
+
+「It's not what enters men's mouths that's evil," said the alchemist. "It's what comes out of their mouths that is.」
 
 
 
