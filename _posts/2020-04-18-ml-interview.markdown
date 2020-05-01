@@ -148,6 +148,30 @@ Examples include number of hidden units and the learning rate.
   - Unlike standard feedforward neural networks, LSTM has feedback connections that make it a "general purpose computer".
   - It can not only process single data points, but also entire sequences of data.
   - They are a special kind of RNN which are capable of learning long term dependencies.
++ What are capsules in CNN?
+  - Capsules are a vector specifying the features of the object and its likelihood. These features can be any of the instantiatiion parameters like position, size, orientation, deformation, velocity, hue, texture and much more.
+  - A capsule can specify its attributes like angle and size so that it can represent the same generic information. Now, just like a neural network has layers of neurons, a capsule network can have layers of capsules.
++ Explain autoencoders and its uses.
+  - An autoencoder neural network is an unsupervised machine learning algorithm that applies backpropagation, setting the target values to be equal to the inputs.
+  - Autoencoders are used to reduce the size of our inputs into a smaller representation.
+  - If anyone needs the original data, they can reconstruct it from the compressed data.
++ In terms of Dimension Reduction, how does autoencoders differ from PCAs?
+  - It is more efficient to learn several layers with an autoencoder rather than learn one huge transformation with PCA.
+  - An auto encoder provides a representation of each layer as the output.
+  - It can make use of pre-trained layers from another model to apply transfer learning to enhanve the encoder/decoder.         
++ Explain the architecture of an autoencoder.
+  - Encoder: This part of the network compresses the input into a latent space representation.
+  - Code: This part of the network represents the compressed input which is fed to the decoder.
+  - Decoder: This layer decodes the encoded image back to the original dimension.
+
++ What is a bottleneck in autoencoder and why is it used?
+  - The layer between the encoder and decoder, i.e. the code is also known as Bottleneck.
+  - This is a well-designed approach to decide which aspects of observed data are relevant information and what aspects can be discarded.
++ Is there any variatoin of autoencoders?
+  - Convolution
+  - Sparse
+  - Deep
+  - Contractive 
 ### Tools and Research
 + Do you have any research experience in machine learning or a related field? Do you have any publications?
 + What tools and environments have you used to train and assess models?
