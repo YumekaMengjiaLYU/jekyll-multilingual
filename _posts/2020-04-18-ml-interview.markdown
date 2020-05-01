@@ -153,7 +153,7 @@ Examples include number of hidden units and the learning rate.
 + What tools and environments have you used to train and assess models?
 + Do you have experience with Spark ML or another platform for building machine learning models using very large datasets?
 + Name a few deep learning frameworks
- - TensorFlow, PyTorch, Caffe, Chainer, Keras, CNTK 
+  - TensorFlow, PyTorch, Caffe, Chainer, Keras, CNTK 
 + List a few advantages of TensorFlow
  - It has platform flexibility.
  - It is easily trainable on CPU as well as GPU for distributed computing.
