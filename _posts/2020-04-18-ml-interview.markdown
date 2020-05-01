@@ -153,13 +153,13 @@ Examples include number of hidden units and the learning rate.
 + What tools and environments have you used to train and assess models?
 + Do you have experience with Spark ML or another platform for building machine learning models using very large datasets?
 + Name a few deep learning frameworks
-++ TensorFlow, PyTorch, Caffe, Chainer, Keras, CNTK 
+ - TensorFlow, PyTorch, Caffe, Chainer, Keras, CNTK 
 + List a few advantages of TensorFlow
-++ It has platform flexibility.
-++ It is easily trainable on CPU as well as GPU for distributed computing.
-++ TensorFlow has auto differentiation capabilities.
-++ It has advanced support for threads, asynchronous computation.
-++ It is customizable and open source. 
+ - It has platform flexibility.
+ - It is easily trainable on CPU as well as GPU for distributed computing.
+ - TensorFlow has auto differentiation capabilities.
+ - It has advanced support for threads, asynchronous computation.
+ - It is customizable and open source. 
 
 
 [ref-1]:https://blog.udacity.com/2016/05/prepare-machine-learning-interview.html
@@ -173,6 +173,9 @@ Other resources:
 
 [Columbia Data Science Society Interview Prep][ref-5]
 
+[Deep Learning Interview Questions and Answers|Edureka][ref-6]
+
 [ref-3]:https://www.springboard.com/blog/machine-learning-interview-questions/
 [ref-4]:https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/
 [ref-5]:https://cdssatcu.com/interview-prep/
+[ref-6]:https://www.youtube.com/watch?v=HGXlFG_Rz4E
