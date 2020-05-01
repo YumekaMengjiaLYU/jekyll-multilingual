@@ -83,9 +83,18 @@ How interpretable is the model?
   - ML algorthms are not very useful when working with high dimensional data.
   - The second major challenge is to tell the computer what are the features it should look for in predicting the outcome as well as to achieve better accuracy while doing so.
   - Deep learning is a form of machine learning that is inspired by the structure of the human brain and is particularly effective in the feature detection.
+    - Enables machines to take decisions with the help of artificial neural networks.
+    - Needs a large amount of training data.
+    - Needs high end systems to work.
+    - The machine learns the features from the data it is provided.
+    - The problem is solved in an end-to-end manner.
   - Machine learning is about algorithms that parse data, learn from that data, and then apply what they've learned to make informed decisions.
-    - It is
-    - How it
+    - Enables machines to take decisions on their own, based on past data.
+    - Needs only a small amount of training data.
+    - Works well on low-end systems.
+    - Most features need to be identified in advance and manually closed.
+    - The problem is divided into parts and solved individually and then combined.
+
 + What is linear in a generalized linear model?
 + What is bagging and boosting in machine learning?
   - Both are ensemble methods
@@ -103,14 +112,81 @@ How interpretable is the model?
   - Duration of development
   - Amount of data
   - Computationally expensive
-  
++ Explain the commonly used ANNs
+  - Feedforward Neural Network
+    - Simplest form of ANN, where the data or the input travels in one direction
+    - The data passes through the input nodes and exit on the output nodes. This NN may or may not have the hidden layers
+  - CNN
+    - Input features are taken in batch wise. This will help the network to remember the images in parts and can compute the operations
+    - signal and image processing
+  - RNN
+    - Works on the principle of saving the output of a layer and feeding this back to input
+  - Autoencoders
+    - The output layer has a same number of units
++ What are Bayesian Networks?
+  - A Bayesin Network is a statistical model that represents a set of variables and their conditional dependencies in the form of a directed acrylic graph.
++ Explain the assessment that is used to test the intelligence of a machine.
+  - In AI, a TT is a method of inquiry for determining whether or not a computer is capable of thinking like a human being.
++ How does RL work? Explain with an example?
+  - The RL agent collects state S from the environment
+  - Based on the state S, the RL agent takes an action A, initially the action is random.
+  - The environment is now in a new state S1.
+  - RL agent now gets a reward R from the environment.
+  - The RL loop goes on until the RL agent is dead or reaches the destination.
++ What is exploitation and exploration trade off?  
+  - Exploitation is about using the already known exploited information to heighten the rewards.
+  - Exploration is about exploring and capturing more information about an environment.
++ What is the difference between parametric and non-parametric models?
+  - Parametric model
+    - It uses a fixed nunmber of parameters to build the model.
+    - Considers strong assumptions about the data.
+    - Computationally faster.
+    - Requires less data.
+    - Examples include logistic regression and naive bayes models.
+  - Non-parametric model
+    - It uses flexible number of parameters to build the model.
+    - Considers fewer assumptions about the data.
+    - Computationally slower.
+    - Require more data.
+    - Example KNN and decision tree.
++ Explain the difference algorithms used for hyperparameter optimization.
+  - Grid search
+    - Grid search trains the network for every combination by using the two set of hyperparameters, learning rate and number of layers. Then evaluates the model by using Cross Validation techniques.
+    - Random search
+      - It randomly samples the search space and evaluates sets from a particular probability distribution. For example, instead of checking all 10,000 samples, randomly selected 100 parameters can be checked.
+    - Bayesian Optimization
+      - This includes fine tuning the hyperparameters by enabling automated model tuning. The model used for approximating the objective function is called surrogate model(Gaussian Process). Bayesian optimization uses GP function to get posterior functions to make predictions based on prior functions.   
++ How can overfitting be fixed?
+  - CV
+  - More training data
+  - Remove features
+  - Early stopping
+  - Regularization
+  - Use Ensemble methods 
 + Give an example of an application of non-negative matrix factorization
 + On what type of ensemble technique is a random forest based? What particular limitation does it try to address?
-  -
+  - Bagging
+  - High variance
++ Both being tree-based algorithms, how is random forest different from gradient boosting algorithm?
+  - random forest - bagging
+  - gradient boosting algorithm - boosting
 + What methods for dimensionality reduction do you know and how do they compare with each other?
+  - Linear
+    - PCA: Continuous data. PCA rotates and projects data along the direction of increasing variance. The features with maximum variance are the prinicple components.
+    - Factor Analysis: The values of observed data are expressed
+    - LDA
+  - Nonlinear
+    - MDS
+    - GDA
+    - Isomap
+  - Autoencoder
 + What are some good ways for performing feature selection that do not involve exhaustive search?
 + How would you evaluate the quality of the clusters that are generated by a run of K-means?
 + What is supervised learning and unsupervised learning? 
+  - Supervised learning
+    - Machine learning model learns from the past input data and makes future prediction as output
+  - Unsupervised learning
+    - Machine learning model was unlabeled input data and allows the algorithm to act on that information without guidance
 + What kind of problems can be solved by supervised learning or unsupervised learning?
 + Give some examples for supervised learning and unsupervised learning.
 + What are the benefits of mini-batch gradient descent?
@@ -202,6 +278,23 @@ Examples include number of hidden units and the learning rate.
 + What is a restricted Boltzmann machine?
   - RBM is an undirected graphical model that plays a major role in DLF in recent times.
   - It is an algorithm which is useful for dimensionality reduction, classification, regression, collaborative filtering, feature learning, and topic modeling.
++ Advantages of KNN algorithm
+  - Easy to understand and implement
+  - Non-parametric: no need for assumptions to be made 
+  - Almost no training time
+  - Continuously self-evolving
+  - Works well with both regression and classification problems
++ Disadvantages of KNN
+  - Declining speed
+  - Not effective with large number of input variables
+  - Choose the optimal number of neighbors can be a problem
+  - High probability of wrong classification if data inclines toward a class
+  - Outlier may impact the performance
+  - Model doesn't learn
+  - Change k can impact outcome
++ What is Q-learning?
+  - Q-learning is a reinforcement learning algorithm in which an agent tries to learn the  optimal policy from its past experiences with the environment. The past experiences of an agent are a sequence of state-action-rewards.
+
 ### Tools and Research
 + Do you have any research experience in machine learning or a related field? Do you have any publications?
 + What tools and environments have you used to train and assess models?
@@ -236,8 +329,20 @@ Other resources:
 
 [10 Machine Learning Interview Questions - ANSWERED][ref-7]
 
+[Machine Learning Interview Questions and Answers CareerRide][ref-8]
+
+[Machine Learning Interview Questions and Answers Eureka][ref-9]
+
+[Artificial Intelligence Interview Questions and Answers][ref-10]
+
+[Dimensionality Reduction for Machine Learning][ref-11]
+
 [ref-3]:https://www.springboard.com/blog/machine-learning-interview-questions/
 [ref-4]:https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/
 [ref-5]:https://cdssatcu.com/interview-prep/
 [ref-6]:https://www.youtube.com/watch?v=HGXlFG_Rz4E
 [ref-7]:https://www.youtube.com/watch?v=T03Fw1kj3B8
+[ref-8]:https://www.youtube.com/watch?v=-jOKqY9L1Z0
+[ref-9]:https://www.youtube.com/watch?v=t6gOpFLt-Ks
+[ref-10]:https://www.youtube.com/watch?v=D_xZjXoloxc
+[ref-11]:https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e
