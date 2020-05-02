@@ -9,3 +9,6 @@ youtubeId: uOrzmFUJtrs
 ---
 An amazing video that moved me to tears. 
 {% include youtubePlayer.html id=page.youtubeId %}
+
+Your sense of worthiness.
+Know your worth.

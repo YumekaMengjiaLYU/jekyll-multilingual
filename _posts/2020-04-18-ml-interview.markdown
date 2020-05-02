@@ -7,6 +7,7 @@ categories: career
 lang: en
 ---
 
+Here's a great [post][ref-12] with answers!
 I bumped into this great [post][ref-1] on Udacity. So let's go through all these wonderful interview questions!
 
 ## Computer Science Fundamentals and Programming
@@ -346,3 +347,4 @@ Other resources:
 [ref-9]:https://www.youtube.com/watch?v=t6gOpFLt-Ks
 [ref-10]:https://www.youtube.com/watch?v=D_xZjXoloxc
 [ref-11]:https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e
+[ref-12]:http://analyticscosm.com/machine-learning-interview-questions-for-data-scientist-interview/
