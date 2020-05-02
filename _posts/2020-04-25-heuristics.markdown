@@ -3,7 +3,7 @@ layout: post
 title:  "Heuristics Demystified"
 ref: welcome
 date:   2020-04-25
-tags: career
+tags: theory
 lang: en
 ---
 

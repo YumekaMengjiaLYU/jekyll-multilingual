@@ -3,9 +3,11 @@ layout: post
 title:  "给自己的感谢信"
 ref: welcome
 date:   2020-04-17
-categories: reading
+categories: self
 lang: 中文
 ---
+
+Dear Me In The Past:
 
 梦嘉，谢谢你。
 

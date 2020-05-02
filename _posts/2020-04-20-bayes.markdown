@@ -3,6 +3,6 @@ layout: post
 title:  "Beautiful Bayes"
 ref: welcome
 date:   2020-04-18 
-tags: career
+tags: theory
 lang: en
 ---
