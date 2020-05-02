@@ -3,7 +3,7 @@ layout: post
 title:  "Preparing for Your ML Interview"
 ref: welcome
 date:   2020-04-18 
-categories: career
+tags: career
 lang: en
 ---
 

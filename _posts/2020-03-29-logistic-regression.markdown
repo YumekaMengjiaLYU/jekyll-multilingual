@@ -3,7 +3,7 @@ layout: post
 title:  "Logistic Regression in Python"
 ref: welcome
 date:   2020-03-29 
-categories: algorithms
+tags: algorithms
 lang: en
 ---
 

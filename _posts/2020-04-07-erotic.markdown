@@ -3,7 +3,7 @@ layout: post
 title:  "エロティック"
 ref: welcome
 date:   2020-04-07
-categories: life
+tags: life
 lang: 中文
 ---
 

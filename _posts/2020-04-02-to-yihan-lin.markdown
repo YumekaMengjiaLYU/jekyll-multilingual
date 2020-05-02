@@ -3,7 +3,7 @@ layout: post
 title:  "记录房思琪"
 ref: welcome
 date:   2020-04-02
-categories: reading
+tags: reading
 lang: 中文
 ---
 

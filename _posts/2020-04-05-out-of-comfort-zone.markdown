@@ -3,7 +3,7 @@ layout: post
 title:  "疫情随想"
 ref: welcome
 date:   2020-04-05
-categories: life
+tags: life
 lang: 中文
 ---
 

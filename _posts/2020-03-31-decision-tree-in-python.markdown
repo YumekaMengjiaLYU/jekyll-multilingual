@@ -4,7 +4,7 @@ comments: true
 title:  "Decision Tree in Python"
 ref: welcome
 date:   2020-04-06
-categories: algorithms
+tags: algorithms
 lang: en
 ---
 Decision tree is popular supervised learning algorithm that can be used for both regression and classification. 

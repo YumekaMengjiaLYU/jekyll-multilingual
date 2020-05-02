@@ -3,13 +3,13 @@ layout: post
 title:  "给自己的感谢信"
 ref: welcome
 date:   2020-04-17
-categories: self
+tags: self
 lang: 中文
 ---
 
 Dear Me In The Past:
 
-梦嘉，谢谢你。
+谢谢你。
 
 谢谢你走过了成长中那些难熬的岁月，孤独的荒原。
 

@@ -3,7 +3,7 @@ layout: post
 title:  "为什么写技术博"
 ref: welcome
 date:   2020-03-27 
-categories: self
+tags: self
 lang: 中文
 ---
 作为一个普通人，我必须要解释一下为什么要写技术博。
