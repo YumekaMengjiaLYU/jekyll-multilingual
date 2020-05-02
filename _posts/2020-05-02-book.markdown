@@ -4,7 +4,7 @@ title:  "闲书偶记"
 ref: welcome
 date:   2020-05-04
 tags: reading
-lang: cn
+lang: 中文
 ---
 | Item | Description | Price |
 | --- | --- | ---: |
