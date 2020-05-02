@@ -96,9 +96,9 @@ How interpretable is the model?
     - The problem is divided into parts and solved individually and then combined.
 
 + What is linear in a generalized linear model?
-+ What is bagging and boosting in machine learning?
++ What is bagging and boosting in machine learning? What are the differences?
   - Both are ensemble methods
-
++ What are the hyperparameters used in random forests?
 + What is selection bias?
   - Statistical error that causes a bias in the sampling portion of an experiment.
   - The error causes one  sampling group to be selected more often than other groups included in the experiment.
