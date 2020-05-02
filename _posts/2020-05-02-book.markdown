@@ -6,8 +6,9 @@ date:   2020-05-04
 tags: reading
 lang: 中文
 ---
-| Item | Description | Price |
+闲书集合。
+| 书 | 作者 | 日期 |
 | --- | --- | ---: |
-| item1 | item1 description | 1.00 |
+| 男人谈恋爱，谈的是什么 |奔放的招财猫  | 2020-05-02 |
 | item2 | item2 description | 100.00 |
 {:.mbtablestyle}
