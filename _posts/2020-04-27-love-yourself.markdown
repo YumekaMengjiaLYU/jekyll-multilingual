@@ -12,3 +12,4 @@ An amazing video that moved me to tears.
 
 Your sense of worthiness.
 Know your worth.
+Try to live life as fearlessly as possible.
