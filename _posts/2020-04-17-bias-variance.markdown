@@ -14,12 +14,12 @@ For example, in analog design, we have to consider many aspects of the circuit p
 Therefore, it isn't surprising for me to come across tradeoff again in machine learning.
 
 What is a bias-variance tradeoff?
-It refers to the situations where models have a lower bias in parameter estimation have a higher variance of the parameter estimates across samples, or vice versa.[1]
+It refers to the situations where models have a lower bias in parameter estimation have a higher variance of the parameter estimates across samples, or vice versa.
 Starting from the definition of variance:
 $${ \operatorname {Var} [X]=\operatorname {E} [X^{2}]-{\Big (}\operatorname {E} [X]{\Big )}^{2}.}$$
 
 $${ \operatorname {Err} (x)=\operatorname {E} [Y^{2}]-{\Big (}\operatorname {E} [X]{\Big )}^{2}.}$$
-![Bias Variance Decomposition](/image/decomposition.png){:class="img-responsive"}
+![Bias Variance Decomposition](/jupyternb/image/decomposition.png){:class="img-responsive"}
 
 References:
 
