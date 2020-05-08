@@ -19,7 +19,7 @@ Starting from the definition of variance:
 $${ \operatorname {Var} [X]=\operatorname {E} [X^{2}]-{\Big (}\operatorname {E} [X]{\Big )}^{2}.}$$
 
 $${ \operatorname {Err} (x)=\operatorname {E} [Y^{2}]-{\Big (}\operatorname {E} [X]{\Big )}^{2}.}$$
-![Bias Variance Decomposition](/jupyternb/image/decomposition.png){:class="img-responsive"}
+![Bias Variance Decomposition](/jupyternb/image/decomposition.png){:class="img-responsive"}{:height="700px" width="400px"}
 
 References:
 
