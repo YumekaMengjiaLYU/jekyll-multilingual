@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Bayes Naive Classifiers"
+ref: welcome
+date:   2020-04-14 
+tags: algorithms
+lang: en
+---
+He told them that they must live their most creative lives as a means of fighting back against the ruthless furnace of this world.
+
+He smiled at the girl with infinite compassion and asked, "Do you have the courage? Do you have the courage to bring forth this work? The treasures that are hidden inside you are hoping you will say yes."
+
+The hunt to uncover those jewels - that's creative living.
+The courage to go on that hunt in the first place - that's what separates a mundane existence from a more enchanted one.
+
+...simply because skating is still the best way for her to unfold a certain beauty and transcendence within her life that she cannot seem to access in any other manner.
+
+I'm a writer.
+I'm a singer.
+I'm an actor.
+I'm a gardener.
+I'm a dancer.
+I'm an inventor.
+I'm a photographer.
+I'm a chef.
+I'm a designer.
+I am this, and I am that, and I am also this other thing, too!
+I don't yet know exactly what I am, but I'm curious enough to go find out!
+
+“Who the hell do you think you are?" your darkest interior voices will demand.
+"It's funny you should ask," you can reply. "I'll tell you who I am: I am a child of God, just like anyone else. I am a constituent of this universe. I have invisible spirit benefactors who believe in me, and who labor alongside me. The fact that I am here at all is evidence that I have the right to be here. I have a right to my own voice and a right to my own vision. I have a right to collaborate with creativity, because I myself am a product and a consequence of Creation. I'm on a mission of artistic liberation, so let the girl go."
+
+learning a machine learning boils down to picking the function that minimizes expected loss.

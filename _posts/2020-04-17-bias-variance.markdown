@@ -21,6 +21,7 @@ $${ \operatorname {Var} [X]=\operatorname {E} [X^{2}]-{\Big (}\operatorname {E} 
 $${ \operatorname {Err} (x)=\operatorname {E} [Y^{2}]-{\Big (}\operatorname {E} [X]{\Big )}^{2}.}$$
 ![Bias Variance Decomposition](/jupyternb/image/decomposition.png){:class="img-responsive"}
 
+
 References:
 
 1.[Bias Variance Tradeoff][ref-1]
@@ -29,7 +30,21 @@ References:
 
 3.[Analog Design Trade-Offs in Applying Linearization Techniques Using Example CMOS Circuits][ref-3]
 
+5.[ESL Chap 7-Model Selection-Rob Tibshirani][ref-5]
 [ref-1]:https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
 [ref-2]:https://en.wikipedia.org/wiki/Trade-off
 [ref-3]:https://www.allaboutcircuits.com/technical-articles/analog-design-trade-offs-in-applying-linearization-techniques-CMOS-circuits/
 [ref-4]:http://scott.fortmann-roe.com/docs/BiasVariance.html
+[ref-5]:http://statweb.stanford.edu/~tibs/stat315a/LECTURES/chap7.pdf
+
+Probability Density estimation is the construction of an estimate based on observed data. It involves selecting a probability distribution function and the parameters of that function that best explains the joint probability of the observed data.
+The GMM or Gaussian Mixture Model is a mixture model that uses a combination of probability distribution and requires the estimation of mean and standard deviation parameters 
+
+Advantages
+It is guaranteed that the likelihood will increase with each iteration.
+During implementation, the E-step and M-step are very easy for many problems.
+The solution for M-step often exists in closed form.
+Disadvantage
+EM algorithm has a very slow convergence.
+It makes the convergence to the local optima only.
+EM requires both forward and backward probabilities.

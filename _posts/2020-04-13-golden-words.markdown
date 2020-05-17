@@ -104,6 +104,30 @@ Paulo Coelho, _The Alchemist_
 
 「It's not what enters men's mouths that's evil," said the alchemist. "It's what comes out of their mouths that is.」
 
+「"How do I immerse myself in the desert?"
+  "Listen to your heart. It knows all things, because it came from the Soul of the World, and it will one day return there."」
+
+「"Why do we have to listen to our hearts?" the boy asked, when they had made camp that day.
+"Because, wherever your heart is, that is where you'll find your treasure."
+"But my heart is agitated," the boy said. "It has its dreams, it gets emotional, and it's become passionate over a woman of the desert. It asks things of me, and it keeps me from sleeping many nights, when I'm thinking about her."
+"Well, that's good. Your heart is alive. Keep listening to what it has to say."」
+
+「“My heart is afraid that it will have to suffer," the boy told the alchemist one night as they looked up the moonless sky.
+"Tell your heart that the fear of suffering is worse than the suffering itself. And that no heart has ever suffered when it goes in search of its dreams, because every second of the search is a second's encounter with God and with eternity."」
+
+「From then on, the boy understood his heart. He asked it, please, never to stop speaking to him. He asked that, when he wandered far from his dreams, his heart press him and sound the alarm. The boy swore that, every time he heard the alarm, he would heed its message.」
+「”Every search begins with beginner's luck. And every search ends with the victor's being severely tested."」
+
+「“To show you one of life's simple lessons." the alchemist answered."When you possess great treasures within you, and try to tell others of them, seldom are you believed."」
+
+「”There are many languages spoken by things," the boy said. "There was a time when, for me, a camel's whinnying was nothing more than whinnying. Then it became a signal of danger. And, finally, it became just a whinny again."」
+
+「“If a person is living out his Personal Legend, he knows everything he needs to know. There is only one thing that makes a dream impossible to achieve: the fear of failure."」
+
+「“Well, why did you say that I don't know about love?" the sun asked the boy.
+  "Because it's not love to be static like the desert, nor is it love to roam the world like the wind. And it's not love to see everything from a distance, like you do. Love is the force that transforms and improves the Soul of the World. When I first reached through to it, I thought the Soul of the World was perfect. But later, I could see that it was like other aspects of creation, and had its own passions and wars. It is we who nourish the Soul of the World, and the world we live in will be either better or worse. And that's where the power of love comes in. Because when we love, we always strive to become better than we are."」
+
+
 
 
 啊，是这样的，从文字中汲取养分，满足感官的饥渴。

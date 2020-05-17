@@ -10,7 +10,11 @@ lang: en
 Time for Linear Algebra XD
 Hussein has a great article [here][ref-1]
 
+Another great [tutorial][ref-2]
+
+Singular value decomposition decomposes a matrix into three matrices.
 ## Why does it matter?
 If and only if A is symmetric and positive definite, SVD and eigendecomposition coincide
 
 [ref-1]:https://towardsdatascience.com/svd-8c2f72e264f
+[ref-2]:https://blog.statsbot.co/singular-value-decomposition-tutorial-52c695315254
