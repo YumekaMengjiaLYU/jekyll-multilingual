@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Bayes Naive Classifiers"
+title:  "The Choice"
 ref: welcome
-date:   2020-04-14 
-tags: algorithms
-lang: en
+date:   2020-05-15 
+tags: reading
+lang: 中文
 ---
 
 「We are hungry for approval, attention, affection. We are hungry for the freedom to embrace life and to really know and be ourselves.」
