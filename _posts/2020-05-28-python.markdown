@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Python is Slow?"
+ref: welcome
+date:   2020-05-28
+tags: life
+lang: en
+---
+I've never realized that Python is slow until I came across a talk on why C/C++ is used to implement certain functions in PyTorch.
+As someone who was first introduced to programming with C and C++, I consider Python to be very user-friendly and ameniable. I thank [this][ref-1] article for giving me a bird-eye views of how programming languages compete in terms of fastness.
+
+In my machine learning class, the professor emphasized on the importance of making use of vectorization in NumPy to make program run faster.
+simple argument parsing logic can take microseconds
+
+[ref-1]:https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
