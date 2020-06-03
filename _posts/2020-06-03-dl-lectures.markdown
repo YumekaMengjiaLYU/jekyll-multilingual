@@ -40,7 +40,7 @@ By Shane's definition of the hallmark  the ability to solve many different tasks
     - Greater computational power (GPUs, TPUs)
     - More available data (mobile devices, online services, distributed sensors, crowdsourcing)
     - Better understanding of algorithms and architecture (Github/arXiv)
-# AlphaGo&Alpha Zero
+## AlphaGo&Alpha Zero
 
 ###
 There are 361 vertices on which to put the stone.
@@ -113,7 +113,7 @@ Conclusions
 - Use procedurally generated environments to produce robust, generalizable behaviors.
 We can now begin to understand how agent act and why
 
-## Beyond Games: AlphaFold
+## Folding Proteins with AlphaFold
 AlphaFold: Improved proteins structure prediction using potentials from deep learning
 
 Using Deep Dilated Convolutional Residual Network
