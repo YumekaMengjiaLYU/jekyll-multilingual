@@ -7,7 +7,7 @@ tags: courses
 lang: en
 ---
 
-1. 
+# Solving Intelligence
 ### What is intelligence?
 Intelligence measures an agent's ability to achieve goals in a wide range of environments.
 Shane's 
@@ -28,6 +28,7 @@ Why use games to solve AI?
     - Measure progress and compare against human performance 
 
 Reinforcement learning algorithms can be trained to "superhuman skills" as playing Atari games.
+[Human-level control through deep reinforcement learning][ref-1]
 By Shane's definition of the hallmark  the ability to solve many different tasks to a high standard, w to call that agent to have acquired some degree of intelligence.
 
 ### Why "Deep Learning"?
@@ -63,3 +64,72 @@ AlphaZero: One Algorithm, Three Games
 
 The Royal Game
 Dr.
+
+Initialized with a policy and value network, AlphaZero plays by evaluating the search tree from a given position making its best move. So on and so forth
+
+train value network
+put these new in the 
+generate better moves, n
+AlphaZero plays game against itself
+New policy/value network is used in ne
+
+Discover chess opening thoery 
+
+Conclusions:
+- Deep Learning enables us to search the huge search space of complex board games.
+- Self-play produces large amounts of data necessary for training the deep neural networks.
+- Self-play provides an **automatic curriculum**, starting from simple opponents to stronger and stronger opponents. (training against itself)
+- System discovers new knowledge.
+- New directions: Learn rules of the game, more than two players, imperfect information, larger action spaces etc.
+
+## Learning to Play Capture the Flag
+Human-level performance in 3D multiplayer games with population-based reinforcement learning
+ogjective game wehre multiple agents need to learn to interact to play
+large-scale decentralized multi-agent learning problem
+
+- population-based training 
+- Internal reward evolution
+- Hierarchical temporal policies
+- Agents exceed human-level, as both teammates and opponents
+- Rich emergent representation and behavior
+
+Rul pick up flag bring it to your own base, have to make sure your own flag is at base not stolen.
+
+procedual generation
+every game a new map
+Training Procedure
+- Train a population of agents
+- CTF games played by bringing together agents from population for an episode
+- Individual streams of experience sent back to participating agents
+- Each agent trains with independent RL, independent actions, no global information.
+
+Neural Network Architecture
+- Hierarchy of recurrent neural networks at two time scales: Slow and Fast RNN
+- Internal rewards based on game events learned at even slower time scale
+
+Conclusions
+- Deep Reinforcement Learning can learn to play complex multi-player video games at human level
+- Train populations of agents to enable optimization and generalization
+- Use procedurally generated environments to produce robust, generalizable behaviors.
+We can now begin to understand how agent act and why
+
+## Beyond Games: AlphaFold
+AlphaFold: Improved proteins structure prediction using potentials from deep learning
+
+Using Deep Dilated Convolutional Residual Network
+
+Conclusions
+- Deep learning-based distance prediction
+    - Gives more accurate predictions of contact between residues
+    - A richer source of information than contact prediction
+    - Constructs a smooth potential that is easy to optimize
+- Limitations
+    - Accuracy still limited
+    - Method depends on finding homologous sequences
+    - Only predicts backbone, side chains filled by external tool
+- Work builds on decades of experimental and computational work of other researchers
+- Deep Learning can deliver solutions to science & biology problems
+
+
+[ref-1][https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf]
+
