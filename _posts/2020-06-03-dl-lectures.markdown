@@ -33,8 +33,9 @@ Why use games to solve AI?
     - Measure progress and compare against human performance (can also serve as a reward) 
 
 
-A particular application: Ran reinforcement learning algorithms over different Atari games and achieved "superhuman skills" in many of those Atari games. [Human-level control through deep reinforcement learning][ref-1]
-By Shane's definition that the hallmark of intelligence is the ability to solve many different tasks to a high standard, the agent can be considered to have acquired some degree of intelligence.
+A particular application [Human-level control through deep reinforcement learning][ref-1]: Ran reinforcement learning algorithms over different Atari games and achieved "superhuman skills" in many of those Atari games. 
+
+By Legg's definition that the hallmark of intelligence is the ability to solve many different tasks to a high standard, the agent can be considered to have acquired some degree of intelligence.
 
 ### Why "Deep Learning"?
 - First need to Previous systems required feature engineering for every new problem
