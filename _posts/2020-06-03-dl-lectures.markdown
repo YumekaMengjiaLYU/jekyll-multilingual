@@ -9,8 +9,11 @@ lang: en
 
 ## Solving Intelligence
 ### What is intelligence?
-Intelligence measures an agent's ability to achieve goals in a wide range of environments.
-Shane's 
+The hallmark of human intelligence lies in its generality, as science fiction author Robert Heinlein puts it,  _"specialization is for insects"_. 
+Shane Legg's definition of the measure:
+>Intelligence measures an agent's ability to achieve goals in a wide range of environments.
+
+
 Reinforcement Learning
 - General Purpose Framework for AI
 - Agent interacts with the environment
