@@ -47,9 +47,10 @@ By Shane's definition that the hallmark of intelligence is the ability to solve 
     - Greater computational power (GPUs, TPUs)
     - More available data (mobile devices, online services, distributed sensors, crowdsourcing)
     - Better understanding of algorithms and architecture (open source on Github/arXiv)
+
 ## AlphaGo&Alpha Zero Case Studies
 
-### Game of Go
+### Board Game 
 [A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play][ref-2]
 
 Go: 361 vertices, many scenarios.
@@ -126,7 +127,7 @@ Conclusions
 - Use procedurally generated environments to produce robust, generalizable behaviors
 
 ## Folding Proteins with AlphaFold
-[AlphaFold: Improved proteins structure prediction using potentials from deep learning][ref-5] Using Deep Dilated Convolutional Residual Network
+[AlphaFold: Improved proteins structure prediction using potentials from deep learning][ref-4] Using Deep Dilated Convolutional Residual Network
 
 Conclusions
 - Deep learning-based distance prediction
