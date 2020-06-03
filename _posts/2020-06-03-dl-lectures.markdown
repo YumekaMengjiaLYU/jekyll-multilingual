@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deep Learning Lectures: Intro to Machine Learning & AI"
+title:  "Lecture 1: Intro to Machine Learning & AI"
 ref: welcome
 date:   2020-06-03
 tags: courses
@@ -50,7 +50,7 @@ By Shane's definition that the hallmark of intelligence is the ability to solve 
 
 ## AlphaGo&Alpha Zero Case Studies
 
-### Board Game 
+### 1.Board Games 
 [A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play][ref-2]
 
 Go: 361 vertices, many scenarios.
@@ -75,23 +75,23 @@ Togethr, the policy network and the value network reduce the size of the search 
 
 In March 2016, AlphaGo defeated Lee Sedol.
 
-#### AlphaZero plays games against itself(use much less human knowledge)
-
-
-Initialized with a policy and value network, AlphaZero plays by evaluating the search tree from a given position making its best move. Then repeat from the next position.  
 
 
 
+Using much less human knowledge, AlphaZero can play games against itself. Initialized with a policy and value network, AlphaZero self-plays by evaluating the search tree from a given position and making its best move. Then repeat from the next position.  
 
 
-Conclusions:
+
+
+
+**Conclusions**
 - Deep Learning enables us to search the huge search space of complex board games.
 - Self-play produces large amounts of data necessary for training the deep neural networks.
 - Self-play provides an **automatic curriculum**, starting from simple opponents to stronger and stronger opponents. (training against itself)
 - System discovers new knowledge.(Discover chess opening thoery)
 - New directions: Learn rules of the game, more than two players, imperfect information, larger action spaces etc.
 
-### Learning to Play Capture the Flag
+### 2.Learning to Play Capture the Flag
 
 [Human-level performance in 3D multiplayer games with population-based reinforcement learning][ref-3]
 
@@ -121,15 +121,15 @@ Population-based Training
     - Provides diverse teammates and opponents: robust multi-agent training without collapses found with naive self-play
     - Provides meta-optimization of agents using population-based training. Used for model selection, hyperparameter adaptation, internal reward evolution (robustness against different playing styles)
 
-Conclusions
+**Conclusions**
 - Deep Reinforcement Learning can learn to play complex multi-player video games at human level
 - Train populations (want diverse training signals) of agents to enable optimization and generalization 
 - Use procedurally generated environments to produce robust, generalizable behaviors
 
-## Folding Proteins with AlphaFold
+### 3.Folding Proteins with AlphaFold
 [AlphaFold: Improved proteins structure prediction using potentials from deep learning][ref-4] Using Deep Dilated Convolutional Residual Network
 
-Conclusions
+**Conclusions**
 - Deep learning-based distance prediction
     - Gives more accurate predictions of contact between residues
     - A richer source of information than contact prediction
