@@ -7,7 +7,7 @@ tags: courses
 lang: en
 ---
 
-# Solving Intelligence
+## Solving Intelligence
 ### What is intelligence?
 Intelligence measures an agent's ability to achieve goals in a wide range of environments.
 Shane's 
@@ -40,7 +40,7 @@ By Shane's definition of the hallmark  the ability to solve many different tasks
     - Greater computational power (GPUs, TPUs)
     - More available data (mobile devices, online services, distributed sensors, crowdsourcing)
     - Better understanding of algorithms and architecture (Github/arXiv)
-2 AlphaGo&Alpha Zero
+# AlphaGo&Alpha Zero
 
 ###
 There are 361 vertices on which to put the stone.
@@ -131,5 +131,5 @@ Conclusions
 - Deep Learning can deliver solutions to science & biology problems
 
 
-[ref-1][https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf]
+[ref-1]:https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf
 
