@@ -175,32 +175,47 @@ If you want to iterate over a given number of steps and not through the entire d
 ### Multi-worker training with Estimator
 ###s Save and load
 
-# Images
-## Convolutional Neural Network
-## Image classification
-## Transfer learning with TF Hub
-## Transfer learning with pretrained CNN
-## Data Augmentation
-## Image Segmentation
+## Images
+### Convolutional Neural Network
+The output of every Conv2D and MaxPooling2D layer is a 3D tensor of shape (height, width, channels). The width and height dimensions tend to shrink as you go deeper in the network. The number of output channels for each Conv2D layer is controlled by the first argument (e.g., 32 or 64). Typically, as the width and height shrink, you can afford (computationally) to add more output channels in each Conv2D layer.
+### Image classification
+Overfitting generally occurs when there are a small number of training examples. One way to fix this problem is to augment the dataset so that it has a sufficient number of training examples. Data augmentation takes the approach of generating more training data from existing training samples by augmenting the samples using random transformations that yield believable-looking images. The goal is the model will never see the exact same picture twice during training. This helps expose the model to more aspects of the data and generalize better.
 
-# Text
-## Word embeddings
-## Text classification with an RNN
-## Text generation with an RNN
-## Neural machine translation with attention
-## Image Captioning
-## Transformer model for language understanding
+Implement this in tf.keras using the ImageDataGenerator class. Pass different transformations to the dataset and it will take care of applying it during the training process.
+### Transfer learning with TF Hub
+Using TF Hub it is simple to retrain the top layer of the model to recognize the classes in our dataset.
+### Transfer learning with pretrained CNN
+Two ways to customize a pretrained model:
 
-# Structured data
-## Classify structured data with feature columns
-## Classification on imbalanced data
-## Time series forcasting
+- Feature Extraction: Use the representations learned by a previous network to extract meaningful features from new samples. You simply add a new classifier, which will be trained from scratch, on top of the pretrained model so that you can repurpose the feature maps learned previously for the dataset.
 
-# Generative
-## Neural style transfer
-## DeepDream
-## DCGAN
-## Pix2Pix
-## CycleGAN
-## Adversarial FGSM
-## Variational Autoencoder 
+You do not need to (re)train the entire model. The base convolutional network already contains features that are generically useful for classifying pictures. However, the final, classification part of the pretrained model is specific to the original classification task, and subsequently specific to the set of classes on which the model was trained.
+
+- Fine-Tuning: Unfreeze a few of the top layers of a frozen model base and jointly train both the newly-added classifier layers and the last layers of the base model. This allows us to "fine-tune" the higher-order feature representations in the base model in order to make them more relevant for the specific task.
+### Data Augmentation
+
+### Image Segmentation
+
+## Text
+### Word embeddings
+### Text classification with an RNN
+### Text generation with an RNN
+### Neural machine translation with attention
+### Image Captioning
+### Transformer model for language understanding
+
+## Structured data
+### Classify structured data with feature columns
+### Classification on imbalanced data
+### Time series forcasting
+
+## Generative
+### Neural style transfer
+NNT is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network.
+### DeepDream
+### DCGAN
+### Pix2Pix
+### CycleGAN
+### Adversarial FGSM
+### Variational Autoencoder 
+Unlike a traditional autoencoder, which maps the input onto a latent vector, a VAE maps the input data into the parameters of a probability distribution, such as the mean and variance of a Gaussian. This approach produces a continuous, structured latent space, which is useful for image generation.
