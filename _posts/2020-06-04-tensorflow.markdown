@@ -9,6 +9,7 @@ lang: en
 
 Tensors are the building block in Tensorflow and identifies a multi-dimensional array.
 # ML Basics
+
 ## Basic image classification
 tf.keras is a high-level API to build and train models in TensorFlow
 
