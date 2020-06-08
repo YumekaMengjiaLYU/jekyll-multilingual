@@ -152,13 +152,25 @@ In Keras, you assemble layers to build models. A model is (usually) a graph of l
 
 ## Customization
 ### Tensors and operations
+Many TensorFlow operations are accelerated using the GPU for computation. Without any annotations, TensorFlow automatically decides whether to use the GPU or CPU for an operation—copying the tensor between CPU and GPU memory, if necessary. 
 ### Custom layers
+The best way to implement your own layer is extending the tf.keras.Layer class and implementing:
+
+- __init__ , where you can do all input-independent initialization
+- build, where you know the shapes of the input tensors and can do the rest of the initialization
+- call, where you do the forward computation
 ### Custom training
+Computations using tf.Variable are automatically traced when computing gradients. For variables that represent embeddings, TensorFlow will do sparse updates by default, which are more computation and memory efficient.
 ### Custom training: walkthrough
 
 ## Distributed training
+
 ### Distributed training with Keras
+We still train the model in the usual way, calling fit on the model and passing in the dataset created at the beginning of the tutorial. This step is the same whether you are distributing the training or not.
 ### Custom training loops
+Alternate ways of iterating over a dataset
+Using iterators
+If you want to iterate over a given number of steps and not through the entire dataset you can create an iterator using the iter call and explicity call next on the iterator. You can choose to iterate over the dataset both inside and outside the tf.function. Here is a small snippet demonstrating iteration of the dataset outside the tf.function using an iterator.
 ### Multi-worker training with Keras
 ### Multi-worker training with Estimator
 ###s Save and load
