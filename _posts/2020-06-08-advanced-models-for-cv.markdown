@@ -6,8 +6,7 @@ date:   2020-06-08
 tags: courses
 lang: en
 ---
- | Priority apples | Second priority | Third priority |
+ | Task definitions | Train and eval | Tricks of the trade |
 |-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+| Objecy detection | Models and losses | Hard negative mining |
+| Semantic segmentation | Metrics and benchmarks | Transfer learning |
