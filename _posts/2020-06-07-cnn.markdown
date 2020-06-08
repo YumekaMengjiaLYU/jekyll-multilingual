@@ -1,0 +1,109 @@
+---
+layout: post
+title:  "Convolutional Neural Networks for Image Recognition"
+ref: welcome
+date:   2020-06-07
+tags: courses
+lang: en
+---
+## 1.Background
+### How can we feed images to a neural network?
+A digital image is a 2D grid of pixels.
+A neural network expects a vector of numbers as input.
+Locality: nearby pixels are more strongly correlated.
+Translation invariance: meaningful patterns can occur anywhere in the image.
+### Taking advantage of topological structure
+Weight sharing: use the same network parameters to detect local patterns at many locations in the image
+Hierarchy: local low-level features are composed into larger, more abstract features
+### The ImageNet Challenge
+- Major computer vision benchmark
+- 1.4M images, 1000 classes
+- Image classification
+
+## Building blocks
+### From fully connected to locally connected
+### Implementation: the convolution operation
+The kernel slides acrpss the image and produces an outpt value at each position.
+We convolve multiple kernels and obtain multiple feature maps or channels
+
+We convolve multiple kernels and obtain multiple feature maps or channels.
+
+### Inputs and outputs are tensors
+3D objects that have width, height, channels
+Each output channel of the convolution is connected to all the input channels as well.
+### Variants of the convolution operation
+**Valid convolution**: output size = input size - kernel size + 1
+The output will be slightly smaller than the input.
+**Full convolution (with added padding)**:
+output size = input size + kernel size - 1
+The output will be slightly greater than the input.
+**same convolution:** output size = input size
+This ensures feature map size will have the same size as the image.
+Only makes sense if kernel has odd size
+**strided convolution:** kernel slides along the image with a step > 1
+Pro: A lot cheaper to compute!
+**Dilated convolution**: kernel is spread out, step>1 between kernel elements
+Pro: 
+- can be computed more efficiently
+- no need to pad zeros
+### Pooling
+Def:compute mean of max over small windows to reduce resolution.
+
+
+## 3.Convolutional neural networks
+### Stacking the building blocks
+- CNNs or convnets
+- Up to 100s of layers
+- Alternate convolutions and pooling to create a hierarchy : higher layers in the model will extract more abstract features from the image.
+### 
+## 4.Going deeper: case studies
+### LeNet-5
+A convnet for handwritten digit recognition.
+Not suitable for deeper layers.
+### AlexNet
+Architecture: 8 layers, ReLU, dropout, weight decay(regularizer)
+Infrastructure: large dataset, trained 6 days on 2 GPUs
+Key innovation:
+- ReLU!! Dropout.
+- No need to pair convolution layer with pooling layers
+
+### Deeper is better
+- Each layer is a linear classifier by itself
+- More layers - more nonlinearities
+- What limits the number of layers in convnets?
+
+### VGGNet
+Stack many convolutional layers before pooling. Use same convolutions to avoid resolution reduction. (reduced in pooling)
+### VGGNet: stacking 3 3 kernels
+Architecture: up to 19 layers, 3 3 kernels only, same convolutions
+Infrastructure: trained for 2-3 weeks on 4 GPUs (data parallelism not model parallelism)
+### VGGNet: error plateaus after 16 layers
+### Challenges of depth
+- Computational complexity
+- Optimization difficulties
+### Improving optimization
+- Careful initialization
+    - Random initialization will not work
+    - Exploding gradient
+    - Have to do some symmetry breaking
+    - Vanishing gradient
+- Sophisticated optimizers
+- Normalization layers
+    - Scale the activation to the right range for optimization to be easy
+    - Essential!
+- Network design
+    - ResNets
+    - Adding residual 
+### GoogLeNet
+Inception
+### Batch normalization
+- Reduces sensitivity to initialization.
+- More robust to large learning rate
+- Introduces stochasticity and acts as a regularizer (introduce noise in the model can make it more robust)
+- bug
+### ResNet: residual connections
+Residual connections facilitate training deeper networks.
+### 
+## 5.Advanced topics
+
+## Beyond image recogniiton
