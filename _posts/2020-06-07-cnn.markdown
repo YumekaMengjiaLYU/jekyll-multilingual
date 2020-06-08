@@ -103,7 +103,35 @@ Inception
 - bug
 ### ResNet: residual connections
 Residual connections facilitate training deeper networks.
-### 
-## 5.Advanced topics
+### DenseNet: connect layers to all previous layers
+### Squeeze-and-excitation networks
+Features can incorporate global context.
+### AmoebaNet: neural architecture search
+- Architecture found by evolution
+- Search acyclic graphs composed of predefined layers
+### Reducing complexity
+- Depthwise convolutions
+- Separable convolutions
+- Inverted bottlenecks 
 
+## 5.Advanced topics
+### Data augmentation
+- By design, convnets are robust against translation
+- Data augmentation makes them robust against other transformations: rotation, scaling, shearing, warping.
+### Other topics to explore
+- Pre-training and fine-tuning
+- Group equivalent convnets: invariance to e.g. rotation
+- Recurrence and attention: other building blocks to exploit topological structure. (Convolution is not the only thing we can do to exploit grid structure!)
 ## Beyond image recogniiton
+### What else can we do with Convnets?
+#### Generative models of images
+- Generative adversarial nets
+- Variational autoencoders
+- Autoregressive models
+#### More convnets
+- Representation learning and self-supervised learning
+- Convnets for video, audio, text, graphs
+
+> Convolutional neural networks replaced handcrafted features with handcrafted architectures.
+
+> Prior knowledge is not obsolete: it is merely incorporated at a higher level of abstraction.
