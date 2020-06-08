@@ -161,7 +161,7 @@ In Keras, you assemble layers to build models. A model is (usually) a graph of l
 ### Custom training loops
 ### Multi-worker training with Keras
 ### Multi-worker training with Estimator
-### Save and load
+###s Save and load
 
 # Images
 ## Convolutional Neural Network
