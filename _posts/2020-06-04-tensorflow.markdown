@@ -198,6 +198,9 @@ You do not need to (re)train the entire model. The base convolutional network al
 
 ## Text
 ### Word embeddings
+Word embeddings give us a way to use an efficient, dense representation in which similar words have a similar encoding. Importantly, we do not have to specify this encoding by hand. An embedding is a dense vector of floating point values (the length of the vector is a parameter you specify). Instead of specifying the values for the embedding manually, they are trainable parameters (weights learned by the model during training, in the same way a model learns weights for a dense layer). It is common to see word embeddings that are 8-dimensional (for small datasets), up to 1024-dimensions when working with large datasets. A higher dimensional embedding can capture fine-grained relationships between words, but takes more data to learn.
+
+
 ### Text classification with an RNN
 ### Text generation with an RNN
 ### Neural machine translation with attention
