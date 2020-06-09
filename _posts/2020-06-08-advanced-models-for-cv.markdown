@@ -16,8 +16,8 @@ _Goal of the lecture: Know how to redefine the building blocks to perform differ
 ### Tasks - increasing granularity
 classification -> object detection -> semantic segmentation -> instance segmentation
 ### Object detection
-Multitask problem
-classification localization
+**A Multitask problem**
+Classification localization
 
 | Inputs | Targets | 
 |-------|--------|
@@ -35,6 +35,7 @@ How to deal with multiple targets.
 ### Classification then regression
 Convert regression into classification, by discretizing the output values, and then refine through regression.
 ### Summary 
+
 | Property | Classification | Regression |
 |-------|--------|---------|
 | Basic | map inputs to predefined classes | map inputs to continuous values |
