@@ -16,20 +16,28 @@ _Goal of the lecture: Know how to redefine the building blocks to perform differ
 ### Tasks - increasing granularity
 classification -> object detection -> semantic segmentation -> instance segmentation
 ### Object detection
-**A Multitask problem**
-Classification localization
+**A Multitask problem: Classification & Localization**
+
 
 | Inputs | Targets | 
 |-------|--------|
 | RGB Image H*W*3 | Class label & Object bounding box (for all the objects present in the scene) |
 
 ### Bounding box prediction
+> How to learn to predict real-valued bounding box coordinates?
+
+#### Recap: Softmax + cross entropy
+**Assign data points to categories; output is discrete.**
 
 Mistakes are not quantifiable in classification; the idea is not ordered.
+
 In classification, the output is discrete; in regression, the output is continuous.
+
 ### Quadratic loss for regression
 Minimize the MSE over samples.
-
+$$
+l_2 = |x-t|^2
+$$
 How to deal with multiple targets.
 
 ### Classification then regression
@@ -68,6 +76,7 @@ Most of the candidate boxes are easy negatives: poor learning signal
 
 Bounding boxes are not good representations for certain types of objects.
 We need more refined representation.
+
 | Inputs | Targets | 
 |-------|--------|
 | RGB Image  | Class label for every pixel |
@@ -107,6 +116,7 @@ Given a source domain and task (Ds Ts) and a target domain and task (Dt tt ) reu
 - Motion - cues for object recognition during learning
 - Natural data augmentation: translation, scale, 3D rotation, camera motion, light changes
 ### Optical flow estimation
+
 | Inputs | Targets | 
 |-------|--------|
 | Pairs of RGB Image  | Dense flow map;2D translation displacement |
