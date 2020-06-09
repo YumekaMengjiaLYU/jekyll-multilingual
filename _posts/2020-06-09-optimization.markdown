@@ -36,10 +36,16 @@ $$
 
 ### Example: neural metwork training objective
 - The standard neural network training objective is given by:
+
 $$
-h(\theta)=\frac{1}{m} \sum_{i=1}^m l(y_i, f(x_i, \theta))
+h(\theta)=\frac{1}{m} \sum_{i=1}^m \ell(y_i, f(x_i, \theta))
 $$
 ## 2.Gradient descent
+### Gradient descent: definition
+- Basic gradient descent iteration:
+$$
+\theta_{k+1} = \theta_k - \alpha_k \nabla h(\theta_k)
+$$
 
 ## 3.Momentum methods
 
