@@ -31,7 +31,7 @@ How to deal with multiple targets.
 ### Classification then regression
 Convert regression into classification, by discretizing the output values, and then refine through regression.
 ### Summary 
- | Property | Classification | Regression |
+| Property | Classification | Regression |
 |-------|--------|---------|
 | Basic | map inputs to predefined classes | map inputs to continuous values |
 | Output | discrete values | continuous values |
@@ -121,4 +121,37 @@ Video as a volume
 - 3D convolutions are non-causal
 - masked 3D convolutions are causal
 
-Strided, dilated, padded, ...  convolutions apply in 3D as well.
+Strided, dilated, padded,  ...  convolutions apply in 3D as well.
+
+| Inputs | Targets | 
+|-------|--------|
+| RGB Video T H W 3 (optional) flow map | action label |
+
+### Transfer learning returns
+**Intuition: a tiled image is a video of a static scene, filmed with a fixed camera**
+
+### Challenges in video processing
+- Difficult to obtain labels
+- Large memory requirements
+- High latency
+- High energy consumption
+### Improve efficiency of video models
+- Inspiration from biological systems
+- Maximize parallelism to increase throughput and reduce latency
+- Exploit redundancies in the visual data to obtain frugal models
+
+### Self-supervision - Metric learning
+Standard losses (eg. cross entropy, mse)
+- learn mapping between inputs and output distribution/values
+Metric learning
+- learn to predict distances between inputs given some similiarity measure
+
+Metric learning
+- Contastive loss
+- Triplet loss
+- State-of-the-art on representation learning
+
+Applications
+- Multimodal self-supervised representation (image+sound)
+- Information retrieval
+- Low-shot face recognition
