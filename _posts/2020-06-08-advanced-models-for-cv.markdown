@@ -167,21 +167,52 @@ Strided, dilated, padded,  ...  convolutions apply in 3D as well.
 - Inspiration from biological systems
 - Maximize parallelism to increase throughput and reduce latency
 - Exploit redundancies in the visual data to obtain frugal models
-## 3.(Beyond supervised) image classification
-### Self-supervision - Metric learning
-Standard losses (eg. cross entropy, mse)
-- learn mapping between inputs and output distribution/values
-Metric learning
-- learn to predict distances between inputs given some similiarity measure
 
-Metric learning
+
+## 3.(Beyond strong supervised) image classification
+_Labeling is tedioius - Research topic in its own_
+### Self-supervision - Metric learning
+**Standard losses** (eg. cross entropy, mse)
+- learn mapping between inputs and output distribution/values
+
+
+
+**Metric learning**
+- learn to predict distances between inputs given some similiarity measure (same person-different photos/image retrieval)
 - Contastive loss
 - Triplet loss
 - State-of-the-art on representation learning
 
-Applications
+**Applications**
 - Multimodal self-supervised representation (image+sound)
 - Information retrieval
 - Low-shot face recognition
 
+
+### Metric learning
+**Contrastive loss(margin loss)**
+
+Dataset
+<r0, r1, y> 
+
+**Triplet loss**
+Dataset
+<r0, r1, rn> 
+
+- better than contrastive loss
+- relative distances more meaningful than a fixed margin
+- hard negative mining to select informative triplets
+
+### New state-of-the-art in representation learning
+- Composition of data augmentations
+- Learnable non-linear transformation
+- Larger mini-batches and longer training
 ## 4.Open questions
+- Is vision solved? What does it mean to solve vision?
+    - human level scene understanding - what benchmarks?
+- How to scale systems up?
+    - model parallelism, better hardware, less supervision - more common sense
+- What are good visual representations for action?
+    - [Unsupervised Learning of Object Keypoints for Perception and Control][ref-1]
+
+[ref-1]:https://arxiv.org/abs/1906.11883
