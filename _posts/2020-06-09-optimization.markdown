@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lecture 4: Advanced Models for Computer Vision"
+title:  "Lecture 5: Optimization for Machine Learning"
 ref: welcome
-date:   2020-06-08
+date:   2020-06-09
 tags: courses
 lang: en
 ---
@@ -31,7 +31,13 @@ $$
 
 - Goal of optimization
 $$
-\theta^* = \argmin h(\theta)
+\theta^* = argmin h(\theta)
+$$
+
+### Example: neural metwork training objective
+- The standard neural network training objective is given by:
+$$
+h(\theta)=\frac{1}{m} \sum_{i=1}^m l(y_i, f(x_i, \theta))
 $$
 ## 2.Gradient descent
 
