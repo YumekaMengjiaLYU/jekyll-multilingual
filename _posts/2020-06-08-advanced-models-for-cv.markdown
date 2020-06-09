@@ -38,11 +38,11 @@ Minimize the MSE over samples.
 
 
 $$
-l_2 = |x-t|^2
+l_2(x,t) = |x-t|^2
 
 $$
 
-**How to deal with multiple targets?**
+**The question is: How to deal with multiple targets?**
 
 ### Classification then regression
 Convert regression into classification, by discretizing the output values, and then refine through regression.
@@ -67,8 +67,10 @@ Two-stage detector
 Deep learning is very flexible, and we can replace those pieces in the puzzle. But we have to put functions that are differentiable so that we can backprop through.
 Non-differentiable building block
 - Classify and refine
+
 ### Case study 2:RetinaNet - one-stage detector
 Most of the candidate boxes are easy negatives: poor learning signal
+
 ### Issue with one-stage detectors
 - Most of the candidate bboxes are background. easy to classify
 - The accumulated loss of the many easy examples overwhelms the loss of rare useful examples
