@@ -126,6 +126,7 @@ Given a source domain and task (Ds Ts) and a target domain and task (Dt tt ) reu
 ### Video
 - Motion - cues for object recognition during learning
 - Natural data augmentation: translation, scale, 3D rotation, camera motion, light changes
+
 ### Optical flow estimation
 
 | Inputs | Targets | 
@@ -144,6 +145,7 @@ Given a source domain and task (Ds Ts) and a target domain and task (Dt tt ) reu
 Video as a volume
 - stack frames T H W 3
 - apply 3D convolutions
+
 ### Properties of 3D convolutions
 - 3D convolutions are non-causal
 - masked 3D convolutions are causal
@@ -163,6 +165,7 @@ Strided, dilated, padded,  ...  convolutions apply in 3D as well.
 - Large memory requirements
 - High latency
 - High energy consumption
+
 ### Improve efficiency of video models
 - Inspiration from biological systems
 - Maximize parallelism to increase throughput and reduce latency
@@ -207,6 +210,7 @@ Dataset
 - Composition of data augmentations
 - Learnable non-linear transformation
 - Larger mini-batches and longer training
+
 ## 4.Open questions
 - Is vision solved? What does it mean to solve vision?
     - human level scene understanding - what benchmarks?
