@@ -35,10 +35,14 @@ In classification, the output is discrete; in regression, the output is continuo
 
 ### Quadratic loss for regression
 Minimize the MSE over samples.
+
+
 $$
 l_2 = |x-t|^2
+
 $$
-How to deal with multiple targets.
+
+**How to deal with multiple targets?**
 
 ### Classification then regression
 Convert regression into classification, by discretizing the output values, and then refine through regression.
