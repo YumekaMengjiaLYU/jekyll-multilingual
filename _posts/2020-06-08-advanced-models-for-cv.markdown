@@ -6,11 +6,15 @@ date:   2020-06-08
 tags: courses
 lang: en
 ---
+_Goal of the lecture: Know how to redefine the building blocks to perform different visual tasks using different inputs and different forms of supervision._
+## 1.Supervised image (beyond classification)
  | Task definitions | Train and eval | Tricks of the trade |
 |-------|--------|---------|
 | Objecy detection | Models and losses | Hard negative mining |
 | Semantic segmentation | Metrics and benchmarks | Transfer learning |
 
+### Tasks - increasing granularity
+classification -> object detection -> semantic segmentation -> instance segmentation
 ### Object detection
 Multitask problem
 classification localization
@@ -38,7 +42,7 @@ Convert regression into classification, by discretizing the output values, and t
 | Nature of the data | unordered data | ordered data |
 | Algorithms | logistic regression, decision trees, neural networks | linear regression, neural networks |
 
-## Case study 1: Faster R-CNN
+### Case study 1: Faster R-CNN
 Two-stage detector
 - Identify good candidate boundary boxes
     - Discretize bbox space
@@ -50,7 +54,7 @@ Two-stage detector
 Deep learning is very flexible, and we can replace those pieces in the puzzle. But we have to put functions that are differentiable so that we can backprop through.
 Non-differentiable building block
 - Classify and refine
-## Case study 2:RetinaNet - one-stage detector
+### Case study 2:RetinaNet - one-stage detector
 Most of the candidate boxes are easy negatives: poor learning signal
 ### Issue with one-stage detectors
 - Most of the candidate bboxes are background. easy to classify
@@ -59,7 +63,7 @@ Most of the candidate boxes are easy negatives: poor learning signal
 - One stage detectors employ hard negative mining heuristics.
 - RetinaNet uses Focal Loss
 
-## Semantic segmentation
+### Semantic segmentation
 
 Bounding boxes are not good representations for certain types of objects.
 We need more refined representation.
@@ -96,7 +100,7 @@ Given a source domain and task (Ds Ts) and a target domain and task (Dt tt ) reu
 - Use Automatic Domain Randomization: data augmentation + hard negative mining
 - Test in real world - Dt
 
-## Beyond singe image input
+## 2.Supervised (Beyond singe image input) Classification
 ### Experiment
 ### Video
 - Motion - cues for object recognition during learning
@@ -139,7 +143,7 @@ Strided, dilated, padded,  ...  convolutions apply in 3D as well.
 - Inspiration from biological systems
 - Maximize parallelism to increase throughput and reduce latency
 - Exploit redundancies in the visual data to obtain frugal models
-
+## 3.(Beyond supervised) image classification
 ### Self-supervision - Metric learning
 Standard losses (eg. cross entropy, mse)
 - learn mapping between inputs and output distribution/values
@@ -155,3 +159,5 @@ Applications
 - Multimodal self-supervised representation (image+sound)
 - Information retrieval
 - Low-shot face recognition
+
+## 4.Open questions
