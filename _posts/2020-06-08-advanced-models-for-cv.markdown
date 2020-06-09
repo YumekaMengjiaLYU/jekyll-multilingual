@@ -45,7 +45,11 @@ $$
 **The question is: How to deal with multiple targets?**
 
 ### Classification then regression
-Convert regression into classification, by discretizing the output values, and then refine through regression.
+**Convert regression into classification, by discretizing the output values, and then refine through regression.**
+
+
+Bin the output space and then use one hot label. Once in the local area then regress.
+
 ### Summary 
 
 | Property | Classification | Regression |
@@ -146,7 +150,8 @@ Strided, dilated, padded,  ...  convolutions apply in 3D as well.
 
 | Inputs | Targets | 
 |-------|--------|
-| RGB Video T H W 3 (optional) flow map | action label |
+| - RGB Video T H W 3 
+  - (optional) flow map | action label |
 
 ### Transfer learning returns
 **Intuition: a tiled image is a video of a static scene, filmed with a fixed camera**
