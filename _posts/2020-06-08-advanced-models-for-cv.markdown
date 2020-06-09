@@ -78,13 +78,14 @@ Most of the candidate boxes are easy negatives: poor learning signal
 ### Issue with one-stage detectors
 - Most of the candidate bboxes are background. easy to classify
 - The accumulated loss of the many easy examples overwhelms the loss of rare useful examples
-- Faster R-CNN prunes thses
+- Faster R-CNN in first stage prunes easy negatives
 - One stage detectors employ hard negative mining heuristics.
 - RetinaNet uses Focal Loss
 
 ### Semantic segmentation
 
 Bounding boxes are not good representations for certain types of objects.
+
 We need more refined representation.
 
 | Inputs | Targets | 
@@ -129,7 +130,8 @@ Given a source domain and task (Ds Ts) and a target domain and task (Dt tt ) reu
 
 | Inputs | Targets | 
 |-------|--------|
-| Pairs of RGB Image  | Dense flow map;2D translation displacement |
+| Pairs of RGB Image  | Dense flow map;
+2D translation displacement |
 
 ### Case study: FlowNet
 - Encoder-decoder architecture similar to U-NET
@@ -150,8 +152,8 @@ Strided, dilated, padded,  ...  convolutions apply in 3D as well.
 
 | Inputs | Targets | 
 |-------|--------|
-| - RGB Video T H W 3 
-  - (optional) flow map | action label |
+| RGB Video T H W 3 
+  (optional) flow map | action label |
 
 ### Transfer learning returns
 **Intuition: a tiled image is a video of a static scene, filmed with a fixed camera**
