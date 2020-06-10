@@ -108,7 +108,7 @@ Number of iterations
 ### Defining equations for momentum
 Define
 - Learning rate: $\alpha_k$
-- Momentum constant: $\eta_kj$
+- Momentum constant: $\eta_k$
 
 - Classical Momentum
 $$
@@ -120,7 +120,7 @@ v_{k+1} = \eta_k v_k - \nabla h(\theta_k+\alpha_k \eta_k v_k)
 $$
 
 ### Narrow 2D valley example revisited
-![image](/image/gradient.png) (screenshot from [video lecture][ref-3])
+![image](/jupyternb/image/gradient.png) (screenshot from [video lecture][ref-3])
 
 ### Upper bounds for Nesterov's momentum variant
 
