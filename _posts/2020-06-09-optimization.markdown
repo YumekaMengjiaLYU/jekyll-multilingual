@@ -124,6 +124,13 @@ $$
 
 ### Upper bounds for Nesterov's momentum variant
 
+Given objective $h(\theta)$ satisfying same technnical conditions, and careful choices of $\alpha_k$ and $\eta_k$,
+
+Nesterov's momentum method satisfies:
+
+$$
+h(\theta_k) - h(\theta^*) \leq L(\frac{\sqrt{\kappa}-1}{\sqrt{\kappa}})^k \norm{\theta_0-\theta^*}^2
+$$
 ### Convergence theory: 1st-order methods and lower bounds
 - A first-order method is one where updates are linear combinations of observed gradients. 
 
@@ -137,7 +144,7 @@ $$
 
 ### Lower bounds
 
-No major algorithmic improve ment
+No major algorithmic improvement
 
 ### Comparison of iteration counts
 To achieve $h(\theta_k)-h(\theta*) \geq \epsilon$, the number of iterations k satisfies:
