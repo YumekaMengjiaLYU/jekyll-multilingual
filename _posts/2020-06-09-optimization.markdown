@@ -118,8 +118,10 @@ $$
 $$
 v_{k+1} = \eta_k v_k - \nabla h(\theta_k+\alpha_k \eta_k v_k)
 $$
+
 ### Narrow 2D valley example revisited
-![image](/images/gradient.png) (screenshot from [video lecture][ref-3])
+![image](/image/gradient.png) (screenshot from [video lecture][ref-3])
+
 ### Upper bounds for Nesterov's momentum variant
 
 ### Convergence theory: 1st-order methods and lower bounds
