@@ -106,11 +106,20 @@ Number of iterations
     - treat current solution for like a ball rolling along a surface whose height is given by, subject to the force of gravity
 
 ### Defining equations for momentum
+Define
+- Learning rate: $\alpha_k$
+- Momentum constant: $\eta_kj$
+
 - Classical Momentum
+$$
+v_{k+1} = \eta_k v_k - \nabla h(\theta_k)
+$$
 - Nesterov's variant
-
+$$
+v_{k+1} = \eta_k v_k - \nabla h(\theta_k+\alpha_k \eta_k v_k)
+$$
 ### Narrow 2D valley example revisited
-
+![image](/images/gradient.png) (screenshot from [video lecture][ref-3])
 ### Upper bounds for Nesterov's momentum variant
 
 ### Convergence theory: 1st-order methods and lower bounds
@@ -321,8 +330,11 @@ No log
 
 References:
 [Introductory Lectures on Convex Optimization][ref-1]
+
 [Numerical Optimization][ref-2]
 
 [ref-1]:https://link.springer.com/book/10.1007%2F978-1-4419-8853-9
 
 [ref-2]:https://link.springer.com/book/10.1007/978-0-387-40065-5
+
+[ref-3]:https://www.youtube.com/watch?v=kVU8zTI-Od0&list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF&index=5
