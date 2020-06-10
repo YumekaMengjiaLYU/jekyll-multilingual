@@ -70,11 +70,11 @@ Low - Converge very slowly
 
 
 $$
-\norm{\nabla h(\theta) - \nabla h(\theta')} \leq L\norm{\theta - \theta'}
+\lVert \nabla h(\theta) - \nabla h(\theta') \rVert \leq L \lVert \theta - \theta' \rVert
 $$
 - is strongly convex (perhaps only near minimum) 
 $$
-h(\theta + d) \geq h(\theta) + \nabla h(\theta)^\top d + \frac{\mu}{2} \norm{d}^2
+h(\theta + d) \geq h(\theta) + \nabla h(\theta)^\top d + \frac{\mu}{2} \lVert d \rVert^2
 $$
 - For now: gradients are computed exactly (i.e. without approximations/not stochastic)
 
