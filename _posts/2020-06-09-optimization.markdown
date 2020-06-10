@@ -66,11 +66,15 @@ High - diverge
 Low - Converge very slowly
 
 ### Convergence theory: technical assumptions
-- has Lipchistz continuous derivatives
+- $h(\theta)$ has Lipchistz continuous derivatives
 
+
+$$
+\norm{\nabla h(\theta) - \nabla h(\theta')} \leq L\norm{\theta - \theta'}
+$$
 - is strongly convex (perhaps only near minimum) 
 $$
-h \geq 
+h(\theta + d) \geq h(\theta) + \nabla h(\theta)^\top d + \frac{\mu}{2} \norm{d}^2
 $$
 - For now: gradients are computed exactly (i.e. without approximations/not stochastic)
 
@@ -89,6 +93,7 @@ Number of iterations
     - Usually focused on asymptotic behavior (do care how quickly you are getting to a point preaymptotically)
 
 - The design/choice of an optimizer should always be informed by practice more than anything else. But theory can help guide the way and build intuitions.
+
 ## 3.Momentum methods
 
 ### The momentum method
@@ -131,7 +136,9 @@ $$
 $$
 - Upper bound for gradient descent
 - Upper bound for GD w/ Nesterov's momentum
+
 ## 4.2nd-order methods
+
 ### The problem with 1st-order methods
 - **Dependency on global condition number**:For many 1st-order method, the number of steps needed to converge grows with "condition number":
 
@@ -246,7 +253,9 @@ Well-known example developed for neural nets: TONGA
 - Storage and computation cost $$\mathcal{O}(n)$$
 - Cost to apply inverse $$\mathcal{O}(b^0.5n)$$
 - Used in current most powerful but heavyweight neural net optimizer K-FAC
+
 ## 5.Stochastic optimization
+
 ### Motivation
 - Typical objectives in machine learning are an average of case-specific losses over training cases:
 $$
