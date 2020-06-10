@@ -129,7 +129,7 @@ Given objective $h(\theta)$ satisfying same technnical conditions, and careful c
 Nesterov's momentum method satisfies:
 
 $$
-h(\theta_k) - h(\theta^*) \leq L(\frac{\sqrt{\kappa}-1}{\sqrt{\kappa}})^k \norm{\theta_0-\theta^*}^2
+h(\theta_k) - h(\theta^*) \leq L(\frac{\sqrt{\kappa}-1}{\sqrt{\kappa}})^k \lVert \theta_0-\theta^* \rVert ^2
 $$
 ### Convergence theory: 1st-order methods and lower bounds
 - A first-order method is one where updates are linear combinations of observed gradients. 
