@@ -17,3 +17,18 @@ lang: 中文
 「And sometimes, I allow myself to imagine that each moment in which we love well by simply being all of who we are and being fully present allows us to give back something essential to the Sacred Mystery that sustains all life.」
 
 ## The Longing
+「The separation of years, or even worlds, cannot dull their ache for each other.」
+
+「There has been moments when I was afraid my longing would never find me again. All my journeys have been in search of the desires I have abandoned.」
+
+「In my relationships I became a woman with one hand always reaching for the doorknob, afraid to leave any door closed too long for fear of getting trapped, of finding myself once again standing in the twilight unable to leave with nowhere to go.」
+
+「I want to be courted by the truth. Let the stories that are telling our lives spin out in long multicolored threads.」
+
+「And if we are to be lovers for the first time or again, after many times, let the lovemaking be filled with shyness and discovery the way it was, or could have been, when we were sixteen: today a kiss that lingers, a touch on the back of my neck that I can feel for hours; tomorrow a light caress across my breasts that makes my breath catch.」
+
+「The universe is not twice given. The split between Spirit and matter is in our thinking, our way of speaking of it. I touch God when I caress the face of a lover, hold the Beloved when my son's hand is in mine, breathe in Spirit when I catch the scent of the sun on the breeze.」
+
+「I want to be willing and able to move only as fast as I am capable of moving while still remaining connected to the impulse to move from deep within, stopping when I have lost that slender thread of desire and having the courage and faith to wait, in stillness, until I find it again.」
+
+「The willingness to live our desires takes courage. So many times our desires have been used against us, used to sell us what someone else wanted us to buy. Moving toward our desire for deep commitment to Spirit, we have been sold blind obedience; opening to our desire to love, we have been sold an abandonment of self; seeking to embrace our desire for beauty, we have been sold everything from cars to clothes, exotic vacations to plastic surgery. We have been sold a lifestyle, when what our soul desired was life.」
