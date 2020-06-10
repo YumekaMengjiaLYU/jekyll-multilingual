@@ -8,6 +8,7 @@ lang: en
 ---
 _Goal of the lecture: Know how to redefine the building blocks to perform different visual tasks using different inputs and different forms of supervision._
 ## 1.Supervised image (beyond classification)
+
  | Task definitions | Train and eval | Tricks of the trade |
 |-------|--------|---------|
 | Objecy detection | Models and losses | Hard negative mining |
