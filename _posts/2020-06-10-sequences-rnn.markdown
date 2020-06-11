@@ -195,6 +195,21 @@ The sampled y is the input to the next iteration of the network.
 ### Natural language as sequences
 ![backpropagation](/jupyternb/image/sequence-to-sequence-models.png)
 
+Useful technique for translation!
+![backpropagation](/jupyternb/image/translation.png)
+
+RNN can be very flexible as to what to condition on :)
+![backpropagation](/jupyternb/image/flexible.png)
+
+#### Seq2seq has a wide range of applications
+- MT
+- Image Captions
+- Speech
+- Parsing
+- Dialogue
+- Video Generation
+- Geometry
+
 ### Audio waves as sequences
 
 ### Policies as sequences
