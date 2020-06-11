@@ -37,11 +37,11 @@ From [Kavita's beautiful post][ref-1]:
 
 > For example, for the sentence “The cow jumps over the moon”. If N=2 (known as bigrams), then the ngrams would be:
 
-> the cow
-cow jumps
-jumps over
-over the
-the moon
+> - the cow
+  - cow jumps
+  - jumps over
+  - over the
+  - the moon
 So you have 5 n-grams in this case. Notice that we moved from the->cow to cow->jumps to jumps->over, etc, essentially moving one word forward to generate the next bigram.
 
 > If N=3, the n-grams would be:
@@ -67,7 +67,10 @@ _Can this probability estimation be learned in a more efficient way?_
 
 **1.Vectorizing the context**
 
-f
+f summarizes the context in h such that:
+$$
+p(x_t | x_1, ..., x_{t-1} \approx p(x_t|h))
+$$
 
 Desirable properties for f:
 - Order matters
