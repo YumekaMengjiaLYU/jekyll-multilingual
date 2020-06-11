@@ -192,7 +192,8 @@ The sampled y is the input to the next iteration of the network.
 
 #### Softmax Sampling
 
-#### Natural language as sequences
+### Natural language as sequences
+![backpropagation](/jupyternb/image/sequence-to-sequence-models.png)
 
 ### Audio waves as sequences
 
