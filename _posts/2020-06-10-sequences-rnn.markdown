@@ -80,7 +80,26 @@ RNNs rolled out over time
 ### Loss: Cross Entropy
 Next word prediction is essentially a classification task where the number of classes is the size of the vocab.
 
+\theta output input update hidden state
 | For one word | For the sentence | 
 |-------|--------|
 | $$\mathcal{L}_\theta = -y_t log y_t$$ | $$\mathcal{L}_\theta = -y_t log y_t$$ |
+
+### Differentiating w.r.t. 
+Recursive loop in the model
+
+three parameter that we need to optimize
+
+### backpropagation through time
+
+![backpropagation](/jupyternb/differentiation.png)
+h has come from another equaiton
+
+### Vanishing gradients
+**A big problem in RNN**
+If Wh > 1 , explode
+
+If Wh < 1, vanishing 
+
+![backpropagation](/jupyternb/vanishing-gradients.png)
 ## 3.Generation
