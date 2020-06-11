@@ -44,7 +44,7 @@ From [Kavita's beautiful post][ref-1]:
   - over the
   - the moon
 
-So you have 5 n-grams in this case. Notice that we moved from the->cow to cow->jumps to jumps->over, etc, essentially moving one word forward to generate the next bigram.
+> So you have 5 n-grams in this case. Notice that we moved from the->cow to cow->jumps to jumps->over, etc, essentially moving one word forward to generate the next bigram.
 
 > If N=3, the n-grams would be:
 
@@ -54,7 +54,7 @@ So you have 5 n-grams in this case. Notice that we moved from the->cow to cow->j
   - jumps over the
   - over the moon
 
-So you have 4 n-grams in this case. When N=1, this is referred to as unigrams and this is essentially the individual words in a sentence. When N=2, this is called bigrams and when N=3 this is called trigrams. When N>3 this is usually referred to as four grams or five grams and so on.
+> So you have 4 n-grams in this case. When N=1, this is referred to as unigrams and this is essentially the individual words in a sentence. When N=2, this is called bigrams and when N=3 this is called trigrams. When N>3 this is usually referred to as four grams or five grams and so on.
 
 
 ### Downsides of using N-grams
@@ -69,7 +69,7 @@ _Can this probability estimation be learned in a more efficient way?_
 
 ### Learning to model word probabilities
 
-**1.Vectorizing the context**
+#### **1.Vectorizing the context**
 
 $$f_\theta$$ summarizes the context in h such that:
 $$
@@ -90,7 +90,7 @@ N-grams and simple aggregation do not meet the requirements for modeling sequenc
 ![Bias Variance Decomposition](/jupyternb/image/ngram-addition.png)
 
 
-**2.Modeling conditional probabilities**
+#### **2.Modeling conditional probabilities**
 Desirable properties for g:
 - Individual changes can have large effects(non-linear/deep)
 - Returns a probability distribution
