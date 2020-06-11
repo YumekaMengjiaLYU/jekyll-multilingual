@@ -37,19 +37,23 @@ From [Kavita's beautiful post][ref-1]:
 
 > For example, for the sentence “The cow jumps over the moon”. If N=2 (known as bigrams), then the ngrams would be:
 
-> - the cow
+>
+  - the cow
   - cow jumps
   - jumps over
   - over the
   - the moon
+
 So you have 5 n-grams in this case. Notice that we moved from the->cow to cow->jumps to jumps->over, etc, essentially moving one word forward to generate the next bigram.
 
 > If N=3, the n-grams would be:
 
-> the cow jumps
-cow jumps over
-jumps over the
-over the moon
+> 
+  - the cow jumps
+  - cow jumps over
+  - jumps over the
+  - over the moon
+
 So you have 4 n-grams in this case. When N=1, this is referred to as unigrams and this is essentially the individual words in a sentence. When N=2, this is called bigrams and when N=3 this is called trigrams. When N>3 this is usually referred to as four grams or five grams and so on.
 
 
@@ -67,21 +71,24 @@ _Can this probability estimation be learned in a more efficient way?_
 
 **1.Vectorizing the context**
 
-f summarizes the context in h such that:
+$$f_\theta$$ summarizes the context in h such that:
 $$
 p(x_t | x_1, ..., x_{t-1} \approx p(x_t|h))
 $$
 
-Desirable properties for f:
+Desirable properties for $$f_\theta$$:
 - Order matters
 - Variable length
 - Learnable (differentiable)
 - Individual changes can have large effects (non-linear/deep)
 - preserve long-term dependencies
 
+$$f_\theta$$ concatenates the N last words.
+
 **Summary**:
 N-grams and simple aggregation do not meet the requirements for modeling sequences.
 ![Bias Variance Decomposition](/jupyternb/image/ngram-addition.png)
+
 
 **2.Modeling conditional probabilities**
 Desirable properties for g:
