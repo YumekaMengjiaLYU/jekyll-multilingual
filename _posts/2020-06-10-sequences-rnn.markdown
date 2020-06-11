@@ -21,7 +21,7 @@ _How can we develop models that deal with sequential data?_
 > Not all deep learning models can handle sequential data
 
 ## 2.Fundamentals
-![Bias Variance Decomposition](/jupyternb/image/)
+![Bias Variance Decomposition](/jupyternb/image/comparison-rnn.png)
 
 ### Scalability Issues
 The model where you condition on the context does capture some of the structure, it is not scalable.
