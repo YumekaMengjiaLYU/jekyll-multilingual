@@ -23,7 +23,31 @@ _How can we develop models that deal with sequential data?_
 ## 2.Fundamentals
 ![Bias Variance Decomposition](/jupyternb/image/)
 
-### Scalability
+### Scalability Issues
+The model where you condition on the context does capture some of the structure, it is not scalable.
+
+
+### Fixing a small context: N grams
+What are N-grams?
+
+Only condition on N previous words!
+
+From [Kavita's beautiful post][ref-1]:
+>  They are basically a set of co-occuring words within a given window and when computing the n-grams you typically move one word forward (although you can move X words forward in more advanced scenarios). For example, for the sentence "The cow jumps over the moon". If N=2 (known as bigrams), then the ngrams would be:
+the cow
+cow jumps
+jumps over
+over the
+the moon
+So you have 5 n-grams in this case. Notice that we moved from the->cow to cow->jumps to jumps->over, etc, essentially moving one word forward to generate the next bigram.
+
+If N=3, the n-grams would be:
+the cow jumps
+cow jumps over
+jumps over the
+over the moon
+So you have 4 n-grams in this case. When N=1, this is referred to as unigrams and this is essentially the individual words in a sentence. When N=2, this is called bigrams and when N=3 this is called trigrams. When N>3 this is usually referred to as four grams or five grams and so on.
+
 
 ### Downsides of using N-grams
 **Although it alleviates scalability**
@@ -110,4 +134,64 @@ Must update a couple of times before goes to zero
 RNNs can model sequences of variable length and can be trained via back-propagation.
 
 They do suffer from the vanishing gradients problem, which stops them from capturing long-term dependencies.
+
+Long term dependencies are very important, but RNNs are not equipped to capture those.
+
+**How can we capture long-term dependencies?**
+
+### Long Short-Term Memory networks
+
+#### Forget gate
+
+#### Input gate
+
+#### Output gate
+
+### Gated Recurrent Unit nets
+GRU can be seen as a simplified LSTM.
+
+**Summary**:
+LSTMs and GRUs overcome the vanishing gradient problem by making use of sophisticated gating mechanisms.
+
+As a result these models are ubiquitous across machine learning research.
+
 ## 3.Generation
+
+### Using a trained model
+During training we focused on optimizing the log probability estimates produced by our model.
+
+This means that at test time we can use it to evaluate the probability of a new sentence. This, however, is arguably not very interesting.
+
+An alternative use case of our trained model is sequence generation.
+
+### Generating sequences using RNNs
+
+y is a probability distribution over possible words that we can sample from
+
+The sampled y is the input to the next iteration of the network.
+
+### Images as sequences
+
+#### Images as sequences: PixelRNN
+
+#### Softmax Sampling
+
+#### Natural language as sequences
+
+### Audio waves as sequences
+
+### Transformers for sequenes
+
+
+**Summary**:
+- Motivation: Sequences are everywhere but modeling them is hard!
+
+- Covered different approaches:
+    - N-Grams
+    - RNNs
+    - LSTMs & GRUs
+    - Dilated convolutional and transformers
+
+- These models are flexible and can be applied to a wide range of tasks across machine learning
+
+[ref-1]:https://kavita-ganesan.com/what-are-n-grams/#.XuJDNWpKhYh
