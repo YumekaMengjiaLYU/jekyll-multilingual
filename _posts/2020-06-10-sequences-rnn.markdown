@@ -164,6 +164,8 @@ Long term dependencies are very important, but RNNs are not equipped to capture 
 ### Gated Recurrent Unit nets
 GRU can be seen as a simplified LSTM.
 
+It trains faster but LSTM can be stronger.
+
 **Summary**:
 LSTMs and GRUs overcome the vanishing gradient problem by making use of sophisticated gating mechanisms.
 
@@ -194,8 +196,21 @@ The sampled y is the input to the next iteration of the network.
 
 ### Audio waves as sequences
 
+### Policies as sequences
+
 ### Transformers for sequenes
 
+#### GPT2
+- Transformer-based language model with 1.5 billion parameters for next-word prediction
+- Dataset: 40GB of text data from 8M websites
+- Adapts to style and content of arbitrary conditioning input
+
+#### Evolution of language modeling
+In 2011, at least a sentence is produced:
+[Generating Text with Recurrent Neural Networks][ref-2]
+
+In 2019, it has popular reference and match the style of tabloid:
+[Better Language Models and Their Implications][ref-3]
 
 **Summary**:
 - Motivation: Sequences are everywhere but modeling them is hard!
@@ -209,3 +224,7 @@ The sampled y is the input to the next iteration of the network.
 - These models are flexible and can be applied to a wide range of tasks across machine learning
 
 [ref-1]:https://kavita-ganesan.com/what-are-n-grams/#.XuJDNWpKhYh
+
+[ref-2]:http://www.cs.toronto.edu/~ilya/pubs/2011/LANG-RNN.pdf
+
+[ref-3]:https://openai.com/blog/better-language-models/
