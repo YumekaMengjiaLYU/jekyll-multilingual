@@ -21,7 +21,7 @@ _How can we develop models that deal with sequential data?_
 > Not all deep learning models can handle sequential data
 
 ## 2.Fundamentals
-![Bias Variance Decomposition](/jupyternb/image/comparison-rnn.png)
+![Bias Variance Decomposition](/jupyternb/image/)
 
 ### Scalability
 
@@ -50,7 +50,7 @@ Desirable properties for f:
 
 **Summary**:
 N-grams and simple aggregation do not meet the requirements for modeling sequences.
-![Bias Variance Decomposition](/jupyternb/ngram-addition.png)
+![Bias Variance Decomposition](/jupyternb/image/ngram-addition.png)
 
 **2.Modeling conditional probabilities**
 Desirable properties for g:
@@ -92,7 +92,7 @@ three parameter that we need to optimize
 
 ### backpropagation through time
 
-![backpropagation](/jupyternb/differentiation.png)
+![backpropagation](/jupyternb/image/differentiation.png)
 h has come from another equaiton
 
 ### Vanishing gradients
@@ -101,5 +101,13 @@ If Wh > 1 , explode
 
 If Wh < 1, vanishing 
 
-![backpropagation](/jupyternb/vanishing-gradients.png)
+![backpropagation](/jupyternb/image/vanishing-gradients.png)
+We depend on the gradients in order to update our models. If they are 0, our models won't learn anything.
+
+Must update a couple of times before goes to zero
+
+**Summary**:
+RNNs can model sequences of variable length and can be trained via back-propagation.
+
+They do suffer from the vanishing gradients problem, which stops them from capturing long-term dependencies.
 ## 3.Generation
