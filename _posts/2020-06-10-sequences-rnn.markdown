@@ -33,16 +33,20 @@ What are N-grams?
 Only condition on N previous words!
 
 From [Kavita's beautiful post][ref-1]:
->  They are basically a set of co-occuring words within a given window and when computing the n-grams you typically move one word forward (although you can move X words forward in more advanced scenarios). For example, for the sentence "The cow jumps over the moon". If N=2 (known as bigrams), then the ngrams would be:
-the cow
+> N-grams of texts are extensively used in text mining and natural language processing tasks. They are basically a set of co-occurring words within a given window and when computing the n-grams you typically move one word forward (although you can move X words forward in more advanced scenarios).
+
+> For example, for the sentence “The cow jumps over the moon”. If N=2 (known as bigrams), then the ngrams would be:
+
+> the cow
 cow jumps
 jumps over
 over the
 the moon
 So you have 5 n-grams in this case. Notice that we moved from the->cow to cow->jumps to jumps->over, etc, essentially moving one word forward to generate the next bigram.
 
-If N=3, the n-grams would be:
-the cow jumps
+> If N=3, the n-grams would be:
+
+> the cow jumps
 cow jumps over
 jumps over the
 over the moon
