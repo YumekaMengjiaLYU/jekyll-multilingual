@@ -25,12 +25,12 @@ What makes reinforcement learning different from other machine learning algorith
 ## The Reinforment Learning Problem
 ### Rewards
 Reinforment learning is based on the reward hypothesis.
-$$
+<div class="definition">
 \begin{theorem}
 Let $f$ be a function whose derivative exists in every point, then $f$ is 
 a continuous function.
 \end{theorem}
-$$
+</div>
 - A reward $R_t$ is a scalar feedback signal
 - Inficates how well agent is doing at step t
 - The agent's job is to maximize cumulative reward
