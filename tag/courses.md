@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: courses"
-tag: courses
+title: "Tag: deep-learning-lectures"
+tag: deep-learning-lectures
 robots: noindex
 ---
