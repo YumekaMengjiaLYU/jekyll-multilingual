@@ -78,9 +78,9 @@ $$P_{ss'} = P[S_{t+1}=s' | S_t=s]$$
 - $\mathcal{R}$ is a reward function, 
 
 $$\mathcal{R}_s = E[R_{t+1}=s' | S_t=s]$$
-
-- $\gamma$ is the discount factor
 </div>
+- $\gamma$ is the discount factor
+
 ### Return
 <div class="definition">
 The return $G_t$ is the total discounted reward from time-step t.
@@ -134,7 +134,7 @@ $$
 where v is a column vector with one entry per state
 
 $$
-\[
+
 \begin{bmatrix}
     v_{1}       \\
     \vdots \\
@@ -156,8 +156,98 @@ $$
     \vdots \\
     v_{n}       
 \end{bmatrix}
-\]
+
 $$
+
+$R_n$ represents the reward enjoyed for exiting state n.
+
+### Solving the Bellman Equation
+- The Bellman equation is a linear equation
+- It can be solved directly
+$$
+v = \mathcal{R} + \gamma \mathcal{R} v
+
+(I - \gamma \mathcal{R})v = \mathcal{R}
+
+v = 
+(I - \gamma \mathcal{R})^{-1}\mathcal{R}
+$$
+- Computational complexity (matrix inversion) $O(n^3)$ for n states
+- Direct solution only possible for small MRPs
+- There are many iterative methods for large MRPs
+    - Dynamic programming
+    - Monte-Carlo evaluation
+    - Temporal-Difference learning
+
 ## Markov Decision Processes
 
+### Markov Decision Process
+<div class="definition">
+
+A Markov Reward Process is a tuple $\langle \mathcal{S}, \mathcal{P}, \mathcal{R}, \gamma \rangle$
+- $\mathcal{S}$ is a finite set of states
+- $\mathcal{A}$ is a finite set of actions
+- $\mathcal{P}$ is a state transition probability matrix
+
+$$P_{ss'} = P[S_{t+1}=s' | S_t=s]$$
+- $\mathcal{R}$ is a reward function, 
+
+$$\mathcal{R} _s = E[R_{t+1}=s' | S_t=s]$$
+</div>
+
+### Policies
+<div class="definition">
+
+A policy $\pi$ is a distribution over actions given states,
+
+$$\pi_{a|s} = P[A_{t}=a | S_t=s]$$
+
+</div>
+
+- A policy fully defines the behavior of an agent
+- MDP policies depend on the current state (not the history)
+- i.e., Policies are stationary (time-independent),
+$A_t ~ \pi(\dot | S_t)
+- Given an MDP $\mathcal{M}=\langle \mathcal{S},\mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma \rangle$ and a policy $\pi$
+- The state sequence $S_1, S_2, \dots$ is a Markov process \langle \mathcal{S},\mathcal{P}_{\pi} \rangle
+- The sate and reward sequence, $S_1, R_2, S_2, \dots$ is a Markov Reward process $S, \mathcal{P}_{\pi} , \mathcal{R}_{\pi} , \gamma$
+
+### Value Function
+<div class="definition">
+
+The state-value function $v_\pi(s)$ of an MDP is the expected return starting from state s, and then following policy $\pi$,
+
+$$v_\pi(s) = E_\pi[G_t | S_t=s]$$
+
+</div>
+
+<div class="definition">
+
+The action-value function $q_\pi(s,a)$ is the expected return starting from state s, taking action a, and then following policy $\pi$,
+
+$$q_\pi(s,a) = E_\pi[G_t | S_t=s, A_t = a]$$
+
+</div>
+
+E.g. action: take left or right?
+
+### Bellman Expectation Equation
+The state-value function can again be decomposed into immediate reward plus discounted value of successor state.
+
+$$
+v_\pi(s) = E_\pi [R_{t+1} +\gamma v_\pi(S_{t+1}) | S_t = s]
+$$
+
+The action-value function can similarly be decomposed,
+
+$$
+
+q_\pi(s,a) = E_\pi [R_{t+1} +\gamma q_\pi(S_{t+1}, A_{t+1}) | S_t = s, A_t = a]
+
+$$
+
+### Bellman Expectation Equation for $V_\pi$ 
+![backpropagation](/jupyternb/image/bellman-graph-pi.png)
+
+### Bellman Expectation Equation for $Q_\pi$ 
 ## Extensions to MDPs
