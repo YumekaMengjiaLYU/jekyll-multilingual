@@ -270,14 +270,64 @@ $$
 ### Optimal Value Function
 <div class="definition">
 
-The action-value function $q_\pi(s,a)$ is the expected return starting from state s, taking action a, and then following policy $\pi$,
+The optimal state-value function $v_*(s)$ is the maximum value function over all policies,
+$$v_*(s) = \max_\pi v_\pi (s)$$
 
-$$q_\pi(s,a) = E_\pi[G_t | S_t=s, A_t = a]$$
+The optimal action-value function is the maximum value function over all policies 
+$$q_*(s,a) = \max_\pi q_\pi (s,a)$$
 
 </div>
 
-THe optimal value function specifies the best possible performance in MDP.
+- THe optimal value function specifies the best possible performance in MDP.
 
-MDP is "solved" when we know the optimal
+- An MDP is "solved" when we know the optimal value fn/finding q*.
 
+### Optimal Policy
+Define a partial ordering over policies
+$$
+\pi \geq \pi' if v_\pi (s) \geq v_{\pi'}(s) \forall s
+$$
+<div class="definition">
+For any Markov Decision Process
+- There exists an optimal policy $\pi_*$, that is better than or equal to all other policies $\pi_* \geq \pi.\forall \pi$
+- All optimal policies achieve the optimal value function (possible to have more than one optimal)
+$v_{\pi_*}(s) = v_*(s)$
+- All optinal policies achieve the optimal action-value function
+$q_{\pi_*}(s,a) = q_*(s,a)$
+</div>
+
+### Finding an Optimal Policy
+An optimal policy can be found by maximizing over $q_* (s,a)$
+
+- There is always a deterministic optimal policy for any MDP
+- If we know $q_* (s,a)$, we immediately have the optimal policy
+
+### Bellman Optimality Equation for $v_*$
+The optimal value functions as recursively related by the Bellman optimality equations:
+$$
+v_* (s) = \max_a q_*(s,a)
+$$
+
+### Solving the Bellman Optimality Equation
+- Bellman Optimality Equation is non-linear
+- No closed form solution (in general)
+- Many iterative solution methods
+    - Value Iteration
+    - Policy Iteration
+    - Q-learning
+    - Sarsa
+
+Approaches to uncertainty:
+- Explicitly represent in MDP
+- Factor in uncertainty in MDP itself
+- Sufficient to make discount factor
+
+### Bellman's principle of optimality
+> The dynamic programming method breaks this decision problem into smaller subproblems. Bellman's principle of optimality describes how to do this:
+
+> Principle of Optimality: An optimal policy has the property that whatever the initial state and initial decision are, the remaining decisions must constitute an optimal policy with regard to the state resulting from the first decision. (See Bellman, 1957, Chap. III.3.)[Wikipedia]
 ## Extensions to MDPs
+
+- Infinite and continuous MDPs
+- Partially observable MDPs
+- Undiscounted, average reward MDPs
