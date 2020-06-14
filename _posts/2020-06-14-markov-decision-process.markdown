@@ -32,6 +32,23 @@ $$P[S_{t+1} |S_t] = P[S_{t+1} | S_1, ... S_t]$$
 
 - Once the state is known, the history may be thrown away
 - i.e. The state is a sufficient statistic of the future.
+
+### State Transition Matrix
+For a Markov state s and successor state $s'$, the state transition probability is defined by:
+
+$$
+\mathcal{P} = P[S_{t+1=s' | S_t=s]
+$$
+
+State transition matrix $\mathcal{P}$ defines transition probabilities to all successor states $s'$
+
+$$
+\mathcal{P} = \begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
+$$
+where each row of the matrix sums to 1.
 ## Markov Reward Processes
 
 ## Markov Decision Processes
