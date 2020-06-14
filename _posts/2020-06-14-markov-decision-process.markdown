@@ -21,7 +21,17 @@ lang: en
 ### Markov Property
 "The future is independent of the past given the present"
 
+<div class="definition">
 
+A state is Markov if and only if 
+$$P[S_{t+1} |S_t] = P[S_{t+1} | S_1, ... S_t]$$
+
+</div>
+
+- The state captures all relevant information from the history.
+
+- Once the state is known, the history may be thrown away
+- i.e. The state is a sufficient statistic of the future.
 ## Markov Reward Processes
 
 ## Markov Decision Processes

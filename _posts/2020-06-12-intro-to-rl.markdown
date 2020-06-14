@@ -117,7 +117,7 @@ An information state (a.k.a Markov state) contains all useful information from t
 <div class="definition">
 
 A state is Markov if and only if 
-$$P[S_{t+1} |S_t] = p[S_{t+1} | S_1, ... S_t]$$
+$$P[S_{t+1} |S_t] = P[S_{t+1} | S_1, ... S_t]$$
 
 </div>
 
@@ -165,7 +165,7 @@ $O_t = S_t^a = S_t^a$
 - A policy is the agent's behavior
 - It is a map from state to action 
 - Deterministic policy: $a = \pi (s)$ 
-- Stochastic policy: $\pi(a | s) = P[A=a | S=s]$ 
+- Stochastic policy: $\pi (a | s) = P[A=a | S=s]$ 
 
 ### Value Function
 - Value function is a prediction of future reward
