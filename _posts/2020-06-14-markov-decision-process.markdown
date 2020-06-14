@@ -246,8 +246,38 @@ q_\pi(s,a) = E_\pi [R_{t+1} +\gamma q_\pi(S_{t+1}, A_{t+1}) | S_t = s, A_t = a]
 
 $$
 
-### Bellman Expectation Equation for $V_\pi$ 
+### Bellman Expectation Equation for $v_\pi$ 
 ![backpropagation](/jupyternb/image/bellman-graph-pi.png)
 
-### Bellman Expectation Equation for $Q_\pi$ 
+### Bellman Expectation Equation for $q_\pi$ 
+![backpropagation](/jupyternb/image/bellman-graph-v-pi-1.png)
+
+### Bellman Expectation Equation for $v_\pi$ 
+![backpropagation](/jupyternb/image/bellman-graph-v-pi-2.png)
+
+How to find the best decison?
+
+### Bellman Expectation Equation (Matrix Form)
+The Bellman expectation equation can be expressed concisely using the induced MRP,
+$$
+v_\pi = \mathcal{R}^{\pi} + \gamma \mathcalP^{\pi}v_\pi
+$$
+Direct solution is 
+$$
+v_\pi = (I - \gamma \mathcal{P}^{\pi})^{-1}  \mathcalR^{\pi}
+$$
+
+### Optimal Value Function
+<div class="definition">
+
+The action-value function $q_\pi(s,a)$ is the expected return starting from state s, taking action a, and then following policy $\pi$,
+
+$$q_\pi(s,a) = E_\pi[G_t | S_t=s, A_t = a]$$
+
+</div>
+
+THe optimal value function specifies the best possible performance in MDP.
+
+MDP is "solved" when we know the optimal
+
 ## Extensions to MDPs
