@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lecture 6: Sequences and Recurrent Networks"
+title:  "Sequences and Recurrent Networks"
 ref: welcome
 date:   2020-06-10
 tags: deep-learning-lectures

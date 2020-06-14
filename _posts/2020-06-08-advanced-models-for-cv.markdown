@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lecture 4: Advanced Models for Computer Vision"
+title:  "Advanced Models for Computer Vision"
 ref: welcome
 date:   2020-06-08
 tags: courses

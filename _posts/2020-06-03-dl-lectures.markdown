@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lecture 1: Intro to Machine Learning & AI"
+title:  "Intro to Machine Learning & AI"
 ref: welcome
 date:   2020-06-03
 tags: courses

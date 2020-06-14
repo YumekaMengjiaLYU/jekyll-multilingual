@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lecture 5: Optimization for Machine Learning"
+title:  "Optimization for Machine Learning"
 ref: welcome
 date:   2020-06-09
 tags: courses
