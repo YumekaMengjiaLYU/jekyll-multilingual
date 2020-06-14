@@ -212,7 +212,7 @@ Not a requirement to build a model for env.
 - Model based
     - Policy and/or Value Function
     - Model
-## Problems within
+## Problems Within Reinforcement Learning
 
 ### Learning and Planning
 Two fundamental problems in sequential decision making
