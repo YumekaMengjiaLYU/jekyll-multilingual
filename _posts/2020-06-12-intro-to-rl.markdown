@@ -165,7 +165,8 @@ $O_t = S_t^a = S_t^a$
 - A policy is the agent's behavior
 - It is a map from state to action 
 - Deterministic policy: $a = \pi (s)$ 
-- Stochastic policy: $\pi (a | s) = P[A=a | S=s]$ 
+- Stochastic policy: 
+$$\pi (a | s) = P[A=a | S=s]$$ 
 
 ### Value Function
 - Value function is a prediction of future reward
