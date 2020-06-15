@@ -307,8 +307,15 @@ The optimal value functions as recursively related by the Bellman optimality equ
 $$
 v_* (s) = \max_a q_*(s,a)
 $$
+![backpropagation](/jupyternb/image/bellman-graph-6.png)
+
+### Bellman Optimality Equation for $q_*$
 ![backpropagation](/jupyternb/image/bellman-graph-3.png)
+
+### Bellman Optimality Equation for $v_*$ Again
 ![backpropagation](/jupyternb/image/bellman-graph-4.png)
+
+### Bellman Optimality Equation for $v_*$ Again
 ![backpropagation](/jupyternb/image/bellman-graph-5.png)
 ### Solving the Bellman Optimality Equation
 - Bellman Optimality Equation is non-linear
