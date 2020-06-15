@@ -252,7 +252,7 @@ $$
 ### Bellman Expectation Equation for $q_\pi$ 
 ![backpropagation](/jupyternb/image/bellman-graph-v-pi-1.png)
 
-### Bellman Expectation Equation for $v_\pi$ 
+### Bellman Expectation Equation for $v_\pi$ - revisit
 ![backpropagation](/jupyternb/image/bellman-graph-v-pi-2.png)
 
 How to find the best decison?
@@ -312,10 +312,10 @@ $$
 ### Bellman Optimality Equation for $q_*$
 ![backpropagation](/jupyternb/image/bellman-graph-3.png)
 
-### Bellman Optimality Equation for $v_*$ Again
+### Bellman Optimality Equation for $v_*$ - revisit
 ![backpropagation](/jupyternb/image/bellman-graph-4.png)
 
-### Bellman Optimality Equation for $v_*$ Again
+### Bellman Optimality Equation for $q_*$ - revisit
 ![backpropagation](/jupyternb/image/bellman-graph-5.png)
 ### Solving the Bellman Optimality Equation
 - Bellman Optimality Equation is non-linear
@@ -335,6 +335,7 @@ Approaches to uncertainty:
 > The dynamic programming method breaks this decision problem into smaller subproblems. Bellman's principle of optimality describes how to do this:
 
 > Principle of Optimality: An optimal policy has the property that whatever the initial state and initial decision are, the remaining decisions must constitute an optimal policy with regard to the state resulting from the first decision. (See Bellman, 1957, Chap. III.3.)[Wikipedia]
+
 ## Extensions to MDPs
 
 - Infinite and continuous MDPs
