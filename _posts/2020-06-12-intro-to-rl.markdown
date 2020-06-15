@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lecture 1: Introduction to Reinforcement Learning"
+title:  "Introduction to Reinforcement Learning"
 ref: welcome
 date:   2020-06-10
 tags: reinforcement-learning-lectures
