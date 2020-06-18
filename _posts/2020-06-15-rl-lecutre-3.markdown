@@ -71,10 +71,132 @@ one step lookhead using Bellman equation to find out v_2
 $$
 v_{k+1}(s) = \sum \pi(a|s) \left(\mathcal{R}_s^a + \gamma \sum \mathcal{R}_s^a v_k(s') \right)
 $$
+ 
+- $\pi(a|s)$ represents the probability
+- $\left(\mathcal{R}_s^a + \gamma \sum \mathcal{R}_s^a v_k(s') \right)$ represents the long-term reward
+
+More concisely,
+
+$$
+v_{k+1} = \mathcal{R}^\pi + \gamma \mathcal{P}_\pi v^k
+$$
+
 ## Policy Iteration
+
+### How to Improve a Policy
+- Given a policy $\pi$,
+    - Evaluate the policy $\pi$,
+
+    - improve the policy by acting greedily with respect to $v_\pi$
+
+- In Small Gridworld improved policy was optimal, $\pi'=\pi^*$
+
+- In general, need more iterations of improvement/evaluation
+
+- But this process of policy iteration always converges to $\pi^*$
+### Policy Improvement
+- Consider a deterministic policy $a = \pi(s)$
+
+- We can improve the policy by acting greedily
+
+- This improves the value from any state s over one step
+
+- It therefore improves the function
+
+- If improvements stop,
+
+- Then the Bellman optimality equation has been satistfied
+
+- Therefore $v_\pi(s)=v_*(s)$ for all $s in \mathcal{S}$, and $\pi$ is an optimal policy.
+
+
+
+### Modified Policy Iteration
+- Does policy evaluation need to converge to $v_\pi$?
+    - or should we introduce a stopping condition, 
+    - or simply stop after k iterations of iterative policy evaluation?
+
+- E.g., in the small gridworld k=3 was sufficient to achieve optimal policy
+
+- Why not update policy every iteration? i.e. stop after k=1
+    - This is equivalent to value iteration
+### Generalized Policy Iteration
+- Policy evalution
+    - Estimate v_\pi any policy evaluation algorithm
+- Policy improvement
+    - Generate $\pi' > \pi$ any policy improvement algorithms
 
 ## Value Iteration
 
+### Principle of Optimality
+Any optimal policy can be subdivided into two components:
+- An optimal first action $A_*$
+- Followed by an optimal policy from successor state S'
+
+### Deterministic Value Iteration
+- If we know the solution to subproblem $v_*(s')$, then solution can be found by one-step lookahead
+$$
+v_{*}(s) = \sum \pi(a|s) \left(\mathcal{R}_s^a + \gamma \sum \mathcal{R}_s^a v_k(s') \right)
+$$
+- The idea of value iteration is to apply these updates iteratively
+- Intuition: start with final rewards and work backwards
+- Still works with loopy, stochastic MDPs
+
 ## Extensions to Dynamic Programming
 
+### Asynchronous Dynamic Programming
+- DP methods described so far used synchronous backups
+- i.e. all states are backed up in parallel
+- Asynchronous DP backs up states individually, in any order
+- For each selected state, apply the appropriate backup
+- Can significantly reduce computation
+- Guaranteed to converge if all states continue to be selected
+- Three ideas for asynchronous dynamic programming:
+    - In-place dynamic programming
+    - Prioritized sweeping
+    - Real-time dynamic programming
+
+### In-Place Dynamic Programming
+- Synchronous value iteration stores two copies of value function for all s in $\mathcal{S}$
+
+- In-place value iteration only stores one copy of value function for all s in $\mathcal{S}$
+
+### Prioritized Sweeping
+- Use magnitude of Bellman error to guide state selection, e.g.
+
+- Backup the state with the largest remaining Bellman error
+- Update Bellman error of affected states after each backup
+- Requires knowledge of reverse dynamics (predecessor states)
+- Can be implemented efficiently by maintaining a priority queue
+
+### Real-Time Dynamic Programming
+- Idea: only states that are relevant to agent
+- Use agent's experience to guide the selection of states
+- After each time-step $S_t, A_t, R_{t+1}$
+- Backup the state $S_t$
+
+### Full-Width Backups
+- DP uses full-width backups
+- For each backup (sync or async)
+    - Every successor state and action is considered
+    - Using knowledge of the MDP transitions and reward function
+- DP is effective for medium-sized (millions) problems
+- For large problems, DP suffers Bellman's curse of dimensionality:
+    - Number of states grows exponentially with number of state variables
+- Even one backup can be too expensive
+
+### Sample Backups
+- Using sample rewards and sample transitions
+$$\langle \mathcal{S},\mathcal{A},\mathcal{R},\mathcal{S'}$$ instead of reward function $\mathcal{R}$ and transition dynamics $\mathcal{P}$
+
+- Advantages:
+    - Model-free: no advance knowledge of MDP required
+    - Breaks the curse of dimensionality through sampling
+    - Cost of backup is constant, independent of $n=\mathcal{S}$
+
+### Approximate Dynamic Programming
+- Approximate the value function
+- Using a function approximator 
+- Apply dynamic programming to
+  
 ## Contraction Mapping
