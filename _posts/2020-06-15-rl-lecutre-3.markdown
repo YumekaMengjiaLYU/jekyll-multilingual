@@ -25,6 +25,7 @@ Dynamic programming is a very general solution method for problems which have tw
 
 - Optimal substructure
     - Principle of optimality applied
+    
     - Optimal solution can be decomposed into subproblems
 
 - Overlapping subproblems
@@ -32,6 +33,7 @@ Dynamic programming is a very general solution method for problems which have tw
 
 - Markov decision process satisfy both properties
     - Bellman equation gives recursive decomposition
+
     - Value function stories and reuses solutions
 
 ### Planning by Dynamic Programming
@@ -41,13 +43,18 @@ Dynamic programming is a very general solution method for problems which have tw
 
 - For prediction:
     - Input: MDP $\langle \mathcal{S},\mathcal{A},\mathcal{P},\mathcal{R},\mathcal{\gamma} \rangle$ and policy $\pi$
+
     - or: MRP $\langle \mathcal{S},\mathcal{P^{\pi}},\mathcal{R^{\pi}}, \gamma$
+    
     - Output: value function $v_\pi$
 
 - Or for control:
     - Input: MDP $\langle \mathcal{S},\mathcal{A},\mathcal{P},\mathcal{R},\mathcal{\gamma} \rangle$
+    
     - insteqd of given policy, want to know what the best policy solving mdp what is the best thing to do under the mdp best mapping from state to action achieve the long term reward in mdp
+    
     - Output: optimal value function $v_\pi$
+    
     - and equivalently: optimal policy $\pi_*$ 
 
 ### Not only used in MDPs
@@ -68,6 +75,7 @@ optimal substructure
 
 ### Iterative Policy Evaluation
 - Problem: evaluate a given policy $\pi$
+
 - Solution: iterate application of Bellman expectation backup
 Bellman equation to do policy evaluation
 Bellman optimization to do control
@@ -75,12 +83,18 @@ Take the Bellman equation and turn it into iterative update: our first mechanism
 
 - $v_1 \rightarrow v_2 \dots \rightarrow v_\pi$
 one step lookhead using Bellman equation to find out v_2
+
 - Using synchronous backups/evaluations, 
     - At each iteration k + 1,
+
     - For all states $s \in S$
+
     - Update $v_{k+1}(s)$ from $v_k(s')$
+
     - where s' is a successor state of s
+
 - We will discuss asynchronous backups laters
+
 - Convergence to $v_\pi$ will be proven at the end of the lecture
  
 ### Iterative Policy Evaluation - continued
@@ -89,6 +103,7 @@ v_{k+1}(s) = \sum \pi(a|s) \left(\mathcal{R}_s^a + \gamma \sum \mathcal{R}_s^a v
 $$
  
 - $\pi(a|s)$ represents the probability
+
 - $\left(\mathcal{R}_s^a + \gamma \sum \mathcal{R}_s^a v_k(s') \right)$ represents the long-term reward
 
 More concisely,
@@ -141,6 +156,7 @@ $$
 ### Modified Policy Iteration
 - Does policy evaluation need to converge to $v_\pi$?
     - or should we introduce a stopping condition, 
+
     - or simply stop after k iterations of iterative policy evaluation?
 
 - E.g., in the small gridworld k=3 was sufficient to achieve optimal policy
@@ -151,6 +167,7 @@ $$
 ### Generalized Policy Iteration
 - Policy evalution
     - Estimate v_\pi any policy evaluation algorithm
+
 - Policy improvement
     - Generate $\pi' > \pi$ any policy improvement algorithms
 
@@ -159,6 +176,7 @@ $$
 ### Principle of Optimality
 Any optimal policy can be subdivided into two components:
 - An optimal first action $A_*$
+
 - Followed by an optimal policy from successor state S'
 
 ### Deterministic Value Iteration
@@ -224,6 +242,7 @@ $$
 
 - For each backup (sync or async)
     - Every successor state and action is considered
+
     - Using knowledge of the MDP transitions and reward function
 
 - DP is effective for medium-sized (millions) problems
@@ -239,7 +258,9 @@ $$\langle \mathcal{S},\mathcal{A},\mathcal{R},\mathcal{S'}$$ instead of reward f
 
 - Advantages:
     - Model-free: no advance knowledge of MDP required
+
     - Breaks the curse of dimensionality through sampling
+
     - Cost of backup is constant, independent of $n=\mathcal{S}$
 
 ### Approximate Dynamic Programming
@@ -272,6 +293,7 @@ $$\langle \mathcal{S},\mathcal{A},\mathcal{R},\mathcal{S'}$$ instead of reward f
 
 - What does a Bellman backup do to points in this space?
     - It will bring value functions closer
+
     - Therefore the backups must converge on a unique solution
 
 ### Value Function $\inf$-Norm
@@ -296,6 +318,7 @@ $$\langle \mathcal{S},\mathcal{A},\mathcal{R},\mathcal{S'}$$ instead of reward f
 
 - By contraction mapping theorem:
     - Iterative policy evaluation converges on $v_\pi$
+
     - Policy iteration converges on $v_*$
 
 ### Bellman Optimality Backup is a Contraction
