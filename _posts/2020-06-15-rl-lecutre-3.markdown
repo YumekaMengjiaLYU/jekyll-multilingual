@@ -10,32 +10,40 @@ lang: en
 
 ### What is dynamic programming?
 - Dynamic sequential or temporal component to the problem
+
 - Programming optimizing a program, i.e. a policy (say start with a mapping, optimize the behavior)
     - c.f. linear programming
 
 Put the two ideas together ;)
 - A method for solving complex problems
+
 - By breaking them down into subproblems
     - Solve the subproblems
 
 ### Requirements for Dynamic Programming
 Dynamic programming is a very general solution method for problems which have two properties:
+
 - Optimal substructure
     - Principle of optimality applied
     - Optimal solution can be decomposed into subproblems
+
 - Overlapping subproblems
     - Subproblems recur many times
+
 - Markov decision process satisfy both properties
     - Bellman equation gives recursive decomposition
     - Value function stories and reuses solutions
 
 ### Planning by Dynamic Programming
 - Dynamic programming assumes full knowledge of the MDP
+
 - It is used for planning in an MDP
+
 - For prediction:
     - Input: MDP $\langle \mathcal{S},\mathcal{A},\mathcal{P},\mathcal{R},\mathcal{\gamma} \rangle$ and policy $\pi$
     - or: MRP $\langle \mathcal{S},\mathcal{P^{\pi}},\mathcal{R^{\pi}}, \gamma$
     - Output: value function $v_\pi$
+
 - Or for control:
     - Input: MDP $\langle \mathcal{S},\mathcal{A},\mathcal{P},\mathcal{R},\mathcal{\gamma} \rangle$
     - insteqd of given policy, want to know what the best policy solving mdp what is the best thing to do under the mdp best mapping from state to action achieve the long term reward in mdp
@@ -45,11 +53,17 @@ Dynamic programming is a very general solution method for problems which have tw
 ### Not only used in MDPs
 Dynamic programming is used to solve many other problems, e.g.
 optimal substructure
+
 - Scheduling algorithms
+
 - String algorithms (e.g. sequence alignment)
+
 - Graph algorithms (e.g. shortest path algorithms)
+
 - Graphical models (e.g. Viterbi algorithm)
+
 - Bioinformatics (e.g. lattice models)
+
 ### Iterative Policy Evaluation
 - Problem: evaluate a given policy $\pi$
 - Solution: iterate application of Bellman expectation backup
@@ -216,7 +230,71 @@ $$\langle \mathcal{S},\mathcal{A},\mathcal{R},\mathcal{S'}$$ instead of reward f
 
 ### Approximate Dynamic Programming
 - Approximate the value function
+
 - Using a function approximator 
+
 - Apply dynamic programming to
-  
+
+### Some Technical Questions
+- How do we know that value iteration converges to $v_*$?
+
+
+- Or that iterative policy evaluation converges to $v_\pi$?
+
+- And therefore that policy iteration converges to $v_*$?
+
+- Is the solution unique?
+
+- How fast do these algorithms converge?
+
+- These questions are resolved by contraction mapping theorem.
+
+### Value Function Space
+- Consider the vector space $\mathcal{V}$ over value functions
+
+- There are $\mathcal{S}$ dimensions
+
+- Each point in this space fully specifies a value function
+
+- What does a Bellman backup do to points in this space?
+    - It will bring value functions closer
+    - Therefore the backups must converge on a unique solution
+
+### Value Function $\inf$-Norm
+- We will measure distance between state-value functions u and v by the $\inf$-Norm
+
+- i.e. the largest difference between state values
+
+
 ## Contraction Mapping
+
+### Bellman Expectation Backup is a Contraction
+
+- Define the Bellman expectation backup operator
+
+- This operator is a $\gamma$-contraction, meaning it makes value functions closer by at least $\gamma$
+
+### Contraction Mapping Theorem
+
+### Convergence of Iterative Policy Evaluation/Iteration
+
+- The Bellman expectation operator $T_\pi$ has a unique fixed point
+
+- By contraction mapping theorem:
+    - Iterative policy evaluation converges on $v_\pi$
+    - Policy iteration converges on $v_*$
+
+### Bellman Optimality Backup is a Contraction
+
+- Define the Bellman optimality backup operator
+
+- This operator is a $\gamma$-contraction, meaning it makes value functions closer by at least $\gamma$
+  
+### Convergence of Value Iteration
+- The Bellman optimality operator $T^*$ has a unique fixed point
+
+- By Bellman optimality equation, $v_*$ is a fixed point of $T^*$
+
+- By contraction mapping theorem
+
+- Value iteration converges on $v_*$
