@@ -6,7 +6,7 @@ date:   2020-06-15
 tags: reinforcement-learning-lectures
 lang: en
 ---
-## Introduction
+## 1.Introduction
 
 ### What is dynamic programming?
 - Dynamic sequential or temporal component to the problem
@@ -64,6 +64,8 @@ optimal substructure
 
 - Bioinformatics (e.g. lattice models)
 
+## 2.Policy Evaluation
+
 ### Iterative Policy Evaluation
 - Problem: evaluate a given policy $\pi$
 - Solution: iterate application of Bellman expectation backup
@@ -95,27 +97,38 @@ $$
 v_{k+1} = \mathcal{R}^\pi + \gamma \mathcal{P}_\pi v^k
 $$
 
-## Policy Iteration
+## 3.Policy Iteration
 
 ### How to Improve a Policy
 - Given a policy $\pi$,
     - Evaluate the policy $\pi$,
 
+    $$
+    v_\pi(s) = E [R_{t+1} + \gamma R_{t+2} + \dots|S_t = s]
+    $$
     - improve the policy by acting greedily with respect to $v_\pi$
+    $$
+    \pi' = greedy(v_\pi)
+    $$
+
 
 - In Small Gridworld improved policy was optimal, $\pi'=\pi^*$
 
 - In general, need more iterations of improvement/evaluation
 
 - But this process of policy iteration always converges to $\pi^*$
+
 ### Policy Improvement
 - Consider a deterministic policy $a = \pi(s)$
 
 - We can improve the policy by acting greedily
 
+$$
+\pi'(s) = \argmax_{a \in \mathcal{A}} q_\pi(s,a)
+$$
 - This improves the value from any state s over one step
 
-- It therefore improves the function
+- It therefore improves the value function
 
 - If improvements stop,
 
@@ -134,13 +147,14 @@ $$
 
 - Why not update policy every iteration? i.e. stop after k=1
     - This is equivalent to value iteration
+
 ### Generalized Policy Iteration
 - Policy evalution
     - Estimate v_\pi any policy evaluation algorithm
 - Policy improvement
     - Generate $\pi' > \pi$ any policy improvement algorithms
 
-## Value Iteration
+## 4.Value Iteration
 
 ### Principle of Optimality
 Any optimal policy can be subdivided into two components:
@@ -160,7 +174,7 @@ $$
 
 - Still works with loopy, stochastic MDPs
 
-## Extensions to Dynamic Programming
+## 5.Extensions to Dynamic Programming
 
 ### Asynchronous Dynamic Programming
 - DP methods described so far used synchronous backups
@@ -266,7 +280,7 @@ $$\langle \mathcal{S},\mathcal{A},\mathcal{R},\mathcal{S'}$$ instead of reward f
 - i.e. the largest difference between state values
 
 
-## Contraction Mapping
+## 6.Contraction Mapping
 
 ### Bellman Expectation Backup is a Contraction
 
