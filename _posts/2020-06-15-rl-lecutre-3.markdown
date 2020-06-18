@@ -138,19 +138,29 @@ Any optimal policy can be subdivided into two components:
 $$
 v_{*}(s) = \sum \pi(a|s) \left(\mathcal{R}_s^a + \gamma \sum \mathcal{R}_s^a v_k(s') \right)
 $$
+
 - The idea of value iteration is to apply these updates iteratively
+
 - Intuition: start with final rewards and work backwards
+
+
 - Still works with loopy, stochastic MDPs
 
 ## Extensions to Dynamic Programming
 
 ### Asynchronous Dynamic Programming
 - DP methods described so far used synchronous backups
+
 - i.e. all states are backed up in parallel
+
 - Asynchronous DP backs up states individually, in any order
+
 - For each selected state, apply the appropriate backup
+
 - Can significantly reduce computation
+
 - Guaranteed to converge if all states continue to be selected
+
 - Three ideas for asynchronous dynamic programming:
     - In-place dynamic programming
     - Prioritized sweeping
@@ -165,24 +175,34 @@ $$
 - Use magnitude of Bellman error to guide state selection, e.g.
 
 - Backup the state with the largest remaining Bellman error
+
 - Update Bellman error of affected states after each backup
+
 - Requires knowledge of reverse dynamics (predecessor states)
+
 - Can be implemented efficiently by maintaining a priority queue
 
 ### Real-Time Dynamic Programming
 - Idea: only states that are relevant to agent
+
 - Use agent's experience to guide the selection of states
+
 - After each time-step $S_t, A_t, R_{t+1}$
+
 - Backup the state $S_t$
 
 ### Full-Width Backups
 - DP uses full-width backups
+
 - For each backup (sync or async)
     - Every successor state and action is considered
     - Using knowledge of the MDP transitions and reward function
+
 - DP is effective for medium-sized (millions) problems
+
 - For large problems, DP suffers Bellman's curse of dimensionality:
     - Number of states grows exponentially with number of state variables
+
 - Even one backup can be too expensive
 
 ### Sample Backups
