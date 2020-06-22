@@ -75,7 +75,7 @@ $$
 $$
 
 $$
-\mu_k = \mu_{k-1} + \frac{x_k -\mu_{k-1}
+\mu_k = \mu_{k-1} + \frac{x_k -\mu_{k-1}}{k}
 $$
 
 ### Incremental Monte-Carlo Updates
@@ -93,7 +93,7 @@ $$
 
     V(S_t) = V(S_t) + \alpha (G_t - V(S_t)) 
     $$
-### Temporal-
+
 
 
 ## Temporal-Difference Learning
