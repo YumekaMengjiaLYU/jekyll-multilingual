@@ -3,12 +3,13 @@ layout: post
 title:  "Model-Free Prediction"
 ref: welcome
 date:   2020-06-19
-tags: courses
+tags: reinforcement-learning-lectures
 lang: en
 ---
 
 ## Introduction
 
+Estimate the value function of an unknown MDP
 
 ## Monte-Carlo Reinforcement Learning
 - MC methods learn directly from episodes of experience
@@ -168,6 +169,95 @@ $$
     - MC samples
     - DP does not sample
     - TD samples
-    
+
 ## TD($\lambda$)
 
+### n-step Prediction
+- Let TD target look n steps into the future
+
+- Define the n-step return
+
+- n-step temporal-difference learning
+
+
+### Large Random Walk Example
+
+### Averaging n-step Returns
+- We can average n-step returns over different n
+
+- e.g. average the 2-step and 4-step returns
+
+- Combines information from two different time-steps
+
+- Can we efficiently combine information from all time-steps?
+
+### $\lambda$-return
+
+### $TD(\lambda)$ Weighting Function
+
+### Forward-view $TD(\lambda)$
+
+- Update value function towards the $TD(\lambda)$
+
+- Forward-view looks into the future to compute $G_t^{\lambda}$
+
+- Like MC, can only be computed from complete episodes
+
+### Forward-view $TD(\lambda)$ on Large Random Walk
+
+### Backward View $TD(\lambda)$
+
+- Forward view provides theory
+
+- Backward view provides mechanism
+
+- Update online, every step, from incomplete sequences
+
+### Eligibility Traces
+
+- Credit assignment problem: did bell or light cause shock?
+
+- Frequency heuristic: assign credit to most frequent states
+
+- Recency heuristic: assign credit to most recent states
+
+- Eligibility traces combine both heuristics
+
+### Backward View $TD(\lambda)$
+
+- Keep an eligibility trace for every state s
+
+- Update value V(s) for every state s
+
+- In proportion to TD-error and eligibility trace
+
+### $TD(\lambda)$ and $TD(0)$
+
+- when $\lambda$ = 0 , current state is updated
+
+### $TD(\lambda)$ and MC
+
+- When $\lambda$ = 0, credit is deferred until end of episode
+
+- Consider episodic environments with offline updates
+
+- Over the course of an episode, total update for $\lambda$ = 0  is the same as total update for MC
+
+
+
+### $TD(1)$ and MC
+- Consider an episode where s is visited once at time-step k
+
+### Telescoping in $TD(\lambda)$
+
+### $TD(\lambda)$ and $TD(1)$
+
+### Telescoping in $TD(\lambda)$
+
+### Forwards and Backwards in $TD(\lambda)$
+
+### Offline Equivalence of Forward and Backward TD
+
+### Online Equivalence of Forward and Backward TD
+
+### Final Summary
