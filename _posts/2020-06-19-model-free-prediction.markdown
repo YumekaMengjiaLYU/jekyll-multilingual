@@ -273,4 +273,8 @@ $$
 - Exact online $TD(\lambda)$ achieves perfect equivalence
 
 - By using a slightly different form of eligibility trace
+
 ### Final Summary
+
+
+![backpropagation](/jupyternb/image/fwd-bwd-TD.png)
