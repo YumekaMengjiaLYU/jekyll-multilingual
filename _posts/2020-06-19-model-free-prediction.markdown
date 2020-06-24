@@ -256,8 +256,21 @@ $$
 
 ### Forwards and Backwards in $TD(\lambda)$
 
+- 
+
+- $TD(\lambda)$ eligibility trace discounts time since visit
+
 ### Offline Equivalence of Forward and Backward TD
+- Offline updates are accumulated within episode
+
+    - applied in batch at the end of the episode
 
 ### Online Equivalence of Forward and Backward TD
+- $TD(\lambda)$ updates are applied online at each step within episode
 
+- Forward and backward-view $TD(\lambda)$ are slightly different
+
+- Exact online $TD(\lambda)$ achieves perfect equivalence
+
+- By using a slightly different form of eligibility trace
 ### Final Summary
