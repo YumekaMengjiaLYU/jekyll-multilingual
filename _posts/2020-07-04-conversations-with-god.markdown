@@ -315,8 +315,196 @@ In this instance, your mythical tales and stories are not so far from ultimate r
 
 My divine purpose in dividing Me was to create sufficient parts of Me so that I could know Myself experientially. There is only one way for the Creator to know Itself experientially as the Creator, and that is to create. And so I gave to each of the countless parts of Me (to all of My spirit children) the same power to create which I have as the whole.
 
-**This is what your religious mean when they say that you were created in the "image and likeness of God." This doesn't mean, as some have suggested, that our physical bodies look alike (although God can adopt whatever physical form God chooses for a particular purpose). It does mean that our essence is the same. We are composed of the same stuff. We ARE the "same stuff"! With all the same properties and abilities -- including the ability to create physical reality out of thin air.
+**This is what your religious mean when they say that you were created in the "image and likeness of God." This doesn't mean, as some have suggested, that our physical bodies look alike (although God can adopt whatever physical form God chooses for a particular purpose). It does mean that our essence is the same. We are composed of the same stuff. We ARE the "same stuff"! With all the same properties and abilities -- including the ability to create physical reality out of thin air.**
 
+My purpose in creating you, My spiritual offspring, was for Me to know Myself as God. I have no way to do that save through you. Thus it can be said (and has been, many times) that My purpose for you is that you should know yourself as Me.
+
+This seems so amazingly simple, yet it becomes very complex -- because there is only one way for you to know yourself as Me, and that is for you first to know yourself as not Me.
+
+Now try to follow this -- fight to keep up -- because this gets very subtle here. Are you ready?
+
+Now, to keep things simple, I'm going to use your children of God mythological model as a basis for discussion, because it is a model with which you are familiar--and in many ways it is not that far off.
+
+So let's go back to how this process of self-knowing must work.
+
+There is one way I could have called all of My spiritual children to know themselves as parts of Me--and that was simply to tell them. This I did. But you see, it was not enough for Spirit to simply know Itself as God, or part of God, or children of God, or inheritors of the kingdom (or whatever mythology you want to use).
+
+As I've already explained, knowing something, and experiencing it, are two different things. Spirit longed to know Itself experientially (just as I did!). Conceptual awareness was not enough for you. So I devised a plan. It is the most extraordinary idea in all the universe--and the most spectacular collaboration. I say collaboration because all of you are in it with Me.
+
+Under the plan, you as pure spirit would enter the physical universe just created. This is because physicality is the only way to know experientially what you know conceptually. It is, in fact, the reason I created the physical cosmos to begin with--and the system of relativity which governs it, and all creation.
+
+Once in the physical universe, you, My spirit children, could experience what you know of yourself--but first, you had to come to know the opposite. To explainn this simplistically, you cannot know yourself as tall unless and until you become aware of short. You cannot experience the part of yourself that you call fat unless you also come to know thin.
+
+Taken to ultimate logic, you cannot experience yourself as what you are until you've encountered what you are not. This is the purpose of the theory of relativity, and all physical life. It is by that which you are not that you yourself are defined.
+
+Now in the case of the ultimate knowing--in the case of knowing yourself as the Creator--you cannot experience your Self as creator unless and until you create. And you cannot create yourself until you un-create yourself. In a sense, you have to first "not be" in order to be.
+
+Of course, there is no way for you to not be who and what you are--you simply are that (pure, creative spirit), have been always, and always will be. So, you did the next best thing. You caused yourself to forget Who You Really Are.
+
+Upon entering the physical universe, you relinquished your remembrance of yourself. This allows you to choose to be Who You Are, rather than simply wake up in the castle, so to speak.
+
+It is in the act of choosing to be, rather than simply being told that you are, a part of God that you experience yourself as being at total choice, which is what, by definition, God is. Yet how can you have a choice about something over which there is no choice? You cannot not be My offspring no matter how hard you try--but you can forget.
+
+You are, have always been, and will always be, a divine part of the divine whole, a member of the body. That is why the act of rejoining the whole, of returning to God, is called remembrance. You actually choose to re-member Who You Really Are, or to join together with the various parts of you to experience the all of you--which is to say, the All of Me.
+
+Your job on Earth, therefore, is not to learn (because you already know), but to re-member Who You Are. And to re-member who everyone else is. That is why a big part of your job is to remind others (that is, to re-mind them), so that they can re-member also.
+
+All the wonderful spiritual teachers have been doing just that. It is your sole purpose. That is to say, your soul purpose.
+
+Of all the questions man has asked of God, this is the one asked most often. From the beginning of time man has asked it. From the first moment to this you have wanted to know, why must it be like this?
+
+The classic posing of the question is usually something like: If God is all-perfect and all-loving, why would God create pestilence and famine, war and disease, earthquakes and tornados and hurricanes and all manner of natural disaster, deep personal disappointment, and worldwide calamity?
+
+The answer to this question lies in the deeper mystery of the universe and the highest meaning of life.
+
+I do not show My goodness by creating only what you call perfection all around you. I do not demonstrate My love by not allowing you to demonstrate yours.
+
+As I have already explained, you cannot demonstrate love until you can demonstrate not loving. A thing cannot exist without its opposite, except in the world of the absolute. Yet the realm of the absolute was not sufficient for either you or Me. I existed there, in the always, and it is from where you, too, have come.
+
+In the absolute there is no experience, only knowing. Knowing is a divine state, yet the grandest joy is in being. Being is achieved only after experience. The evolution is this: knowing, experiencing, being. This is the Holy Trinity--the Triune that is God.
+
+God the Father is knowing--the parent of all understandings, the begetter of all experience, for you cannot experience that which you do not know.
+
+God the Son is experiencing--the embodiment, the acting out, of all that the Father knows of Itself, for you cannot be that which you have not experienced.
+
+God the Holy Spirit is being--the disembodiment of all that the Son has experienced of Itself; the simple exquisite is-ness possible only through the memory of the knowing and experiencing.
+
+The simple being is bliss. It is God-state, after knowing and experiencing Itself. It is that for which God yearned in the beginning.
+
+Of course, you are well past the point where you must have it explained to you that the father-son descriptions of God have nothing to do with gender. I use here the picturesque speech of your most recent scriptures. Much earlier holy writings placed this metaphor in a mother-daughter context. Neither is correct. Your mind can best hold the relationships as: parent-offspring. Or: that-which-gives-rise-to, and that-which-is-risen.
+
+Adding the third part of the Trinity produces this relationship:
+
+That which gives rise to / That which is risen / That which is.
+
+This Triune Reality is God's signature. It is the divine pattern. The three-in-one is everywhere found in the realms of the sublime. You cannot escape it in matters dealing with time and space, God and consciousness, or any of the subtle relationships. On the other hand, you will not find the Triune Truth in any of life's gross relationships.
+
+The Triune Truth is recognized in life's subtle relationships by everyone dealing with such relationships. Some of your religionists have described the Triune Truth as Father, Son, and Holy Ghost. Some of your psychiatrists use the terms superconscious, conscious and subconscious. Some of your spiritualists say mind, body, and spirit. Some of your scientists see energy, matter, ether. Some of your philosophers say a thing is nont true for you until it is true in thought, word, and deed. When discussing time, you speak of three times only: past, present, future. Similarly, there are three moments in your perception--before, now, and after. In terms of spiritual relationships, whether considering the points in the universe, or various points in your own room, you recognize here, there, and the space in between.
+
+In matters of gross relationships, you recognize no "in-between." That is because gross relationships are always dyads, whereas relationships of the higher realm are invariably triads. Hence, there is left-right, up-down, big-small, fast-slow, hot-cold, and the greatest dyad ever created: male-female. There are no in-betweens in these dyads. A thing is either one thing or the other, or some greater or lesser version in relationship to one of these polarities.
+
+Within the realm of gross relationships, nothing conceptualized can exist without a conceptualization of its opposite. Most of your day-to-day experience is foundationed in this reality.
+
+Within the realm of sublime relationships nothing which exists has an opposite. All Is One, and everything progresses from one to the other in a never-ending circle.
+
+
+Time is such a sublime realm, in which what you call past, present, and future exist inter-relationally. That it, they are not opposites, but rather parts of the same whole; progressions of the same idea; cycles of the same energy; aspects of the same immutable Truth. If you conclude from this that past, present, and future exist at one and the same "time," you are right. (Yet now is not the mnoment to discuss that. We can get into this in much greater detail when we explore the whole concept of time--which we will do later.)
+
+The world is the way it is because it could not be any other way and still exist in the gross realm of physicality. Earthquakes and hurricanes, floods and tornados, and events that you call natural disasters are but movements of the elements from one polarity to the other. The whole birth-death cycle is part of this movement. These are the rhythms of life, and everything in gross reality is subject to them, because life itself is a rhythm. It is a wave, a vibration, a pulsation at the very heart of the All That Is.
+
+Illness and disease are opposites of health and wellness, and are made manifest in your reality at your behest. You cannot be ill without at some level causing yourself to be, and you can be well again in a moment by simply deciding to be. Deep personal disappointments are responses which are chosen, and worldwide calamities are the result of worldwide consciousness.
+
+Your question infers that I choose these events, that it is My will and desire they should occur. Yet I do nnot will these things into being, I merely observe you doing so. And I do nothing to stop them, because to do so would be to thwart your will. That, in turn, would deprive you of the God experience, which is the experience you and I have chosen together.
+
+Do not condemn, therefore, all that you would call bad in the world. Rather, ask yourself, what about this have you judged bad, and what, if anything, you wish to do to change it.
+
+Inquire within, rather than without, asking: "What part of my Self do I wish to experience now in the face of this calamity? What aspect of being do I choose to call forth?" For all of life exists as a tool of your own creation, and all of its events merely present themselves as opportunities for you to decide, and be, Who You Are.
+
+This is true for every soul, and so you see there are no victims in the universe, only creators. The Masters who have walked this planet all knew this. That is why, no matter which Master you might name, none imagined themselves to be victimized--though many were truly crucified.
+
+Each soul is a Master--though some do not remember their origins or their heritages. Yet each creates the situation and the circumstances for its own highest purpose and its own quickest remembering--in each moment called now.
+
+Judge not, then, the karmic path walked by another. Envy not success, nor pity failure, for you know not what is success or failure in the soul's reckoning. Call not a thing calamity, nor joyous event, until you decide, or witness, how it is used. For is a death a calamity if it saves the lives of thousands? And is a life a joyous event if it has caused nothing but grief? Yet even this you should not judge, but keep always your own counsel, and allow others theirs.
+
+This does not mean ignore a call for help, nor the urging of your own soul to work toward the change of some circumstance or condition. It does mean avoiding labels and judgment while you do whatever you do. For each circumstance is a gift, and in each experience is hidden a treasure.
+
+There once was a soul who knew itself to be the light. This was a new soul, and so, anxious for experience. "I am the light," it said. "I am the light." Yet all the knowing of it and all the saying of it could not substitute for the experience of it. And in the realm from which this soul emerged, there was nothing but the light. Every soul was grand, every soul was magnificent, and every soul shone with the brilliance of My awesome light. And so the little soul in question was as a candle in the sun. In the midst of the grandest light--of which it was a part--it could not see itself, nor experience itself as Who and What it Really Is.
+
+Now it came to pass that this soul yearned and yearned to know itself. And so great was its yearning that I one day said, "Do you know, Little One, what you must do to satisfy this yearning of yours?"
+
+"Oh, what, God? What? I'll do anything!" The little soul said.
+
+"You must separate yourself from the rest of us," I answered, "and then you must call upon yourself the darkness."
+
+"What is the darkness, o Holy One?" the little soul asked.
+
+"That which you are not," I replied, and the soul understood.
+
+And so this the soul did, removinng itself from the All, yea, going even unto another realm. And in this realm the soul had the power to call into its experience all sorts of darkness. And this it did.
+
+Yet in the midst of all the darkness did it cry out, "Father, Father, why hast Thou forsaken me?" Even as have you in your blackest times. Yet I have never forsaken you, but stand by you always, ready to remind you of Who You Really Are; ready, always ready, to call you home.
+
+Therefore, be a light unto the darkness, and curse it not.
+
+And forget not Who You Are in the moment of your encirclement by that which you are not. But do you praise to the creation, even as you seek to change it.
+
+And know that what you do in the time of your greatest trial can be your greatest triumph. For the experience you create is a statement of Who You Are--and Who You Want to Be.
+
+I have told you this story--the parable of the little soul and the sun--so that you might better understand why the world is the way it is--and how it can change in an instant the moment everyone remembers the divine truth of their highest reality.
+
+Now there are those who say that life is a school, and that these things which you observe and experience in your life are for your learning: I have addressed this before, and I tell you again:
+
+You came into this life with nothing to learn--you have only to demonstrate what you already know. In the demonstration of it will you function it out, and create yourself anew, through your experience. Thus do you justify life, and give it purpose. Thus do you render it holy.
+
+No, not all the things which you call bad which happen to you are of your own choosing. Not in the conscious sense--which you mean. They are all of your own creation.
+
+You are always in the process of creating. Every moment. Every minute. Every day. How you can create we'll go into later. For now, just take my word for it--you are a big creation machine, and you are turning out a new manifestation literally as fast as you can think.
+
+Events, occurrences, happenings, conditions, circumstances--all are created out of consciousness. Individual consciousness is powerful enough. You can imagine what kind of creative energy is unleashed whenever two or more are gathered in My name. And mass consciousness? Why, that is so powerful it can create events and circumstances of worldwide import and planetary consequences.
+
+It would not be accurate to say--not in the way you mean it--that you are choosing these consequences. You are not choosing them anymore than I am choosing them. Like Me, you are observing them. And deciding Who You Are with regard to them.
+
+Yet there are no victims in the world, and no villains. And neither are you a victim of the choices of others.
+
+At some level you have all created that which you say you detest--and, having created it, you have chosen it.
+
+This is an advanced level of thinking, and it is one which all Masters reach sooner or later. For it is only when they can accept responsibility for all of it that they can achieve the power to change part of it.
+
+So long as you entertain the notion that there is something or someone else out there "doing it" to you, you disempower yourself to do anything about it. Only when you say "I did this" can you find the power to change it.
+
+It is much easier to change what you are doing than to change what another is doing.
+
+The first step in changing anything is to know and accept that you have chosen it to be what it is. If you can't accept this on a personal level, agree to it through your understanding that We are all One. Seek then to create change not because a thing is wrong, but because it no longer makes an accurate statement of Who You Are.
+
+**There is only one reason to do anything: as a statement to the universe of Who You Are**
+
+Used in this way, life becomes Self creative. You use life to create your Self as Who You Are, and Who You've Always Wanted to Be. There is also only one reason to un-do anything: because it is no longer a statement of Who You Want to Be. It does not reflect you. It does nont represent you. 
+
+If you wish to be accurately re-presented, you must work to change anything in your life which does not fit into the picture of you that you wish to project into eternity.
+
+In the largest sense, all the "bad" things that happen are of your choosing. The mistake is not in choosing them, but in calling them bad. For in calling them bad, you call your Self bad, since you created them.
+
+This label you cannot accept, so rather than label your Self bad, you disown your own creations. It is this intellectual and spiritual dishonesty which lets you accept a world in which conditions are as they are. If you had to accept--or even felt a deep inner sense of--personal responsibility for the world, it would be a far different place. This would certainly be true if everyone felt responsible. That this is so patently obvious is what makes it so utterly painful, and so poignantly ironic.
+
+The world's natural calamities and disasters--its tornados and hurricanes, volcanoes and floods--its physical turmoils--are not created by you specifically. What is created by you is the degree to which these events touch your life.
+
+Events occur in the universe which no stretch of the imagination could claim you instigated or created.
+
+These events are created by the combined consciousness of man. All of the world, co-creating together, produces these experiences. What each of you do, individually, is move through them, deciding what, if anything, they mean to you, and Who and What You Are in relationship to them.
+
+Thus, you create collectively, and individually, the life and times you are experiencing, for the soul purpose of evolving. 
+
+You've asked if there is a less painful way to undergo this process--and the answer is yes--yet nothing in your outward experience will have changed. The way to reduce the pain which you associate with earthly experiences and events--both yours and those of others--is to change the way you behold them.
+
+You cannot change the outer event (for that has been created by the lot of you, and you are not grown enough in your consciousness to alter individually that which has been created collectively), so you must change the inner experience. This is the road to mastery in living.
+
+Nothing is painful in and of itself. Pain is a result of wrong thought. It is an error in thinking.
+
+A Master can disappear the most grievous pain. In this way, the Master heals.
+
+Pain results from a judgment you have made about a thing. Remove the judgment and the pain disappears.
+
+Judgment is often based upon previous experience. Your idea about a thing derives from a prior idea about that thing. Your prior idea results from a still prior idea--and that idea from another, and so forth, like building blocks, until you get all the way back in the hall of mirrors to what I call first thought.
+
+All thought is creative, and no thought is more powerful than original thought. That is why this is sometimes also called original sin.
+
+Original sin is when your first thought about a thing is in error. That error is compounded many times over when you have a second or third thought about a thing. It is the job of the Holy Spirit to inspire you to new understandings, which can free you from your mistakes.
+
+There are no "shoulds" or "shouldn'ts" in God's world. Do what you want to do. Do what reflects you, what re-presents you as a grander version of your Self. If you want to feel bad, feel bad.
+
+But judge not, and neither condemn, for you know not why a thing occurs, nor to what end.
+
+And remember you this: that which you condemn will condemn you, and that which you judge, you will one day become.
+
+Rather, seek to change those things--or support others who are changing those things--which no longer reflect your highest sense of Who You Are.
+
+Yet, bless all--for all is the creation of God, through life living, and that is the highest creation.
+
+I have never set down a "right" or "wrong,", a "do" or a "don't." To do so would be to strip you completely of your greatest gift--the opportunity to do as you please, and experience the results of that; the chance of create yourself anew in the image and likeness of Who You Really Are; the space to produce a reality of a higher and higher you, based on your grandest idea of what it is of which you are capable. 
+
+To say that something--a thought, a word, an action--is "wrong" would be as much as to tell you not to do it. To tell you not to do it would be to prohibit you. To prohibit you would be to restrict you. To restrict you would be to deny the reality of Who You Really Are, as well as the opportunity for you to create and experience that truth.
+
+There are those who say that I have given you free will, yet these same people claim that if you do not obey Me, I will send you to hell. What kind of free will is that? Does this not make a mockery of God--to say nothing of any sort of true relationship between us?
 
 
 
