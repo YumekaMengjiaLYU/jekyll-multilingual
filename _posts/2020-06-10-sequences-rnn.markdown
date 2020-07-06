@@ -248,4 +248,4 @@ In 2019, it has popular reference and match the style of tabloid:
 
 The course slides:
 
-<object data="{{ assets/UCLDeepMind_6.pdf }}" width="1000" height="1000" type='application/pdf'/></object>
+<iframe src="https://storage.googleapis.com/deepmind-media/UCLxDeepMind_2020/L6%20-%20UCLxDeepMind%20DL2020.pdf" width="100%" height="100%"></iframe>
