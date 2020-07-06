@@ -7,6 +7,7 @@ tags: deep-learning-lectures
 lang: en
 ---
 
+
 ## 1.Motivation
 _What are sequences?_
 > Element can be repeated
@@ -244,3 +245,7 @@ In 2019, it has popular reference and match the style of tabloid:
 [ref-2]:http://www.cs.toronto.edu/~ilya/pubs/2011/LANG-RNN.pdf
 
 [ref-3]:https://openai.com/blog/better-language-models/
+
+The course slides:
+
+<object data="{{ assets/UCLDeepMind_6.pdf }}" width="1000" height="1000" type='application/pdf'/></object>
