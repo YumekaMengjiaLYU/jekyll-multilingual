@@ -6,6 +6,10 @@ date:   2020-06-08
 tags: courses
 lang: en
 ---
+The course slides:
+
+<iframe src="https://storage.googleapis.com/deepmind-media/UCLxDeepMind_2020/L4%20-%20UCLxDeepMind%20DL2020.pdf" width="100%" height="500em"></iframe>
+
 _Goal of the lecture: Know how to redefine the building blocks to perform different visual tasks using different inputs and different forms of supervision._
 ## 1.Supervised image (beyond classification)
 

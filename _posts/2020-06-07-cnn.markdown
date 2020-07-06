@@ -6,6 +6,11 @@ date:   2020-06-07
 tags: courses
 lang: en
 ---
+
+The course slides:
+
+<iframe src="https://storage.googleapis.com/deepmind-media/UCLxDeepMind_2020/L3%20-%20UUCLxDeepMind%20DL2020.pdf" width="100%" height="500em"></iframe>
+
 ## 1.Background
 ### How can we feed images to a neural network?
 A digital image is a 2D grid of pixels.
