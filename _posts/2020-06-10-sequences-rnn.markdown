@@ -7,6 +7,9 @@ tags: deep-learning-lectures
 lang: en
 ---
 
+The course slides:
+
+<iframe src="https://storage.googleapis.com/deepmind-media/UCLxDeepMind_2020/L6%20-%20UCLxDeepMind%20DL2020.pdf" width="100%" height="500em"></iframe>
 
 ## 1.Motivation
 _What are sequences?_
@@ -246,6 +249,4 @@ In 2019, it has popular reference and match the style of tabloid:
 
 [ref-3]:https://openai.com/blog/better-language-models/
 
-The course slides:
 
-<iframe src="https://storage.googleapis.com/deepmind-media/UCLxDeepMind_2020/L6%20-%20UCLxDeepMind%20DL2020.pdf" width="100%" height="100%"></iframe>
