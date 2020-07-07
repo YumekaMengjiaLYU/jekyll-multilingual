@@ -506,7 +506,68 @@ To say that something--a thought, a word, an action--is "wrong" would be as much
 
 There are those who say that I have given you free will, yet these same people claim that if you do not obey Me, I will send you to hell. What kind of free will is that? Does this not make a mockery of God--to say nothing of any sort of true relationship between us?
 
+There is hell, but it is not what you think, and you do not experience it for the reasons you have been given.
 
+It is the experience of the worst possible outcome of your choices, decisions, and creations. It is the natural consequence of any thought which denies Me, or says no to Who You Are in relationship to Me.
+
+It is the pain you suffer through wrong thinking. Yet even the term "wrong thinking" is a misnomer, because there is no such thing as that which is wrong.
+
+Hell is the opposite of joy. It is unfulfillment. It is knowing Who and What You Are, and failing to experience that. It is being less. That is hell, and there is none greater for your soul.
+
+But hell does not exist as this place you have fantasized, where you burn in some everlasting fire, or exist in some state of everlasting torment. What purpose could I have in that?
+
+Even if I did hold the extraordinarily unGodly thought that you did not "deserve" heaven, why would I have a need to seek some kind of revenge, or punishment, for your failing? Wouldn't it be a simple matter for Me to just dispose of you? What vengeful part of Me would require that I subject you to eternal suffering of a type and at a level beyond description?
+
+If you answer, the need for justice, would not a simple denial of communion with Me in heaven serve the ends of justice? Is the unending infliction of pain also required?
+
+I tell you there is no such experience after death as you have constructed in your fear-based theologies. Yet there is an experience of the soul so unhappy, so incomplete, so less than whole, so separated from God's greatest joy, that to your soul this would be hell. But I tell you I do not send you there, nor do I cause this experience to be visited upon you. You, yourself, create the experience, whenver and however you separate your Self from your own highest thought about you. You, yourself, create the experience, whenever you deny your Self; whenever you reject Who and What You Really Are.
+
+Yet even this experience is never eternal. It cannot be, for it is not My plan that you shall be separated from Me forever and ever. Indeed, such a thing is impossibility--for to achieve such an event, not only would you have to deny Who You Are--I would have to as ewll. This I will never do. And so long as one of us holds the truth about you, the truth about you shall ultimately prevail.
+
+It is fear that you need in order to be, do, and have what is intrinsically right? Must you be threatened in order to "be good"? And what is "being good"? Who gets to have the final say about that? Who sets the guidelines? Who makes the rules?
+
+I tell you this: You are your own rule-maker. You set the guidelines. And you decide how well you have done; how well you are doing. For you are the one who has decided Who and What You Really Are--and Who You Want to Be. And you are the only one who can assess how well you're doing.
+
+No one else will judge you ever, for why, and how, could God judge God's own creation and call it bad? If I wanted you to be and do everything perfectly, I would have left you in the state of total perfection whence you came. **The whole point of the process was for you to discover yourself, create your Self, as you truly are--and as you truly wish to be. Yet, you could not be that unless you also had a choice to be something else.**
+
+Should I therefore punish you for making a choice that I Myself have laid before you? If I did not want you to make the second choice, why would I create other than the first?
+
+This is a question you must ask yourself before you would assign Me the role of a condemning God.
+
+The direct answer to your question is, yes, you may do as you wish without fear of retribution. It may serve you, however, to be aware of consequences.
+
+Consequences are results. Natural outcomes. These are not at all the same as retributions, or punishments. Outcomes are simply that. They are what results from the natural application of natural laws. They are that which occcurs, quite predictably, as a consequence of what has occurred.
+
+All physical life functions in accordance with natural laws. Once you remember these laws, and apply them, you have mastered life at the physical level.
+
+What seems like punishment to you--or what you would call evil, or bad luck--is nothing more than a natural law asserting itself.
+
+You would never experience in your Self as being in what you call "trouble." You would not understand any life situation to be a problem. You would not encounter any circumstance with trepidation. You would put an end to all worry, doubt, and fear. You would live as you fantasize Adam and Eve lived--not as disembodied spirits in the realm of the absolute, but as embodied spirits in the realm of the relative. Yet you would have all the freedom, all the joy, all the peace, and all the wisdom, understanding the power of the Spirit you are. You would be a fully realized being.
+
+This is the goal of your soul. This is its purpose--to fully realize itself while in the body; to become the embodiment of all that is really is.
+
+This is My plan for you. This is My ideal: that I should become realized through you. That thus, concept is turned into experience, that I might know my Self experientially.
+
+The Laws of the Universe are laws that I laid down. They are perfect laws, creating perfect function of the physical.
+
+Have you ever seen anything more perfect than a snowflake? Its intricacy, its design, its symmetry, its conformity to itself and originality from all else--are all a mystery. You wonder at the miracle of this awesome display of Nature. Yet if I can do this with a single snowflake, what think you I can do--have done--with the universe?
+
+Were you to see the symmetry of it, the perfection of its design--from the largest body to the smallest particle--you would not be able to hold the truth of it in your reality. Even now, as you get glimpses of it, you cannot yet imagine or understand its implications. Yet you can know there are implications--far more complex and far more extraordinary than your present comprehension can embrace. Yet Shakespeare said it wonderfully: There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy.
+
+Begin by being still. Quiet the outer world, so that the inner world might bring you sight. This insight is what you seek, yet you cannot have it while you are so deeply concerned with your outer reality. Seek, therefore, to go within as much as possible. And when you are not going within, come from within as you deal with the outside world. Remember this axiom:
+If you do not go within, you go without.
+
+For thousands of years people have disbelieved the promises of God for the most extraordinary reason: they were too good to be true. So you have chosen a lesser promise--a lesser love. For the highest promise of God proceeds from the highest love. Yet you cannot conceive of a perfect love, and so a perfect promise is also inconceivable. As is a perfect person. Therefore you cannot believe even in your Self.
+
+Failing to believe in any of this means failure to believe in God. For belief in God produces belief in God's greatest gift--unconditional love--and God's greatest promise--unlimited potential.
+
+The purpose is to create your experience--and thus, create your Self--in the glorious moment of Now. You do not, therefore, choose the life you will experience ahead of time.
+
+You may, however, select the persons, places, and events--the conditions and circumstances, the challenges and obstacles, the opportunities and options--with which to create your experience. You may select the colors for your palette, the tools for your chest, the machinery for your shop. What you create with these is your business. That is the business of life.
+
+Your potential is unlimited in all that you've chosen to do. Do not assume that a soul which has incarnated in a body which you call limited has not reached its full potential, for you do not know what that soul was trying to do. You do not understand its agenda. You are unclear as to its intent.
+
+Therefore bless every person and condition, and give thanks. Thus you affirm the perfection of God's creation--and show your faith in it. For nothing happens by accident in God's world, and there is no such thing as coincidence. 
 
 
 
