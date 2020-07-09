@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "意义--人生の意味は何ですか？"
+ref: welcome
+date:   2020-07-05
+tags: deep-learning-lectures
+lang: 中文
+---
