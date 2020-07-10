@@ -11,8 +11,8 @@ title:
   中文: 梦嘉和ML
 email: mengjia.lyu@outlook.com
 description:
-  en: When ML meets ML|Love is always with you.
-  中文: 当梦嘉遇见ML|爱，一直都在。
+  en: When ML meets ML.
+  中文: 热爱可抵岁月漫长。
 index:
   en:
   中文: accueil.html
@@ -27,7 +27,8 @@ linkedin_username: mengjialyu
 # Build settings
 markdown: kramdown
 
-
+plugins:
+  - jekyll-seo-tag
 
 
 # Disqus Comments
