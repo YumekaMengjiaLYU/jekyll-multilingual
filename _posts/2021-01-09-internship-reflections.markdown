@@ -7,7 +7,8 @@ tags: career
 lang: en
 ---
 
-From July to December 2020, I interned at a medical device startup on its medical ventilator project as an electrical engineer intern.
+I have come back to blogging!
+From July to December 2020, I interned at a medical device startup on its medical ventilator project as an electrical engineer intern. 
 
 ### Lesson 1: Work Is A Important Part of My Identity
 
