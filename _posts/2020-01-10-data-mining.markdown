@@ -2,7 +2,7 @@
 layout: post
 title:  "What I Learned In My Data Mining Class"
 ref: welcome
-date:   2021-01-09
+date:   2021-01-10
 tags: career
 lang: en
 ---

@@ -32,16 +32,20 @@ I realize that I do not care much about what technology I would use at work. My 
 
 Learning, as I personally tend to believe, is why I am here on this earth. I would like to have a job that nourishes my inner need to learn and grow.
 
+### Lesson 2: Soldering Is Never Outdated
 
+I happen to perform a lot of soldering work for creating protoboards during my internship. The work reminded me of my undergraduate years and can be a real test for a person's focus and patience. No matter how old-fashioned soldering sounds, it would never be outdated : )
 
-### Lesson 2: Speak Up For Myself
+### Lesson 3: Speak Up For Myself
 
 Because no one else will. I've learned this the hard way.
 
-### Lesson 3: Company Culture Does Matter
+### Lesson 4: Company Culture Does Matter
 
 I checked on the internet and found out that there are four main types of company cultures: clan culture, adhocracy culture, market culture, hierarchy culture. Personally I like clan culture the most, which is what experienced during my internship.
 
-### Lesson 4: Keep A Work Log
+### Lesson 5: Keep A Work Log
 
 One thing I regret is not documenting my work in a clear and coherent manner. By keeping a work log, I would have a clearer sense of what I struggled with or how I progressed in my career. 
+
+### Lesson 6: Put All the Work In A Neat Folder
