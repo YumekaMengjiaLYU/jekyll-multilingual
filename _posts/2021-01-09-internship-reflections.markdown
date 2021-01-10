@@ -26,7 +26,7 @@ To take care of my mental wellness, I meditate for at least 10 minutes every day
 
 To take care of my spiritual wellness, I (am still trying) to pray every day.
 
-Any work that contributes to wellness is something that I would be very interested in ;)
+I realize that I do not care much about what technology I would use at work. My background is in electrical engineering and data science, so I would be most comfortable doing work in these fields. However, any work that contributes to wellness is something that I would be very interested in ;)
 
 #### Learning/Growth
 
