@@ -15,7 +15,7 @@ I feel somewhat vulnerable in saying this, but I do discover that work makes up 
 
 After considerate soul searching, I realize that what matters to me is:
 
-- Wellness
+#### Wellness
 
 Wellness is the foundation of everything for me. For me there are three main pillars of wellness: physical, mental and spiritual.
 
@@ -27,7 +27,7 @@ To take care of my spiritual wellness, I (am still trying) to pray every day.
 
 Any work that contributes to wellness is something that I would be very interested in ;)
 
-- Learning/Growth
+#### Learning/Growth
 
 Learning, as I personally tend to believe, is why I am here on this earth. I would like to have a job that nourishes my inner need to learn and grow.
 
