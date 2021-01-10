@@ -52,4 +52,6 @@ One thing I regret is not documenting my work in a clear and coherent manner. By
 
 ### Lesson 7: Embrace Change 
 
-It is certainly hard for me to leave my internship where I spent much time crimping, soldering, assembling, doing the most engineering-ish work. However, I am also aware now that I need to let go of certain identities to embrace new ones, like data science. Engineering is fun work: you get to get your hands dirty and have a sense of craftsmanship. Still, sometimes, we just need to let go and begin some new adventures. 
+It is certainly hard for me to leave my internship where I spent much time crimping, soldering, assembling, doing the most engineering-ish work. However, I am also aware now that I need to let go of certain identities to embrace new ones, like data science. Engineering is fun work: you get to get your hands dirty and have a sense of craftsmanship. And sometimes, multimeters, o-scopes, crimpers, pliers, solder, soldering station can seem to be your companions:)
+
+Still, sometimes, we just need to let go and begin some new adventures. 
