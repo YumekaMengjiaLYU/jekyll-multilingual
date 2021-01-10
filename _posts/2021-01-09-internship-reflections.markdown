@@ -40,12 +40,12 @@ I happen to perform a lot of soldering work for creating protoboards during my i
 
 Because no one else will. I've learned this the hard way.
 
-### Lesson 4: Company Culture Does Matter
+### Lesson 4: Company Culture Matters
 
-I checked on the internet and found out that there are four main types of company cultures: clan culture, adhocracy culture, market culture, hierarchy culture. Personally I like clan culture the most, which is what experienced during my internship.
+I checked on the internet and found out that there are four main types of company cultures: clan culture, adhocracy culture, market culture, hierarchy culture. Personally I like clan culture the most, which is what experienced during my internship. In particular, I enjoy working in a mission-driven organization.
 
-### Lesson 5: Keep A Work Log
+### Lesson 5: Keep A Work Log/Put Work Organized In A Neat Folder
 
 One thing I regret is not documenting my work in a clear and coherent manner. By keeping a work log, I would have a clearer sense of what I struggled with or how I progressed in my career. 
 
-### Lesson 6: Put All the Work In A Neat Folder
+### Lesson 6: Have A Agenda Slide For All Presentations
