@@ -16,10 +16,19 @@ Thanks to professor Qian for teaching this class!
 
 ### Kernel Methods
 
+
+### Trees 
+
+#### CART
+
+#### Bagging
+
+#### Boosting
+
 ### Neural Networks
 
 ### Density Esimation
-
+If the goal is to estimate the PDF, then this problem is called density estimation
 #### Parametric Density Estimation
 
 ##### Parametric model
@@ -31,7 +40,18 @@ Thanks to professor Qian for teaching this class!
 ##### Histogram
 
 ##### Kernel density estimator
+A kernel function generally has three features:
+-  K(x) is symmetric.
 
+- $\int K(x)dx = 1$.
+
+- limx→−∞ K(x) = limx→+∞ K(x) = 0.
+
+Three most common kernel functions 
+
+- Gaussian Kernel
+- Uniform Kernel
+- Epanechnikov Kernel
 ##### K-nearest neighbor
 
 ##### Basis approach
