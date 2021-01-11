@@ -31,7 +31,41 @@ $f(X) = \sum_{m=1}^M \beta_m h_m(X)$
 ### Smoothing Methods
 
 ### Kernel Methods
+Kernel is a way of computing the dot product of two vectors 𝐱 and 𝐲 in some (possibly very high dimensional) feature space, which is why kernel functions are sometimes called "generalized dot product".
+https://stats.stackexchange.com/questions/152897/how-to-intuitively-explain-what-a-kernel-is
+One way to tackle this problem is to take the dataset and transform the data in another feature map. It means, you will use a function to transform the data in another plane, which should be linearable.
 
+To manipulate a large dataset and you may have to create more than 2 dimensions, you will face a big problem using the above method. In fact, you need to transform all data points, which is clearly not sustainable. It will take you ages, and your computer may run out of memory.
+
+The most common way to overcome this issue is to use a kernel.
+
+The idea is to use a higher-dimension feature space to make the data almost linearly separable as shown in the figure above.
+
+There are plenty of higher dimensional spaces to make the data points separable. For instance, we have shown that the polynomial mapping is a great start.
+
+We have also demonstrated that with lots of data, these transformation is not efficient. Instead, you can use a kernel function to modify the data without changing to a new feature plan.
+
+The magic of the kernel is to find a function that avoids all the trouble implied by the high-dimensional computation. The result of a kernel is a scalar, or said differently we are back to one-dimensional space
+
+After you found this function, you can plug it to the standard linear classifier.
+
+- Linear Kernel
+- Polynomial Kernel
+- Gaussian Kernel
+- Radial Basis Function Kernel
+
+Q: What is the kernel trick?
+Note that linear classifiers only rely on dot products between vectors
+$K(x_i, x_j) = x_i \dot x_j = x_i^T x_j$
+
+If every data point is mapped high-dimensional space via transformation
+$\phi:x\xrigharrow \phi(x)$
+The Kernel trick involves kernel functions that can enable in higher-dimension spaces without explicitly 
+calculating the coordinates of points within that dimension: instead, kernel functions compute the inner 
+products between the images of all pairs of data in a feature space. This allows them the very useful 
+attribute of calculating the coordinates of higher dimensions while being computationally cheaper than 
+the explicit calculation of said coordinates. Many algorithms can be expressed in terms of inner products.
+Using the kernel trick enables us effectively run  algorithms in a high-dimensional space with lower-dimensional data.
 
 ### Trees 
  Bagging and random forests are “bagging” algorithms that aim to reduce the complexity of models that overfit the training data. In contrast, boosting is an approach to increase the complexity of models that suffer from high bias, that is, models that underfit the training data. https://sebastianraschka.com/faq/docs/bagging-boosting-rf.html
