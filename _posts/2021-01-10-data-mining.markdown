@@ -11,20 +11,50 @@ Thanks to professor Qian for teaching this class!
 ### Variable Selection
 
 ### Basis Expansions
+Overarching idea:
+Augment or replace the vector of inputs with additional variables, which are transformations of the inputs, and then use linear models in this new space of derived input features.
 
+#### Linear Basis Expansion
+$h_m(X)$ are our basis expansions
+$f(X) = \sum_{m=1}^M \beta_m h_m(X)$
+
+#### Common Expansions
+- $h_m(X) = X_m$
+
+- $h_m(X) = X_j^2$
+
+- $h_m(X) = X_jX_k$
+
+- $h_m(X) = log(X_j)$
+
+- $h_m(X) = \sqrt(X_j)$
 ### Smoothing Methods
 
 ### Kernel Methods
 
 
 ### Trees 
-
+ Bagging and random forests are “bagging” algorithms that aim to reduce the complexity of models that overfit the training data. In contrast, boosting is an approach to increase the complexity of models that suffer from high bias, that is, models that underfit the training data. https://sebastianraschka.com/faq/docs/bagging-boosting-rf.html
 #### CART
 
 #### Bagging
 
 #### Boosting
 
+#### Random Forests
+Random Forests are a modification to Bagging which generatesand averages a large collection of decorrelated trees
+
+The key feature is to grow each tree from m < p variablesselected randomly from the training data
+
+Smaller m will result in smaller correlations between each treeand consequently the average of B trees.
+
+Advantages
+- usually have good prediction ability
+- can be used to solve both classification as well as regressionproblems
+- very little tuning is required
+Disadvantages
+- it is computationally expensive
+- less interpretable than a single decision tree
 ### Neural Networks
 
 ### Density Esimation
@@ -32,9 +62,17 @@ If the goal is to estimate the PDF, then this problem is called density estimati
 #### Parametric Density Estimation
 
 ##### Parametric model
+A problem of parametric model is that the bias ¯p(x) − p(x) is unavoidable so even we have huge amount
+of observations from the same population, we are still unable to recover the original PDF. 
 
+However, the
+parametric model has an advantage that each parameter has its own meaning so it is very easy to interpret
+the result.
 ##### Mixture Model
-
+If we want to use a parametric model, how can we resolve the problem of unavoidable bias? Here is a method
+that can alleviate this bias – mixture of distributions.
+The mixture of distributions is using a mixture of parametric distribution to model the underlying population
+PDF.
 #### Nonparametric Density Estimation
 
 ##### Histogram
@@ -49,9 +87,13 @@ A kernel function generally has three features:
 
 Three most common kernel functions 
 
-- Gaussian Kernel
-- Uniform Kernel
-- Epanechnikov Kernel
+- Gaussian Kernel $K(x) = \frac_{1}{\sqrt(2\pi)}e^{(-x^2/2)}$
+- Uniform Kernel $K(x) = \frac_{1}{2} I(-1\leq x\leq 1)$
+- Epanechnikov Kernel $K(x) = \frac{3}{4} max{1-x^2,0}$
+
+The Epanechnikov is a special kernel that has the lowest (asymptotic) mean square error.
+
+http://faculty.washington.edu/yenchic/18W_425/Lec6_hist_KDE.pdf
 ##### K-nearest neighbor
 
 ##### Basis approach
