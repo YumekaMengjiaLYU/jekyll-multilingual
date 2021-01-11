@@ -55,3 +55,16 @@ One thing I regret is not documenting my work in a clear and coherent manner. By
 It is certainly hard for me to leave my internship where I spent much time crimping, soldering, assembling, doing the most engineering-ish work. However, I am also aware now that I need to let go of certain identities to embrace new ones, like data science. Engineering is fun work: you get to get your hands dirty and have a sense of craftsmanship. And sometimes, multimeters, o-scopes, crimpers, pliers, solder, soldering station, Arduinos, Rapsberry Pis can seem to be your companions:)
 
 Still, sometimes, we just need to let go and begin some new adventures. 
+
+### Lesson 8: Choose Myself
+from https://www.minimalismmadesimple.com/home/choosing-yourself/
+
+When you choose yourself it doesn’t mean putting people last, it just means you are putting yourself first.
+
+It means you are taking care of yourself to help others. 
+
+What good would you be to someone if you didn’t know how to take care of you?
+
+ This is time to take priority in your own life. Learn the things that make you happy and sad.
+
+When you take care of yourself and love yourself you open up a world of happiness for yourself and others. So go ahead look into the mirror and say today… I choose me.
