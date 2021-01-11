@@ -56,7 +56,9 @@ It is certainly hard for me to leave my internship where I spent much time crimp
 
 Still, sometimes, we just need to let go and begin some new adventures. 
 
-### Lesson 8: Choose Myself
+### Lesson 8: Complete the Hardest Task First
+
+### Lesson 9: Choose Myself
 from https://www.minimalismmadesimple.com/home/choosing-yourself/
 
 When you choose yourself it doesn’t mean putting people last, it just means you are putting yourself first.
