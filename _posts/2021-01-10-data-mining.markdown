@@ -59,7 +59,10 @@ Note that linear classifiers only rely on dot products between vectors
 $K(x_i, x_j) = x_i \dot x_j = x_i^T x_j$
 
 If every data point is mapped high-dimensional space via transformation
-$\phi:x\xrigharrow \phi(x)$
+$\phi:x\rightarrow \phi(x)$
+$K(x_i, x_j) =  \phi(x_i)^T \phi(x_j)$
+
+A kernel function is a similarity function that corresponds to an inner product in some expanded feature space
 The Kernel trick involves kernel functions that can enable in higher-dimension spaces without explicitly 
 calculating the coordinates of points within that dimension: instead, kernel functions compute the inner 
 products between the images of all pairs of data in a feature space. This allows them the very useful 
