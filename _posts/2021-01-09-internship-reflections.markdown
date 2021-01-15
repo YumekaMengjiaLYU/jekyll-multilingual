@@ -49,7 +49,7 @@ I checked on the internet and found out that there are four main types of compan
 One thing I regret is not documenting my work in a clear and coherent manner. By keeping a work log, I would have a clearer sense of what I struggled with or how I progressed in my career. 
 
 ### Lesson 6: Have A Agenda Slide For All Presentations
-
+Thanks to my boss for pointing this out to me. Always put a concise agenda slide before all other slides to let people know what we are going to talk about during the meeting.
 ### Lesson 7: Embrace Change 
 
 It is certainly hard for me to leave my internship where I spent much time crimping, soldering, assembling, doing the most engineering-ish work. However, I am also aware now that I need to let go of certain identities to embrace new ones, like data science. Engineering is fun work: you get to get your hands dirty and have a sense of craftsmanship. And sometimes, multimeters, o-scopes, crimpers, pliers, solder, soldering station, Arduinos, Rapsberry Pis can seem to be your companions:)
