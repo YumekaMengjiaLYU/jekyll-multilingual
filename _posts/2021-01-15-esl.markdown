@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Elements of Statistical Learning"
+ref: welcome
+date:   2021-01-15
+tags: career
+lang: en
+---
+## Supervised Learning
+
+## Linear Methods for Regression
+
+## Linear Methods for Classification
+
+Model selection: find a subset of the variables that are suffiient for explaining their joint effects on the outcome variable.
+
++ Method 1: drop the least significant coefficient and refit the model repeatedly until no further terms can be dropped from the model
+
++ Method 2: refit each of the models with one variable removed, and then perform an analysis of deviance to decide which variable to exclude
+
+Generally, logistic regression is a safer and more robust bet than the LDA model, relying on fewer assumptions.
+
+## Basis Expansions and Regularization
+
+A kernel is chosen because it represents an expansion of polynomials and can conveniently compute high-dimensional inner product.
+
+A chosen because of its functional form in the 
+$$f(x) = \sum_{i=1}^N \alpha_i K(x,x_i)$$
+
+Modern image compression is often performed using two-dimensional wavelet representations.
+
+## Kernel Smoothing Methods
+
+## Model Assessment and Selection
+
+Model selection: estimating the performance of different models in order to choose the best one
+
+Model assessment: having chosen a final model, estimating its prediction error on new data
+
+Because the relative size of the error is what matters, for comparison between models, in-sample error is convenient and often leads to effective model selection
+
+## Model Inference and Averaging
+
+EM algorithm is popular for simplifying diffcult maximum likelihood problems.
+
+## Additive Models, Trees, and Related Methods
+Generalized additive model has the form
+
+$$E(Y|X_1,X_2,...,X_p) = \alpha + f_1(X_1)+f_2(X_2)+...+f_p(X_p)$$
+
+
+Approaches to features missing completely at random, 
+
++ Discard observations with any missing values
+
+can be used if the relative amount of msising data is small
+
++ Rely on the learning algorithm to deal with missing values in its training phase
+
+CART is one learning algorithm that deals effectively with missing values through surrogate splits
+
++ Impute all missing values before training
+This is necessary for most learning methods. The simplest tactic is to impute the missing value with the mean or median of the non-missing values for that feature.
+
+## Boosting and Additive Trees
+
+For data mining applications, it is not enough to simply produce predictions. It is also desirable to have information providing qualitative understanding of the relationship between joint values of the input variables and the resulting predicted response value.
+
+Black box methods such as neural networks, which can be quite useful in purely predictive settings such as pattern recognition, are far less useful for data mining.
+
+## Neural Networks
+
+## Support Vector Machines and Flexible Discriminants
+
+## Prototype Methods and Nearest-Neighbors
+
+## Unsupervised Learning
+
+K-means clustering algorithm represents a key tool in the apparently unrelated area of image and signal compression, particularly in vector quantization
+
+## Random Forests
+
+## Undirected Graphical Models
+
+## High-Dimensional Problems

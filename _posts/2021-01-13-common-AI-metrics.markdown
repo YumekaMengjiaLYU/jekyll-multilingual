@@ -11,7 +11,7 @@ lang: en
 
 Google has a wonderful [tutorial][ref-1] on precision and recall, and I will summarize it here:
 
-$Precision=\frac{TP}{TP+FP}$
+$$Precision=\frac{TP}{TP+FP}$$
 
 $$Recall=\frac{TP}{TP+FN}$$
 
@@ -20,7 +20,7 @@ Recall is also called as true positive rate or sensitivity in diagnostic testing
 Precision is also called as positive prediction value in diagnostic testing.
 ### F1 score
 F1 score relies on both precision and recall.  It is usually more useful than accuracy especially when the distribution is uneven.
-$F1 = \frac{2Precision*Recall}{Precision+Recall}$
+$$F1 = \frac{2Precision*Recall}{Precision+Recall}$$
 
 
 
