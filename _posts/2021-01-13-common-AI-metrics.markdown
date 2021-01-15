@@ -20,6 +20,7 @@ Recall is also called as true positive rate or sensitivity in diagnostic testing
 Precision is also called as positive prediction value in diagnostic testing.
 ### F1 score
 F1 score relies on both precision and recall.  It is usually more useful than accuracy especially when the distribution is uneven.
+
 $$F1 = \frac{2Precision*Recall}{Precision+Recall}$$
 
 
