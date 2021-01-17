@@ -8,6 +8,24 @@ lang: en
 ---
 ## Supervised Learning
 
++ Kernel methods use weights that decrease smoothly to zero with distance from the target point, rather than the effective 0/1 weights used by the k-nearest  neighbors.
+
++ In high-dimensional spaces the distance kernels are modified to emphasize some variable more than others.
+
++ Local regression fits linear models by locally weighted least squares, rather than fitting constants locally.
+
++ Linear models fit to a basis expansion of the original inputs allow arbitrarily complex models.
+
++ Projection pursuit and neural network models consist of sums of non-linearly transformed linear models.
+
+### K-nearest neighbors and least squares
+
+Both k-nearest neighbors and least squares end up appproximating conditional expectations by averages. 
+stable but biased
+less stable but less biased
+### Differences
+
+
 ## Linear Methods for Regression
 
 ## Linear Methods for Classification
