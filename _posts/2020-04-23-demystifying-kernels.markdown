@@ -8,9 +8,18 @@ tags: theory
 lang: en
 ---
 
-Let $${\displaystyle {\mathcal {X}}}{\displaystyle {\mathcal {X}}}$$ be a nonempty set, sometimes referred to as the index set. A symmetric function $${\displaystyle K:{\mathcal {X}}\times {\mathcal {X}}\to \mathbb {R} }{\displaystyle K:{\mathcal {X}}\times {\mathcal {X}}\to \mathbb {R} }$$ is called a positive definite (p.d.) kernel on $${\displaystyle {\mathcal {X}}}{\mathcal {X}}$$ if
+The two most common use of kernel in statistics
++ a weighting function used in kernel density estimation to estimate the probability density function of a randim variable
 
-$${\displaystyle \sum _{i=1}^{n}\sum _{j=1}^{n}c_{i}c_{j}K(x_{i},x_{j})\geq 0\quad \quad \quad \quad (1.1)}{\displaystyle \sum _{i=1}^{n}\sum _{j=1}^{n}c_{i}c_{j}K(x_{i},x_{j})\geq 0\quad \quad \quad \quad (1.1)}$$
++ kernel method/trick employed to [visualization][ref-4]
+
+Let us first look at the definition from Wikipedia
+A kernel is a non-negative real-valued integrable function K. For most applications, it is desirable to define the function to satisfy two additional requirements:
+
++ Normalization:
+{\displaystyle \int _{-\infty }^{+\infty }K(u)\,du=1\,;}\int _{-\infty }^{+\infty }K(u)\,du=1\,;
++ Symmetry:
+{\displaystyle K(-u)=K(u){\mbox{ for all values of }}u\,.}K(-u)=K(u){\mbox{ for all values of }}u\,.
 
 Kernel methods owe their name to the use of kernel functions, which enable them to operate in a high-dimensional, implicit feature space without ever computing the coordinates of the data in that space, but rather by simply computing the inner products between the images of all pairs of data in the feature space. This operation is often computationally cheaper than the explicit computation of the coordinates. This approach is called the "kernel trick".
 
@@ -66,3 +75,4 @@ References:
 [ref-1]:https://en.wikipedia.org/wiki/Kernel_method
 [ref-2]:http://www.cs.cmu.edu/~aarti/Class/10701_Spring14/slides/kernel_methods.pdf
 [ref-3]:https://mlweb.loria.fr/book/en/kernels.html
+[ref-4]: https://www.youtube.com/watch?v=3liCbRZPrZA
