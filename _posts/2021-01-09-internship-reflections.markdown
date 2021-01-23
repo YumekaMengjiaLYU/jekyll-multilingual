@@ -62,7 +62,11 @@ Still, sometimes, we just need to let go and begin some new adventures.
 
 Unbelievable right? Somehow my impressions of MATLAB are still filled with matrices and plots. For the first time in my life I created three alarm audio files using MATLAB!
 
-### Lesson 10: Choose Myself
+### Lesson 10: Resistor Color Bands
+
+I spent some time sorting all the resistors in our workspace, and was reminded of the fact that color bands denote different resistor values. There can be 4 or 5 or 6 bands on a resistor. Colors include black, brown, red, orange, yellow, green, blue, violet, grey and white.
+
+### Lesson 11: Choose Myself
 from https://www.minimalismmadesimple.com/home/choosing-yourself/
 
 When you choose yourself it doesn’t mean putting people last, it just means you are putting yourself first.
