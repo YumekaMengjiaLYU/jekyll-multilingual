@@ -6,6 +6,95 @@ date:   2021-01-17
 tags: career
 lang: en
 ---
+## ICA
+
+$$ X = AS$$
+
++ X is a random p-vector representing miltivariate input measurements
+
++ S is a latent source p-vector whose components are independently distributed random variables
+
++ A is a $p \times p$ full-rank non-randomm mixing matrix
+
++ estimate the unmixing matrix $W = A^{-1}$ such that $\hat S = \hat W X$ is the estimate of $S$
+
+### Assumptions
+
+#### Independence
+
++ two variables are independent if and only if the joint pdf is factorizable in the following way
+$$p(s_1,s_2) = p(s_1)p(s_2)$$
+
++ $$$$
+
+#### Non-Gaussian
+
++ the distribution of any orthogonal transformation of the Gaussian has the same distributino as
+
++ if R is some arbitrary orthogonal matrix so that
+
+### Measure of Non-gaussianity
+
+For ICA estimation, we need to have a quantitative measure of non-gaussianity
+
++ Kurtosis
+
++ Entropy
+
++ Negative entropy
+
++ Approximation
+
+### Caution and Limitation
+
+#### Scaling
+
+#### Signal Permutations
+
+The order of mixing matrix and independent components are unknown
+
+#### Number of Sensors
+
++ The number of separated signals cannot be larger than the number of inputs
+
++ Current research is being done to reduce the constraint
+
+### ICA IN fMRI
+
++ Rely on the intrinsic structure of data
+
++ No assumptions about the form of the or the possible causes of responses are made
+
++ The only assumption is mutual independence in space for spatial ICA or in time for temporal ICA
+
+### Temporal ICA
+
++ Components have independent temporal dynamics: 
+Strength of one component at a particular moment in time does not provide information on the strength of other components at that moment
+
++ Components may be correlated in space
+
++ Popular for cocktail party problem or EEG
+
+### Spatial ICA
+
++ Components have independent spatial distributions
+
+"Strength of one component in particular voxel does not provide information on the strength of other components in that voxel"
+
++ Components may be correlated in time
+
++ Popular for fMRI
+
+### Remarks
+
++ fastICA has built in prewhitening
+
++ the algorithm is stochatic
+
++ a lot of ICA algorithms are designed to have random initialization like k-means. They often gives similar answers, but not always.
+
+### Definition
 
 ## Wavelet Analysis
 
