@@ -19,6 +19,8 @@ anxiety and mental pushed me to understand myself better
 
 First, I took my real psychology class in UCSD with Professor Angela. Though I later withdrew from the course due to time conflicts, I realized that psychology is not what I thought it talked about. I wanted something deeper and more intuitive.
 
+While in the bookstore, I noticed a book by V. S. Ramachandran _Phantoms In The Brain_. I borrowed from the library _The Man Who Mistook His Wife for a Hat and Other Clinical Tales_.
+
 I remembered that one day we sat together for a short ride on the school bus and he said he was working on neural engineering projects.
 
 Then during my last at UCSD, I audit a course on the psychology of consciousness. It was a very interesting introduction to the foundation of neuroscience.

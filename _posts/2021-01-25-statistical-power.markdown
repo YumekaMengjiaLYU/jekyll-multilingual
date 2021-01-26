@@ -2,7 +2,7 @@
 layout: post
 title:  "Statistical Power and Effect Size"
 ref: welcome
-date:   2021-01-22
+date:   2021-01-25
 tags: career
 lang: en
 ---
@@ -23,6 +23,10 @@ Below is a quote from [a wonderful article][ref-1]:
 I’ve spent years working with social sector organizations, helping them answer important questions with data. And the idea of statistical power is one that’s often thought of too late — or not at all.
 
 Why does it matter? If you hope to understand how likely it is that your research noticed an effect or trend actually occurring in the real world, you need to understand the concept of statistical power. Evidence-based decision- and policy-making is gaining popularity. If you can wrap your head around the idea of statistical power, you’ll better understand your chances of making the right choice based on your data.
+
+### Cautions
+
+post-hoc power analyses; that is, calculating the power associated with a sample or full dataset that you already collected. This type of analysis is uninformative (since we cannot say with any certainty whether our result came from the null distribution or a specific alternative distribution), and can be misleading (see Hoenig & Heisey, 2001).
 
 [ref-1]:https://idatassist.com/statistical-power-what-it-is-and-why-it-matters/
 
