@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Compilation of Neuroscience Tutorial By University of Washington"
+title:  "A Compilation of Neuroscience Tutorial"
 ref: welcome
 date:   2021-01-25
 tags: career
@@ -11,7 +11,7 @@ I found out about an amazing neuroscience educational initiative called [Neuroha
 
 If I cannot find the powerpoint slides the speaker used during the lecture, I have taken noted myself and linked my notes accordingly.
 
-
++ [Statistics][ref-20]
 
 + [UNIX and Make tutorial][ref-2]
 
@@ -66,3 +66,4 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 [ref-17]:https://neurohackademy.github.io/cloud101_aws/
 [ref-18]:https://anisha.pizza/nhw2017_d3/presentation/index.html#/17
 [ref-19]:https://github.com/neurohackweek/python-tips-and-tricks/blob/master/python-tips-and-tricks.ipynb
+[ref-20]:https://neuroimage.usc.edu/brainstorm/Tutorials/Statistics
