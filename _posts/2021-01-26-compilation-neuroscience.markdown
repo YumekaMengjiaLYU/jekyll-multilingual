@@ -15,6 +15,8 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 
 + [UNIX and Make tutorial][ref-2]
 
++ [Python Tips and Tricks][ref-19]
+
 + [Cython and Numba][ref-3]
 
 + [Convolutional Neural Networks][ref-4]
@@ -63,3 +65,4 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 [ref-16]:https://neurohackademy.github.io/cloud101_aws/
 [ref-17]:https://neurohackademy.github.io/cloud101_aws/
 [ref-18]:https://anisha.pizza/nhw2017_d3/presentation/index.html#/17
+[ref-19]:https://github.com/neurohackweek/python-tips-and-tricks/blob/master/python-tips-and-tricks.ipynb
