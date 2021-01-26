@@ -29,11 +29,13 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 
 + [Image Processing in Neuroimaging Applications][ref-9]
 
-+ [Interactive Data Visualization with D3][ref-10]
++ [Interactive Data Visualization with D3][ref-18]
 
 + [The Difference Between Prediction and explanation][ref-11]
 
 + [Cloud Computing for Neuroimaging][ref-15]
+
++ [Image Processing and Computer Vision with Scikit-image][ref-17]
 
 + [Time-series Analysis][ref-16]
 
@@ -59,3 +61,5 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 [ref-14]:https://neurohackademy.org/course/nibabel/
 [ref-15]:https://neurohackademy.github.io/cloud101_aws/
 [ref-16]:https://neurohackademy.github.io/cloud101_aws/
+[ref-17]:https://neurohackademy.github.io/cloud101_aws/
+[ref-18]:https://anisha.pizza/nhw2017_d3/presentation/index.html#/17
