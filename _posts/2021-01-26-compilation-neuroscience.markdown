@@ -11,9 +11,9 @@ I found out about an amazing neuroscience educational initiative called [Neuroha
 
 If I cannot find the powerpoint slides the speaker used during the lecture, I have taken noted myself and linked my notes accordingly.
 
-+ UNIX and Make
 
-[tutorial][ref-2]
+
++ [UNIX and Make tutorial][ref-2]
 
 + [Cython and Numba][ref-3]
 
