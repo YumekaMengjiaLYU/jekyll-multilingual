@@ -9,6 +9,8 @@ lang: en
 
 I found out about an amazing neuroscience educational initiative called [Neurohackademy][ref-1] where a lot of researchers share they knowledge in usng data science to hack the brain. Here I would like to compile all the resources in the hope that it would benefit myself or someone else.
 
+If I cannot find the powerpoint slides the speaker used during the lecture, I have taken noted myself and linked my notes accordingly.
+
 + UNIX and Make
 
 [tutorial][ref-2]
@@ -31,7 +33,15 @@ I found out about an amazing neuroscience educational initiative called [Neuroha
 
 + [The Difference Between Prediction and explanation][ref-11]
 
++ [Cloud Computing for Neuroimaging][ref-15]
+
++ [Time-series Analysis][ref-16]
+
++ [NiPreps][ref-14]
+
 + [Nipype][ref-12]
+
++ [NiBabel][ref-13]
 
 [ref-1]:https://neurohackademy.org/course_type/lectures/
 [ref-2]:https://neurohackweek.github.io/advancedunix/
@@ -45,3 +55,7 @@ I found out about an amazing neuroscience educational initiative called [Neuroha
 [ref-10]:http://www.mengjialyu.info/2021/01/22/destiny-neuroscience.html
 [ref-11]:http://www.mengjialyu.info/2021/01/22/destiny-neuroscience.html
 [ref-12]:http://www.mengjialyu.info/2021/01/22/destiny-neuroscience.html
+[ref-13]:https://neurohackademy.org/course/nibabel/
+[ref-14]:https://neurohackademy.org/course/nibabel/
+[ref-15]:https://neurohackademy.github.io/cloud101_aws/
+[ref-16]:https://neurohackademy.github.io/cloud101_aws/
