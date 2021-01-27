@@ -6,9 +6,11 @@ date:   2021-01-17
 tags: career
 lang: en
 ---
-## ICA
 
-$$ X = AS$$
+
+## ICA
+The definition is copied from the [paper][ref-1]
+$$ X_{M \times T} = A_{M \times M}S_{M \times T}$$
 
 + X is a random p-vector representing miltivariate input measurements
 
@@ -17,6 +19,10 @@ $$ X = AS$$
 + A is a $p \times p$ full-rank non-randomm mixing matrix
 
 + estimate the unmixing matrix $W = A^{-1}$ such that $\hat S = \hat W X$ is the estimate of $S$
+
+The goal of ICA is to recover the latent source signals as
+
+$$S = WX$$ with $$W = A^{-1}$$
 
 ### Assumptions
 
@@ -163,3 +169,5 @@ AR models are the most
 
 commonly used time series approaches for the temporal corre-
 lation structure in fMRI analysis.
+
+[ref-1]:https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.tm10332
