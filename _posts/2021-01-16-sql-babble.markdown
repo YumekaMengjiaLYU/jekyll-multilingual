@@ -7,6 +7,7 @@ tags: career
 lang: en
 ---
 
+[Note: The post is a summary of what I learning with the ]
 
 Cross Join: each row from the first table joins with all the rows of another table
 

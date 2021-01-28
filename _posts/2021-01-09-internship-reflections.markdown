@@ -8,9 +8,9 @@ lang: en
 ---
 
 I have come back to blogging!
-From July to December 2020, I interned at a medical device startup on its medical ventilator project as an electrical engineer intern. 
+From July to December 2020, I busily interned at a medical device startup on its medical ventilator project as an electrical engineer intern. So, what have I learned during the internship?
 
-### Lesson 1: Work Is A Important Part of My Identity
+### Lesson 1: Figure Out What Matters For Me
 
 I feel somewhat vulnerable in saying this, but I do discover that work makes up an important aspect of my identity. Working on a medical device gives me a certain sense of commitment. When the work is aligned with my personal values, that work itself becomes a form of self-expression.
 
@@ -58,16 +58,30 @@ Still, sometimes, we just need to let go and begin some new adventures.
 
 ### Lesson 8: Complete the Hardest Task First
 
-### Lesson 9: MATLAB Can Create Music
+It's more motivating this way.
+
+### Lesson 9: Keep Workspace Organized
+
+The conversation I was often having with myself involves:
+
++ _Where is XXX? It should be here but it isn't._
+
++ _Where should I put XXX? Is there a designated place for it?_
+
+You see, not having a organized workplace can drive me crazy. I actually spent a whole afternoon organizing the soldering station and component bins area, categoring components and putting them in designated boxes.
+
+With a cleaner desk, comes a cleaner mindset!
+
+### Lesson 10: MATLAB Can Create Music
 
 Unbelievable right? Somehow my impressions of MATLAB are still filled with matrices and plots. For the first time in my life I created three alarm audio files using MATLAB!
 
-### Lesson 10: Resistor Color Bands
+### Lesson 11: Resistor Color Bands
 
 I spent some time sorting all the resistors in our workspace, and was reminded of the fact that color bands denote different resistor values. There can be 4 or 5 or 6 bands on a resistor. Colors include black, brown, red, orange, yellow, green, blue, violet, grey and white.
 
-### Lesson 11: Choose Myself
-from https://www.minimalismmadesimple.com/home/choosing-yourself/
+### Lesson 12: Choose Myself
+[Note: Information below is direct quote from a post by [Minimalism Made Simple][ref-1]]
 
 When you choose yourself it doesn’t mean putting people last, it just means you are putting yourself first.
 
@@ -78,3 +92,5 @@ What good would you be to someone if you didn’t know how to take care of you?
  This is time to take priority in your own life. Learn the things that make you happy and sad.
 
 When you take care of yourself and love yourself you open up a world of happiness for yourself and others. So go ahead look into the mirror and say today… I choose me.
+
+[ref-1]:https://www.minimalismmadesimple.com/home/choosing-yourself/
