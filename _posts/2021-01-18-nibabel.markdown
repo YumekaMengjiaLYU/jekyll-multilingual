@@ -16,6 +16,62 @@ NiBabel represents data as spatial images, a structure containing three things:
 + An affine matrix: 4 by 4 array relating voxel coordinates and world coordinates
 
 + Image metadata: usually a format-specific header
+
+
+### Affine transforms
+
+The affine is a $4 \times 44 numpy array. This describes the transformation from the voxel space (indices(i,j,k)) to a reference space (coordinates (x,y,z)). These coordinates are, by convention, distance in mm _right, anterior, and superior_ of an origin.
+
+$$\begin{bmatrix}
+x\\
+y\\ 
+z\\
+1 \\
+\end{bmatrix} = A\begin{bmatrix}
+i\\
+j\\ 
+k\\
+1 \\
+\end{bmatrix}=\begin{bmatrix}
+m_{11}&m_{12}&m_{13}&a\\
+m_{21}&m_{22}&m_{23}&b\\
+m_{31}&m_{32}&m_{33}&c\\
+0&0&0& 1\\
+\end{bmatrix}\begin{bmatrix}
+i\\
+j\\ 
+k\\
+1 \\
+\end{bmatrix}$$
+
+NiBabel provides functions for extracting information from affines:
+
++ Orientation (or axis codes) indicates the direction an axis encodes. If increasing index along an axis moces to the right or left, the axis is coded "R" or "L", respectively.
+
++ Voxel sizes (or zooms).
+
++ Obliquity measures the amount of rotation from "canonical" axes.
+
+We can also use it to answer specific questions. For instance, the inverse affine allows you to calculate indices from RAS coordinates and look up the image intensity value at that location.
+
+### Remark
+
++ Affines provide the spatial interpretation of the data.
+
+
++ NiBabel has some useful methods for working with them.
+
+### Image Headers
+The image header is specific to each file format. Minimally, it contains information to construct the data and affine arrays, but some methods are useful beyond that.
+
++ `get_zooms()`: returns voxel sizes. If the data is 4D, then repetition time is included as a temporal zoom.
+
++ `get_data_dtype()`: returns the numpy data type in which the image data is stored (or will be stored when the image is saved)
+
+For images with fixed header structures, header fields are exposed through a `dict`-like interface.
+
+Often, we are not particularly interested in the header, or even the affine. But it's important to know they're there and, especially, to remember to copy them when making new images, so that derivatives stay aligned with the original image.
+
 ### Creating New Images
 
 In many cases, we will want to use the image to compute a new image in the same space. Such a function might take the form:
@@ -25,6 +81,11 @@ def my_function(image):
     new_data = some_operation_on(orig_data)
     return image.__class__(new_data, affine=image.affine, header=image.header)
 ```
+
+Note that the `image.__class__` ensures that the output image is the same type as the input. If your operation requires specific format features, you might use a specific class like `nb.Nifti1Image`.
+
+
+
 ### Data Objects - Arrays and Array Proxies
 
 Recall that the spatial image contains data, affine and header objects. When creating a new image, the `data` array is typically an array.
