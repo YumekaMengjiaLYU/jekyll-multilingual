@@ -7,28 +7,17 @@ tags: career
 lang: en
 ---
 
-Looking back, I can see my strange entanglement with neuroscience.
+In Chinese, there is a word 缘分[Yuanfen][ref-1]. I definitely feel it with neuroscience.
 
-very interesting encounter with a mouse when i was a kid
+The biggest trigger that propels me to open the door to neuroscience, is my own long-term struggle with anxiety and a overly obsessive mind. I remember once that I caught a glimpse of the book _Because I Come from a Crazy Family: The Making of a Psychiatrist_ in a bookstore, and thought to myself, "wow I guess I can say because I am somewhat crazy myself". I felt drawn to the mental health profession, and figured that to make best use of my background it would be nice to study neuroscience. By a twist of fate, I came to Columbia to study biostatistics, with the hope of working on mental health data science. However, it wasn't until my last semester here that I was formally introduced to neuroimaging by Professor [Seonjoo Lee][ref-2]. I realize that this is what I could do to break into neuroscience and eventually get to understand how different forms of mental illnesses occur in people, myself included. 
 
-had a childhood friend whose mom had mental illness was warned that she might come at us when she got triggered
+My intellectual interest in neuroscience was first triggered when a friend of mine in college gave me a tour around his research lab. At the time, he was working as an undergraduate assistant for a neuroscience research team at Kavli Institute for Brain & Mind that investigated brain activity during mating in fruit flies using an innovative imaging technology called Flyception2. The realization that fruit flies also need brains in order to successfully mate struck me as intriguing, which left me with a desire in knowing what exactly happen in brains that produce our moment-to-moment experiences of thoughts and feelings, fears and desires. Later on, I happened to participate in the exhibition _The Beautiful Brain: The Drawings of Santiago Ramon y Cajal_ at MIT museum and was utterly amazed. 
 
-was curious about "the crazy" what are they 
+Connecting the dots, it really feels like to me that Yuanfen is the best word that describes my relationship with neuroscience. What do you think about this? Have you noticed Yuanfen in your life? I'd love to see comments below :)
 
-anxiety and mental pushed me to understand myself better
 
-First, I took my real psychology class in UCSD with Professor Angela. Though I later withdrew from the course due to time conflicts, I realized that psychology is not what I thought it talked about. I wanted something deeper and more intuitive.
 
-While in the bookstore, I noticed a book by V. S. Ramachandran _Phantoms In The Brain_. I borrowed from the library _The Man Who Mistook His Wife for a Hat and Other Clinical Tales_.
 
-I remembered that one day we sat together for a short ride on the school bus and he said he was working on neural engineering projects.
+[ref-1]:https://en.wikipedia.org/wiki/Yuanfen
 
-Then during my last at UCSD, I audit a course on the psychology of consciousness. It was a very interesting introduction to the foundation of neuroscience.
-
-Then during I participated in a night school program at the Boston Graduate School of Psychoanalytics. 
-Audit a class at harvard neurobiology, and got to see and hold a human brain
-
-in peru volunteer psychometrics down syndrome
-Then during my time at home I found out about a research area called computational neuroscience.
-
-Then now at Columbia I am doing research with neuroimaging statistcal analysis.
+[ref-2]:https://sites.google.com/site/seonjool/
