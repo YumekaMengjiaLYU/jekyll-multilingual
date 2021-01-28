@@ -7,7 +7,7 @@ tags: career
 lang: en
 ---
 
-[Note: The post is a summary of what I learning with the ]
+[Note: The post is a summary of what I learning with the SQL for Data Science by Coursera]
 
 Cross Join: each row from the first table joins with all the rows of another table
 
