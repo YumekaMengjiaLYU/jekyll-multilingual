@@ -29,6 +29,8 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 
 + [The Evil p-value][ref-7]
 
++ [Guide for Testing Data Analysis Scripts in Academia][ref-22]
+
 + [GNU Make for Neuroimaging Workflows][ref-8]
 
 + [Image Processing in Neuroimaging Applications][ref-9]
@@ -70,3 +72,4 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 [ref-19]:https://github.com/neurohackweek/python-tips-and-tricks/blob/master/python-tips-and-tricks.ipynb
 [ref-20]:https://neuroimage.usc.edu/brainstorm/Tutorials/Statistics
 [ref-21]:https://andysbrainbook.readthedocs.io/en/latest/index.html
+[ref-22]:https://neurohackweek.github.io/software-testing-for-scientists/

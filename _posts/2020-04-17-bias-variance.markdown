@@ -21,6 +21,13 @@ $${ \operatorname {Var} [X]=\operatorname {E} [X^{2}]-{\Big (}\operatorname {E} 
 $${ \operatorname {Err} (x)=\operatorname {E} [Y^{2}]-{\Big (}\operatorname {E} [X]{\Big )}^{2}.}$$
 ![Bias Variance Decomposition](/jupyternb/image/decomposition.png){:class="img-responsive"}
 
+A illustration from [Choosing Prediction Over Explanation in Psychology: Lessons From Machine Learning][ref-6]
+![Prediction](/jupyternb/image/bias-variance.png)
+An estimator’s predictions can deviate from the desired outcome (or true scores) in two ways.
+First, the predictions may display a systematic tendency (or bias) to deviate from the central tendency of
+the true scores (compare right panels with left panels). Second, the predictions may show a high degree
+of variance, or imprecision (compare bottom panels with top panels). 
+
 
 References:
 
@@ -36,6 +43,7 @@ References:
 [ref-3]:https://www.allaboutcircuits.com/technical-articles/analog-design-trade-offs-in-applying-linearization-techniques-CMOS-circuits/
 [ref-4]:http://scott.fortmann-roe.com/docs/BiasVariance.html
 [ref-5]:http://statweb.stanford.edu/~tibs/stat315a/LECTURES/chap7.pdf
+[ref-6]:http://jakewestfall.org/publications/Yarkoni_Westfall_choosing_prediction.pdf
 
 Probability Density estimation is the construction of an estimate based on observed data. It involves selecting a probability distribution function and the parameters of that function that best explains the joint probability of the observed data.
 The GMM or Gaussian Mixture Model is a mixture model that uses a combination of probability distribution and requires the estimation of mean and standard deviation parameters 
