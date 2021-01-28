@@ -10,14 +10,33 @@ lang: en
 ### Intro
 NiBabel is a low-level Python library that gives access to a variety of imaging formats, with a particular focus on providing a common interface to the various volumetric formats produced by scanners and used in common neuroimaging toolkits.
 
-NiBabel represents data as spatial images, a structure containing three things:
+### Saving
+All NiBabel images have a `.to_filename()` method.
+
+`nibabel.save` will attempt to convert to a reasonable image type, if the extension doesn't match.
+
+Some image types separate header and data into two separate images. Saving to either filename will generate both.
+
+### Serialization
+
+Some NiBabel images can be serialized to and deserialized from byte strings, for performing stream-based I/O.
+### Spatial Images
+For MRI studies, neuroimaging data is typically acquired as one or more volumes. NiBabel represents data as spatial images, a structure containing three things:
 + The image data array; a 3D or 4D array of image data
 
 + An affine matrix: 4 by 4 array relating voxel coordinates and world coordinates
 
 + Image metadata: usually a format-specific header
 
+### The Data Array
 
+The data is a simple numpy array. It can be accessed, sliced and generally manipulated as we would any array.
+
+Each location in the image data array is a voxel, and can be referred to with voxel coordinates (array indices).
+
+This is ia natural way to describe a block of data, but is practically meaningless with regard to anatomy.
+
+All of this information is encoded in the affine.
 ### Affine transforms
 
 The affine is a $4 \times 44 numpy array. This describes the transformation from the voxel space (indices(i,j,k)) to a reference space (coordinates (x,y,z)). These coordinates are, by convention, distance in mm _right, anterior, and superior_ of an origin.
@@ -43,6 +62,9 @@ j\\
 k\\
 1 \\
 \end{bmatrix}$$
+
+### The Affine as a Series of Transformations
+An affine transformation can be decomposed into translation, rotation, scaling and shear transformations, applied right-to-left.
 
 NiBabel provides functions for extracting information from affines:
 
