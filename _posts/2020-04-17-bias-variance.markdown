@@ -38,6 +38,7 @@ References:
 3.[Analog Design Trade-Offs in Applying Linearization Techniques Using Example CMOS Circuits][ref-3]
 
 5.[ESL Chap 7-Model Selection-Rob Tibshirani][ref-5]
+
 [ref-1]:https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
 [ref-2]:https://en.wikipedia.org/wiki/Trade-off
 [ref-3]:https://www.allaboutcircuits.com/technical-articles/analog-design-trade-offs-in-applying-linearization-techniques-CMOS-circuits/
