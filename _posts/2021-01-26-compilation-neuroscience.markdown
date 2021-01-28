@@ -13,6 +13,8 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 
 + [Statistics][ref-20]
 
++ [Andy's Brain Book][ref-21]
+
 + [UNIX and Make tutorial][ref-2]
 
 + [Python Tips and Tricks][ref-19]
@@ -67,3 +69,4 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 [ref-18]:https://anisha.pizza/nhw2017_d3/presentation/index.html#/17
 [ref-19]:https://github.com/neurohackweek/python-tips-and-tricks/blob/master/python-tips-and-tricks.ipynb
 [ref-20]:https://neuroimage.usc.edu/brainstorm/Tutorials/Statistics
+[ref-21]:https://andysbrainbook.readthedocs.io/en/latest/index.html

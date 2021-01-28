@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "A Primer on Nibabel"
+ref: welcome
+date:   2021-01-18
+tags: career
+lang: en
+---
+
+NiBabel is a low-level Python library that gives access to a variety of imaging formats, with a particular focus on providing a common interface to the various volumetric formats produced by scanners and used in common neuroimaging toolkits.
+
+NiBabel represents data as spatial images, a structure containing three things:
++ The image data array; a 3D or 4D array of image data
+
++ An affine matrix: 4 by 4 array relating voxel coordinates and world coordinates
+
++ Image metadata: usually a format-specific header
