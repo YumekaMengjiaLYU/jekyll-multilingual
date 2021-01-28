@@ -76,11 +76,12 @@ With a cleaner desk, comes a cleaner mindset!
 
 Unbelievable right? Somehow my impressions of MATLAB are still filled with matrices and plots. For the first time in my life I created three alarm audio files using MATLAB!
 
-### Lesson 11: Resistor Color Bands
 
-I spent some time sorting all the resistors in our workspace, and was reminded of the fact that color bands denote different resistor values. There can be 4 or 5 or 6 bands on a resistor. Colors include black, brown, red, orange, yellow, green, blue, violet, grey and white.
-
+### Lesson 11: People are More Willing to Help Than I Think
+[Electrical Engineering Stack Exchange][ref-2] is a site that helped me tremendously during my internship. I was surpised by how much people are willing to help! There are so many brilliant minds out there, and I cannot be more grateful when these minds pour some of its knowledge into mine.
 ### Lesson 12: Choose Myself
+
+This is a bit personal, but important enough for me to share.
 [Note: Information below is direct quote from a post by [Minimalism Made Simple][ref-1]]
 
 When you choose yourself it doesn’t mean putting people last, it just means you are putting yourself first.
@@ -94,3 +95,4 @@ What good would you be to someone if you didn’t know how to take care of you?
 When you take care of yourself and love yourself you open up a world of happiness for yourself and others. So go ahead look into the mirror and say today… I choose me.
 
 [ref-1]:https://www.minimalismmadesimple.com/home/choosing-yourself/
+[ref-2]:https://electronics.stackexchange.com/
