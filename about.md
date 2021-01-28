@@ -6,4 +6,7 @@ ref: about
 lang: en
 ---
 
-This blog aims to provide beginner-friendly step-by-step tutorials on anything related to machine learning. Feedback is always appreciated :)
+This blog aims to document my journey in machine learning, data science and more recently neuroscience. 
+
+
+Feedback is always appreciated :)

@@ -46,14 +46,3 @@ References:
 [ref-5]:http://statweb.stanford.edu/~tibs/stat315a/LECTURES/chap7.pdf
 [ref-6]:http://jakewestfall.org/publications/Yarkoni_Westfall_choosing_prediction.pdf
 
-Probability Density estimation is the construction of an estimate based on observed data. It involves selecting a probability distribution function and the parameters of that function that best explains the joint probability of the observed data.
-The GMM or Gaussian Mixture Model is a mixture model that uses a combination of probability distribution and requires the estimation of mean and standard deviation parameters 
-
-Advantages
-It is guaranteed that the likelihood will increase with each iteration.
-During implementation, the E-step and M-step are very easy for many problems.
-The solution for M-step often exists in closed form.
-Disadvantage
-EM algorithm has a very slow convergence.
-It makes the convergence to the local optima only.
-EM requires both forward and backward probabilities.
