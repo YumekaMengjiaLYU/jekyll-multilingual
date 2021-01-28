@@ -9,8 +9,7 @@ lang: en
 
 SQL is the most mainstream languaged used to access databases because it can work with any databases.
 
-[Note: Information below is direct quote from a post by [Minimalism Made Simple][ref-1]]
-[Note: Information below is direct quote from a post by ]
+
 (Note: The post is a summary of what I learning with the SQL for Data Science by Coursera)
 
 Cross Join: each row from the first table joins with all the rows of another table

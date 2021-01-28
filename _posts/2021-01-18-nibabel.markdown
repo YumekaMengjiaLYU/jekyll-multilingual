@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "A Primer on Nibabel"
+title:  "A Primer on NiBabel"
 ref: welcome
 date:   2021-01-18
 tags: career
 lang: en
 ---
 
+### Intro
 NiBabel is a low-level Python library that gives access to a variety of imaging formats, with a particular focus on providing a common interface to the various volumetric formats produced by scanners and used in common neuroimaging toolkits.
 
 NiBabel represents data as spatial images, a structure containing three things:
@@ -15,3 +16,87 @@ NiBabel represents data as spatial images, a structure containing three things:
 + An affine matrix: 4 by 4 array relating voxel coordinates and world coordinates
 
 + Image metadata: usually a format-specific header
+### Creating New Images
+
+In many cases, we will want to use the image to compute a new image in the same space. Such a function might take the form:
+```python
+def my_function(image):
+    orig_data = image.get_fdata()
+    new_data = some_operation_on(orig_data)
+    return image.__class__(new_data, affine=image.affine, header=image.header)
+```
+### Data Objects - Arrays and Array Proxies
+
+Recall that the spatial image contains data, affine and header objects. When creating a new image, the `data` array is typically an array.
+
+When loading a file, an `ArrayProxy` is used for most image types.
+
+An array proxy is an object that knows how to access data, but does not read it until requested. The usual way to request data is `get_fdata()`, which returns all data as floating point.
+
+### Converting Array Proxies to Arrays
+
+
+Array proxies are designed to be one step away from a numpy array: memory maps are arrays that remain on disk, rather than in RAM. This is only possible with uncompressed images.
+
+We can also cast to any type we please, however unwisely.
+
+### Indexing and slicing array proxies
+
+One of the primary motivation for an array proxy is to avoid loading data unnecessarily. Accessing the array proxy with array indices or slices will return the requested values without loading other data.
+
+
+### Scaling Array Proxies
+
+Several image types, including NIfTI, have a slope and intercept (scaling factors) in the header that allows them to extend the data range and/or precision beyond those of the on-disk type.
+
+For instance, `uint16` can take the values 0-65535. If a BOLD series includes values from 500-2000, we can calculate a slope that will allow us to utilize the 16 bits of precision to encode our desired values.
+### Main Points
+
++ When in doubt, use `img.get_fdata()` will fetch all of the data, and it will always be a float
+
++ `img.dataobj` exists if you want to load only some data or control the data type
+
++ Both methods transparently scale data when needed
+
+### Surface Images
+
+Although the scanner samples data in three dimensions, some brain structures are better represented as a convoluted sheet than a volume. Data may be usefully resampled onto a cortical sheet, but in the process, it loses the intrinsic geometry of a 3D array.
+
+To represent data on a surface, we need the following structures:
+
++ The surface mesh
+  + Vertices: a list of coordinates in world space
+  + Faces: a list of 3-tuples of indices into the coordinate list
+
++ The data array: a 1D or 2D array of values or vectors at each vertex
+
+Unlike spatial images, these components are frequently kept in separate files.
+
+_Terminological note_: You are likely to encounter multiple names for each of these. Vertices may be called _coordinates_ or a _point set_. Faces are often called _triangles_. When a data array is plotted on the surface, it might be called a _texture_. 
+
+### Image-specific interfaces
+
+The two suppported surface formats now are GIFTI and FreeSurfer geometry files. Unlike spatial images, there is not yet a common interface for working with surface-based data.
+
+FreeSurfer encodes a great deal of information in its directory structure and file names, allowing the necessary data arrays to have relatively simple formats.
+
+GIFTI is more of an interchange format, and has a rich metadata structure and can store different kinds of data.
+
+### CIFTI-2
+CIFTI-2 is a file format intended to cover many use cases for connevtivity analysis.
+
+Files have 2-3 dimensions and each dimension is decribed by one of 5 types of axis.
+
++ Brain models: each row/column is a voxel or vertex
+
++ Parcels: each row/column is a group of voxels and/or vertices
+
++ Scalars: each row/column has a unique name
+
++ Labels: each row/column has a unique name and label table
+
++ Series: each row/column is a point in a series (typically time series), which increases monotonically
+
+For instance, "a parcellated dense connectivity" CIFTI-2 file has two dimensions, indexed by a brain models axis and a parcels axis. 
+
+The interpretation is _connectivity from parcels to vertices and/or voxels_.
