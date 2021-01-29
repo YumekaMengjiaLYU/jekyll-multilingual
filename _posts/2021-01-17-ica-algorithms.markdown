@@ -7,6 +7,8 @@ tags: career
 lang: en
 ---
 
+For my practicum, I am working with fMRI data. Two algorithms that I've come across is normal ICA and fast ICA.
+
 
 ## ICA
 The definition is copied from the [paper][ref-1]

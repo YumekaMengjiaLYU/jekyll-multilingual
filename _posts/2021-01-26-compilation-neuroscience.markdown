@@ -29,6 +29,10 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 
 + [The Evil p-value][ref-7]
 
++ [Introduction to R][ref-24]
+
++ [Python for Programmers][ref-23]
+
 + [Guide for Testing Data Analysis Scripts in Academia][ref-22]
 
 + [GNU Make for Neuroimaging Workflows][ref-8]
@@ -73,3 +77,5 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 [ref-20]:https://neuroimage.usc.edu/brainstorm/Tutorials/Statistics
 [ref-21]:https://andysbrainbook.readthedocs.io/en/latest/index.html
 [ref-22]:https://neurohackweek.github.io/software-testing-for-scientists/
+[ref-23]:https://neurohackweek.github.io/python-for-programmers/
+[ref-24]:https://jmumford.github.io/R-tutorial/
