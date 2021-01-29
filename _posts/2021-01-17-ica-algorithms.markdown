@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "fastICA and cICA"
+title:  "All About ICA"
 ref: welcome
 date:   2021-01-17
 tags: career
