@@ -13,6 +13,9 @@ The biggest trigger that propels me to open the door to neuroscience, is my own 
 
 My intellectual interest in neuroscience was first triggered when a friend of mine in college gave me a tour around his research lab. At the time, he was working as an undergraduate assistant for a neuroscience research team at Kavli Institute for Brain & Mind that investigated brain activity during mating in fruit flies using an innovative imaging technology called Flyception2. The realization that fruit flies also need brains in order to successfully mate struck me as intriguing, which left me with a desire in knowing what exactly happen in brains that produce our moment-to-moment experiences of thoughts and feelings, fears and desires. Later on, I happened to participate in the exhibition _The Beautiful Brain: The Drawings of Santiago Ramon y Cajal_ at MIT museum and was utterly amazed. 
 
+When I was volunteering in Peru, I was assigned to a special needs school with a local team of psychometrician interns. I think the work in psychometrics is very interesting, but I have to admit after the experience that I prefer to stay in a research lab environmment. Still, the experience in Peru makes me more aware of the effects of minds on people. And I really miss my fellow interns as well as the children from whom I learned how to laugh and love.
+
+
 Connecting the dots, it really feels like to me that Yuanfen is the best word that describes my relationship with neuroscience. What do you think about this? Have you noticed Yuanfen in your life? I'd love to see comments below :)
 
 
