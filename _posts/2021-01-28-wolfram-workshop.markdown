@@ -50,12 +50,12 @@ Can use the free form input and the Wolfram language together
 
 Manipulate function
 
-How frequency affects x
 
+```wl
 Manipulate [Plot[Sin[freq*x],{x,0,10}],{freq,1,10}]
-
+```
 Wolfram Demonstration Projects have lots of examples
-
+```wl
 data=Import["https://www.handsonstart.com/ExampleDataScores.txt","Data"]
 
 Part[data,1]
@@ -71,6 +71,8 @@ Interpreter["USState"][states]
 Manipulate[Plot[amp*func[freq*x],{x,0,6Pi},PlotRange->4],{freq,1,5},{amp,1,4},{func,{Sin,Cos,Tan}}]
 
 CloudDeploy[Manipulate[Plot[amp*func[freq*x],{x,0,6Pi},PlotRange->4],{freq,1,5},{amp,1,4},{func,{Sin,Cos,Tan}}]]
+
+```
 
 [Part 2 Presentation][ref-1]
 
