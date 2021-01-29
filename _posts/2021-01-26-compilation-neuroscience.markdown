@@ -7,7 +7,7 @@ tags: career
 lang: en
 ---
 
-I found out about an amazing neuroscience educational initiative called [Neurohackademy][ref-1] where a lot of researchers share they knowledge in usng data science to hack the brain. Here I would like to compile all the resources in the hope that it would benefit myself or someone else.
+I found out about an amazing neuroscience educational initiative called [Neurohackademy][ref-1] where a lot of researchers share their knowledge in usng data science to hack the brain. Here I would like to compile all the resources in the hope that it would benefit myself or someone else.
 
 If I cannot find the powerpoint slides the speaker used during the lecture, I have taken noted myself and linked my notes accordingly.
 

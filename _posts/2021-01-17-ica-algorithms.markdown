@@ -102,6 +102,10 @@ Strength of one component at a particular moment in time does not provide inform
 
 + a lot of ICA algorithms are designed to have random initialization like k-means. They often gives similar answers, but not always.
 
+## FastICA
+From Wiki:
+
+FastICA is an efficient and popular algorithm for independent component analysis invented by Aapo Hyvärinen at Helsinki University of Technology. Like most ICA algorithms, FastICA seeks an orthogonal rotation of prewhitened data, through a fixed-point iteration scheme, that maximizes a measure of non-Gaussianity of the rotated components. Non-gaussianity serves as a proxy for statistical independence, which is a very strong condition and requires infinite data to verify. FastICA can also be alternatively derived as an approximative Newton iteration.
 ### Definition
 
 ## Wavelet Analysis
