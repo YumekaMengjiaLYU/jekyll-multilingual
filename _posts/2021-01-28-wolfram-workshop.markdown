@@ -127,6 +127,8 @@ f[2]
 output =25
 
 
+
+
 x=5;
 f[x_]:=x^2
 f[2]
@@ -138,7 +140,9 @@ Tally
 + Using the list {}, filter the list and remov ethe labels
 
 Rest[{{"column 1","column 2","column 3"}, "}]
+```
 
+```wl
 iteration
 core to programming
 would like to have machine repeat things
