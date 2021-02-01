@@ -134,9 +134,9 @@ output =4
 
 Tally
 
-+ Using the list {}, filter the list and remov ethe labels
++ Using the list , filter the list and remov ethe labels
 
-Rest[{{"column 1","column 2","column 3"}, "}]
+Rest[{{"column 1","column 2","column 3"}, }]
 ```
 
 ```wl
