@@ -128,9 +128,7 @@ output =25
 
 
 
-x=5;
-f[x_]:=x^2
-f[2]
+
 
 output =4
 
