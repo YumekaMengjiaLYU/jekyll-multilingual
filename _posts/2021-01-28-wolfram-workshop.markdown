@@ -89,7 +89,7 @@ a little shortcut
 /@
 
 
-
+```wl
 Atomic expressions
 5 
 m
@@ -228,7 +228,7 @@ Exercises
 ListLinePlot RandomReal[10,10]
 
 great for simulation
-
+```
 
 [Part 2 Presentation][ref-1]
 
