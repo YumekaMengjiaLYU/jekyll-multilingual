@@ -101,6 +101,55 @@ When using Gaussian mixture model, how do you know it is applicable? (Normal dis
 + How many people apply to Google per year?
 + How do you build estimators for medians?
 + If each of the two coefficient estimates in a regression model is statistically significant, do you expect the test of both together is still significant?
+
+
++ Why would you use random forests vs SVM and why?
++ How can you make an unfair coin fair?
++ In SQL, what’s the difference between a primary key, a candidate key, a foreign key, and a super key?
++ How can you deal with unbalanced binary classification?
++ What is the difference between convex and non-convex cost function?
++ What are the advantages of dropout layers and how do they work?
++ What’s the difference between a clustered and non-clustered index? What are the advantages of each? 
++ What are some of the steps for data wrangling and data cleaning before applying machine learning algorithms?
++ What kinds of methods can you use in order to analyse the topics over a set of documents?
++ When would you use linear regression vs multiple regression? How can multiple regression models be better or worse than linear regression models?
++ What can joins in SQL be used for? What’s the difference between a left join, an inner join, and a full outer join?
++ Explain what a long-tailed distribution is and provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems?
++ What is an example of a probability distribution that has a finite mean, but infinite variance?
++ What is data scrubbing? What’s one way to scrub data?
++ What is a Markov Decision Process and what is the goal for the decision maker? Which kinds of policies are the easiest to store and learn?
++ What is ensemble learning and what is the difference between bagging and boosting?
++ What is Occam’s Razor and how is stated in ML Theory?
++ What is a DBMS? What is a RDMS? How do they differ from each another?
++ What are Lasso, Ridge, and Elastic net regularizations?
++ What is exploitation-exploration? And what is the armed bandit method?
++ What are examples of linear and non-linear dimensionality reduction techniques?
++ What is PAC Learnability and how does it relate to Uniform Convergence? Can you explain the difference between Agnostic PAC Learning vs Realizable PAC Learning?
++ Explain what precision and recall are. How do they relate to the ROC curve?
++ What are hash table collisions? Why do they happen? Explain how you might resolve one.
++ What is an example of a non-parametric clustering method and how does it work?
++ What are examples of times when false positives are more important than false negatives? What about when false negatives are more important? When are false positives and false negatives equally important?
++ What are the differences between SQL and PL/SQL? What is a database management system?
++ Define a SQL query. What is the difference between SELECT and UPDATE Query? How do you use SQL in SAS, Python, R languages?
++ How would you perform clustering on a million unique keywords, assuming you have 10 million data points, each one consisting of two keywords, and create a metric measuring how similar these two keywords are? How would you create this 10 million data points table in the first place?
++ What is the Markov Property and why is it useful for modeling systems?
++ What is PAC learnability and what is a sufficient condition for an ERM to PAC learn?
++ Write a mock SQL Query to find the second highest salary of Employee in a table where Salary and Employee ID are given.
++ What are the assumptions and uses of logistic regression and how do they differ from those of linear regression?
++ How would you write a regex in order to see if a word began with a vowel in an SQL Query?
++ What assumptions are needed for a linear regression? Are they the same for a logistic regression? How would you test the significance of the parameters for a linear regression? Would you use the same test in the case of a logistic regression?
++ What is the hardest challenge you have ever confronted and how did you improve afterwards?
++ What is the best way to combat biases in your algorithms?
++ What is a dimensionality reduction method and clearly explain how it works (e.g. What does a principle component in PCA represent)?
++ Explain your favorite machine learning algorithm and how exactly it works (e.g. Lloyd’s algorithm for K-Means, Decision Tree Construction).
++ Explain what is the difference between the weak and strong versions of the law of large numbers and the central limit theorem. When are they typically used? What are their requirements to be used?
++ Given a n*n matrix where all numbers are distinct, describe an algorithm that can find the maximum length path (starting from any cell) such that all cells along the path are in increasing order with a difference of 1: we can move in 4 directions from a given cell (i, j), i.e., we can move to (i+1, j) or (i, j+1) or (i-1, j) or (i, j-1) with the condition that the adjacent cells have a difference of 1. How many paths exist in total (side question)?
++ What are the support vectors in a SVM (support vector machine)?
++ Give an example of three random events X, Y, Z for which any pair are independent but all three are not mutually independent.
++ How can you determine the optimal number of clusters in an unsupervised learning problem (give at least two examples)?
+
+
+
 References:
 
 [25 Microsoft AI Interview Questions][ref-1]
