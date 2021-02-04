@@ -1,0 +1,15 @@
+---
+layout: post
+comments: true
+title:  "BIDS"
+ref: welcome
+date:   2021-02-02
+tags: theory
+lang: en
+---
+
+## FAIR: Findable Accessible Interoperable and Reusable
+
+[OPEN BRAIN CONCENT][ref-1]
+
+[ref-1]:https://open-brain-consent.readthedocs.io/en/stable/

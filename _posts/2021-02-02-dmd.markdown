@@ -1,0 +1,26 @@
+---
+layout: post
+comments: true
+title:  "Dynamic Mode Decomposition"
+ref: welcome
+date:   2021-02-02
+tags: theory
+lang: en
+---
+
+PCA and ICA are inherently static techniques \\\
+
+
+leading eigendecomposition of A without computing A
+
+X vectorized version of snapshot
+
+want to compute leading r without computing a
+
+Define Y Matrix
+
+X Y almost identical
+
+Y shifted over by 1t
+
+$$X = U \Sigma V^*$$
