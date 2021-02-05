@@ -1,0 +1,11 @@
+---
+layout: post
+comments: true
+title:  "Dynamic Mode Decomposition"
+ref: welcome
+date:   2021-02-02
+tags: theory
+lang: en
+---
+$$Y = X\beta + \epsilon$$
+$$\beta = (X'V^{-1}X)^{-1}X'V^{-1}Y$$

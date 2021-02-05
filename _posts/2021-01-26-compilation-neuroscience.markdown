@@ -57,6 +57,9 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 
 + [NiBabel][ref-13]
 
++ [Finding low-dimensional structure in large-scale neural datasets][ref-26]
+
++ [Software Testing][ref-27]
 [ref-1]:https://neurohackademy.org/course_type/lectures/
 [ref-2]:https://neurohackweek.github.io/advancedunix/
 [ref-3]:https://neurohackweek.github.io/cython-tutorial/
@@ -82,3 +85,5 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 [ref-23]:https://neurohackweek.github.io/python-for-programmers/
 [ref-24]:https://jmumford.github.io/R-tutorial/
 [ref-25]:https://madhyastha.github.io/neurohackweek2017/
+[ref-26]:http://neurohackademy.org/wp-content/uploads/2018/02/Dyer-DimReduction-NeuroHack-Aug3.pdf
+[ref-27]:https://neurohackademy.github.io/software-testing-for-scientists/
