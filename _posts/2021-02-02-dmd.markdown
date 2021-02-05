@@ -24,3 +24,9 @@ X Y almost identical
 Y shifted over by 1t
 
 $$X = U \Sigma V^*$$
+
+$$Y = AU \Sigma V^*$$
+
+$$U^* Y = U^* AU \Sigma V^*$$
+
+$$\tilde A = U^* Y V^*^{-1} \Sigma^{-1}$$
