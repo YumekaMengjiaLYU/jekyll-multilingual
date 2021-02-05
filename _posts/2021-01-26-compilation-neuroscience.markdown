@@ -45,6 +45,8 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 
 + [Cloud Computing for Neuroimaging][ref-15]
 
++ [Getting Familiar with Amazon Web Services][ref-25]
+
 + [Image Processing and Computer Vision with Scikit-image][ref-17]
 
 + [Time-series Analysis][ref-16]
@@ -79,3 +81,4 @@ If I cannot find the powerpoint slides the speaker used during the lecture, I ha
 [ref-22]:https://neurohackweek.github.io/software-testing-for-scientists/
 [ref-23]:https://neurohackweek.github.io/python-for-programmers/
 [ref-24]:https://jmumford.github.io/R-tutorial/
+[ref-25]:https://madhyastha.github.io/neurohackweek2017/

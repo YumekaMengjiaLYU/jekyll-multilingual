@@ -10,7 +10,41 @@ lang: en
 
 ## FAIR: Findable Accessible Interoperable and Reusable
 
+### Digital Object - Data, code and other research outputs
+At its most basic level, data or code is a bitstream or binary sequence. For this to have meaning and to be FAIR, it needs to be represented in standard formats and be accompanied by Persistent Identifiers (PIDs), metadata and documentation. These layers of meaning enrich the object and enable reuse.
+
+### Identifiers - Persistent Identifiers (PIDs)
+This enables stable links to the object and supports citation and reuse to be tracked. 
+
+### Standards & Code
+Digital objects should be represented in common and ideally open file formats. This enables others to reuse them as the format is in widespread use and software is available to read the files. Open and well-documented formats are easier to preserve. Data also need to be accompanied by the code use to process and analyze the data.
+
+### Metadata - Contextual documentation
+
+In order for digital objects to be assessable and reusable, they should be accompanied by sufficient metadata and documentation. Basic metadata will enable data discovery, much much richer information and provenance is required to understand how, why, when and by whom the objects were created. 
 
 [OPEN BRAIN CONCENT][ref-1]
+[Research Data Management][ref-2]
+[DataLad][ref-3]
+[BIDS Slides][ref-4]
+
+### Summary
+
++ FAIR data principles give us guidance on how to prepare data for maximal utility to us and others
+
++ FAIR requires technical and human infrastructure throughout the data lifecycle
+
++ Good practice is to add rich metadata to all research objects
+## Brain Imaging Data Structure
+A new standard for organizing human neuroimaging datasets
+### Imaging (NIFTI) files
+All imaging data MUST be stored using the NIfTI file format. We RECOMMEND using compressed NIfTI files (.nii.gz), either version 1.0 or 2.0. Imaging data SHOULD be converted to the NIfTI format using a tool that provides as much of the NIfTI header information (such as orientation and slice timing information) as possible. Since the NIfTI standard offers limited support for the various image acquisition parameters available in DICOM files, we RECOMMEND that users provide additional meta information extracted from DICOM files in a sidecar JSON file (with the same filename as the .nii[.gz] file, but with a .json extension). Extraction of BIDS compatible metadata can be performed using dcm2niix and dicm2nii DICOM to NIfTI converters. The BIDS-validator will check for conflicts between the JSON file and the data recorded in the NIfTI header.
+### Tabular (tsv) files
+Tabular data MUST be saved as tab delimited values (.tsv) files, that is, CSV files where commas are replaced by tabs. Tabs MUST be true tab characters and MUST NOT be a series of space characters. Each TSV file MUST start with a header line listing the names of all columns (with the exception of physiological and other continuous recordings). Names MUST be separated with tabs. It is RECOMMENDED that the column names in the header of the TSV file are written in snake_case with the first letter in lower case (for example, variable_name, not Variable_name). String values containing tabs MUST be escaped using double quotes. Missing and non-applicable values MUST be coded as n/a. Numerical values MUST employ the dot (.) as decimal separator and MAY be specified in scientific notation, using e or E to separate the significand from the exponent. TSV files MUST be in UTF-8 encoding.
+### Key/Value (JSON) files
+JavaScript Object Notation (JSON) files MUST be used for storing key/value pairs. JSON files MUST be in UTF-8 encoding. Extensive documentation of the format can be found here: http://json.org/. Several editors have built-in support for JSON syntax highlighting that aids manual creation of such files. An online editor for JSON with built-in validation is available at: http://jsoneditoronline.org. It is RECOMMENDED that keys in a JSON file are written in CamelCase with the first letter in upper case (for example, SamplingFrequency, not samplingFrequency). Note however, when a JSON file is used as an accompanying sidecar file for a TSV file, the keys linking a TSV column with their description in the JSON file need to follow the exact formatting as in the TSV file.
 
 [ref-1]:https://open-brain-consent.readthedocs.io/en/stable/
+[ref-2]:https://the-turing-way.netlify.app/reproducible-research/rdm.html
+[ref-3]:http://handbook.datalad.org/en/latest/
+[ref-4]:https://neurohackademy.org/wp-content/uploads/2018/07/Gorgolewski_BIDS.pdf
