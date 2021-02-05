@@ -44,7 +44,9 @@ Tabular data MUST be saved as tab delimited values (.tsv) files, that is, CSV fi
 ### Key/Value (JSON) files
 JavaScript Object Notation (JSON) files MUST be used for storing key/value pairs. JSON files MUST be in UTF-8 encoding. Extensive documentation of the format can be found here: http://json.org/. Several editors have built-in support for JSON syntax highlighting that aids manual creation of such files. An online editor for JSON with built-in validation is available at: http://jsoneditoronline.org. It is RECOMMENDED that keys in a JSON file are written in CamelCase with the first letter in upper case (for example, SamplingFrequency, not samplingFrequency). Note however, when a JSON file is used as an accompanying sidecar file for a TSV file, the keys linking a TSV column with their description in the JSON file need to follow the exact formatting as in the TSV file.
 
+[NYU Video][ref-5]
 [ref-1]:https://open-brain-consent.readthedocs.io/en/stable/
 [ref-2]:https://the-turing-way.netlify.app/reproducible-research/rdm.html
 [ref-3]:http://handbook.datalad.org/en/latest/
 [ref-4]:https://neurohackademy.org/wp-content/uploads/2018/07/Gorgolewski_BIDS.pdf
+[ref-5]:https://www.youtube.com/watch?v=66oNv_DJuPc

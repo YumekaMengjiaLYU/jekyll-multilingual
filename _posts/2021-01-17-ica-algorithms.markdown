@@ -8,8 +8,9 @@ lang: en
 ---
 
 For my practicum, I am working with fMRI data. Two algorithms that I've come across is normal ICA and fast ICA.
-
-
+## PCA
+[Video][ref-2]
+[PCA ICA][ref-3]
 ## ICA
 The definition is copied from the [paper][ref-1]
 $$ X_{M \times T} = A_{M \times M}S_{M \times T}$$
@@ -177,3 +178,5 @@ commonly used time series approaches for the temporal corre-
 lation structure in fMRI analysis.
 
 [ref-1]:https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.tm10332
+[ref-2]:https://www.youtube.com/watch?v=kw9R0nD69OU
+[ref-3]:http://compneurosci.com/wiki/images/4/42/Intro_to_PCA_and_ICA.pdf
