@@ -9,3 +9,20 @@ lang: en
 ---
 $$Y = X\beta + \epsilon$$
 $$\beta = (X'V^{-1}X)^{-1}X'V^{-1}Y$$
+
+## Why
+The GLM is a powerfultool, since many different types of analyses can be carried out
+using it including: one-sample t-tests, two-sample t-tests, paired t-tests, ANOVA,
+and ANCOVA. The first section illustrated simple linear regression in the example
+where processing speed was modeled as a function of age. Figure A.2 shows some
+common analyses that are carried out using the GLM where the top example is
+the simplest model, a one-sample t-test.
+
+Figure A.2. Examples of GLM models for popular study designs including: One-sample t-test, two-sample
+t-test, paired t-test, and two-way ANOVA. The first column describes the model, the second
+column describes how the data are ordered in the outcome vector, the third column shows
+the design matrix, and the last column illustrates the hypothesis tests and corresponding
+contrasts. Note, in the ANOVA example F-tests are used for all contrasts, whereas t-tests are
+used for the other examples.
+
+![Prediction](/jupyternb/image/DesignMatrices.png)

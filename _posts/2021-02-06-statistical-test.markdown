@@ -6,6 +6,8 @@ date:   2021-01-22
 tags: career
 lang: en
 ---
+
+
 TYPE I Error
 + H_0 is true, but we mistakenly reject it : false positive
 + controlled by significance level $\alpha$
