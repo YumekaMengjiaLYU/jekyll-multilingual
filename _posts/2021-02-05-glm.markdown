@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Dynamic Mode Decomposition"
+title:  "General Linear Model"
 ref: welcome
 date:   2021-02-02
 tags: theory
