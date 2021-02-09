@@ -158,8 +158,39 @@ at the Fourier frequency rk. This procedure will be referred to
 as cICA hereafter,
 
 
+Limitations of static spectral analysis
+It is visually interpretable only for stationary signals
+
+We want to combine the temmporal precision but also want to ectract frequency specific information over time
+
+One of the main way to do t-f anlysis is wavlet convolution
 
 ## Time-frequency Analysis
+
+They taper to 0 at the beginning and the end.
+
+Integrate to 0
+
+Where do wavelets come from?
+
+Why wavelets provide temporal specificity?
+Fourier transform: dot product with this kernel
+
+Morlet convolution: dot product with the kernel
+
+Morlet wavelets in time and in frequency
+
++ in frequency domain the amplitude spectrum is a Gaussian
+
+Convolution
++ in the time domain
+should avoid using convolution in the time domain as it is very slow
+for conceptual purposes
+
+goal take two time series and mix them together to create a signal
+in general signal is the thing you are interested in ; the kernel is the filter that you apply
++ in the frequency domain
+
 In signal processing, time–frequency analysis[3] is a body of techniques and methods used for characterizing and manipulating signals whose statistics vary in time, such as transient signals.
 
 It is a generalization and refinement of Fourier analysis, for the case when the signal frequency characteristics are varying with time. Since many signals of interest – such as speech, music, images, and medical signals – have changing frequency characteristics, time–frequency analysis has broad scope of applications.
@@ -190,6 +221,19 @@ As a final remark, let’s discuss the numerical advantages of using SVD. A basi
 ### Whitening
 
 Whitening can be used to easily alleviate the effects of coordinates given in different units. 
+
+One of the important assumptions of the GLM, is that the elements of the error vector, are uncorrelated, Cor(i, j) = 0
+for i = j and that they all have the same variance, Var(
+i) = σ2 for all i. 
+
+There are many cases when this assumption is violated. For example, imagine that the dataset
+on age and processing speed included sets of identical twins; in this case, some
+individuals will be more similar than others. More relevant to fMRI, this can also
+occur when the dependent variable Y includes temporally correlated data. When
+this occurs, the distribution of the error is given by Cov() = σ2V, where V is the
+symmetric correlation matrix and σ2 is the varaince.
+The most common solution to this problem is to prewhiten the data, or to remove
+the temporal correlation. 
 
 [ref-1]:https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.tm10332
 [ref-2]:https://www.youtube.com/watch?v=kw9R0nD69OU
