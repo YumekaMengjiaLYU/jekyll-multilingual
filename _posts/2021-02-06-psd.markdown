@@ -1,0 +1,37 @@
+---
+layout: post
+comments: true
+title:  "Spectral Density Estimation"
+ref: welcome
+date:   2021-02-06
+tags: theory
+lang: en
+---
+The Fourier transform decomposes a signal into sinusoids and provides another way to represent a waveform in a frequency domain.
+
+
+
+Signal spectrum is the signal presentation in the frequency domain by Fourier Transform.
+
+For digital signals, fast discrete fourier transform is used.
+ 
+ 
+ Power spectrum density: which frequencies in signal contains more power and how strong are they
+
+ Power spectrum can be very useful for characterizing the time course of signals that are estimated using independent component analysis.
+
+In general, FFT does not work well for short duration signals.
+
+The spectral resolution (or the spacing between ordinates of successive points in the spectrum) is proportional on the ratio of sampling frequency of the signal to the total number of points N in the signal
+
+**Note: before computing the spectral estimation using FFT, do not use short time series**
+
+Fourier Transform assumes an infinite periodic continuation of the analog signal. Effect called spectral linkage can be observed
+
+
+ Alternative spectral estimation
+ + AR-model: autoregression
+
+ + MA-model: moving average
+
+ + ARMA-model: autoregressive-moving-average model

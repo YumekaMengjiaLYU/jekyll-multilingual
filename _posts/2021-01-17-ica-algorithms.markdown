@@ -8,6 +8,12 @@ lang: en
 ---
 
 For my practicum, I am working with fMRI data. Two algorithms that I've come across is normal ICA and fast ICA.
+
+For example, principal components analysis (PCA)
+finds a set of components that are orthogonalto one another in multidimensional
+space, whereas independent components analysis (ICA) finds a set of components
+that are independent of one another. 
+
 ## PCA
 [Video][ref-2]
 [PCA ICA][ref-3]
@@ -151,6 +157,8 @@ j W) · (Wej)/fjj(rk) to the source periodogram  ̃f
 at the Fourier frequency rk. This procedure will be referred to
 as cICA hereafter,
 
+
+
 ## Time-frequency Analysis
 In signal processing, time–frequency analysis[3] is a body of techniques and methods used for characterizing and manipulating signals whose statistics vary in time, such as transient signals.
 
@@ -176,6 +184,10 @@ AR models are the most
 
 commonly used time series approaches for the temporal corre-
 lation structure in fMRI analysis.
+
+### Whitening
+
+Whitening can be used to easily alleviate the effects of coordinates given in different units. 
 
 [ref-1]:https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.tm10332
 [ref-2]:https://www.youtube.com/watch?v=kw9R0nD69OU
