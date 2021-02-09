@@ -184,7 +184,9 @@ AR models are the most
 
 commonly used time series approaches for the temporal corre-
 lation structure in fMRI analysis.
+### PCA and SVD
 
+As a final remark, let’s discuss the numerical advantages of using SVD. A basic approach to actually calculating PCA on a computer would be to perform the eigenvalue decomposition of directly. It turns out that doing so would introduce some potentially serious numerical issues that could be avoided by using SVD.
 ### Whitening
 
 Whitening can be used to easily alleviate the effects of coordinates given in different units. 
