@@ -12,7 +12,7 @@ For my practicum, I am working with fMRI data. Two algorithms that I've come acr
 For example, principal components analysis (PCA)
 finds a set of components that are orthogonalto one another in multidimensional
 space, whereas independent components analysis (ICA) finds a set of components
-that are independent of one another. 
+that are independent of one another.
 
 ## PCA
 [Video][ref-2]
@@ -84,7 +84,7 @@ The order of mixing matrix and independent components are unknown
 
 ### Temporal ICA
 
-+ Components have independent temporal dynamics: 
++ Components have independent temporal dynamics:
 Strength of one component at a particular moment in time does not provide information on the strength of other components at that moment
 
 + Components may be correlated in space
@@ -113,7 +113,10 @@ Strength of one component at a particular moment in time does not provide inform
 From Wiki:
 
 FastICA is an efficient and popular algorithm for independent component analysis invented by Aapo Hyvärinen at Helsinki University of Technology. Like most ICA algorithms, FastICA seeks an orthogonal rotation of prewhitened data, through a fixed-point iteration scheme, that maximizes a measure of non-Gaussianity of the rotated components. Non-gaussianity serves as a proxy for statistical independence, which is a very strong condition and requires infinite data to verify. FastICA can also be alternatively derived as an approximative Newton iteration.
-### Definition
+### colored ICA
+a novel ICA algorithm by taking into account the joint density of the sources; the algorithm is named colorICA or parametric independent colored sources(PICS). The algorithm assumes that each temporal source has its own parametric autocorrelation structure either in autoregressive(AR),moving average(MA), or autoregressive moving average(ARMA) forms.  The approach is carried out in the spectral domain via the Whittle likelihood, which is expressed as a function of observations, time series parameters (both the correlation coefficients and noise level), and a matrix reflecting linear mixing operations (mixing matrix). The estimates of time series parameters and the mixing matrix are obtained by minimizing the negative Whittle log-likelihood.
+
+[.Statistical Techniques for Neuroscientists]
 
 ## Wavelet Analysis
 
@@ -131,11 +134,11 @@ A wavelet is a rapidly decaying, wave-like oscillation that has zero mean. Unlik
 + Biorthogonal
 + Mexican Hat
 + Symlets
-This is because, unlike the sinewave, the wavelet has a band pass characteristic in the frequency domain. Mathematically, the equivalent frequency is defined using this equation 
+This is because, unlike the sinewave, the wavelet has a band pass characteristic in the frequency domain. Mathematically, the equivalent frequency is defined using this equation
 $$F_{eq}=\frac{C_f}{s\delta_t}$$
 , where Cf is center frequency of the wavelet, s is the wavelet scale, and delta t is the sampling interval.
 
- A stretched wavelet helps in capturing the slowly varying changes in a signal while a compressed wavelet helps in capturing abrupt changes. 
+ A stretched wavelet helps in capturing the slowly varying changes in a signal while a compressed wavelet helps in capturing abrupt changes.
 
  We need to shift the wavelet to align with the feature we are looking for in a signal
 
@@ -220,11 +223,11 @@ lation structure in fMRI analysis.
 As a final remark, let’s discuss the numerical advantages of using SVD. A basic approach to actually calculating PCA on a computer would be to perform the eigenvalue decomposition of directly. It turns out that doing so would introduce some potentially serious numerical issues that could be avoided by using SVD.
 ### Whitening
 
-Whitening can be used to easily alleviate the effects of coordinates given in different units. 
+Whitening can be used to easily alleviate the effects of coordinates given in different units.
 
 One of the important assumptions of the GLM, is that the elements of the error vector, are uncorrelated, Cor(i, j) = 0
 for i = j and that they all have the same variance, Var(
-i) = σ2 for all i. 
+i) = σ2 for all i.
 
 There are many cases when this assumption is violated. For example, imagine that the dataset
 on age and processing speed included sets of identical twins; in this case, some
@@ -233,7 +236,7 @@ occur when the dependent variable Y includes temporally correlated data. When
 this occurs, the distribution of the error is given by Cov() = σ2V, where V is the
 symmetric correlation matrix and σ2 is the varaince.
 The most common solution to this problem is to prewhiten the data, or to remove
-the temporal correlation. 
+the temporal correlation.
 
 [ref-1]:https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.tm10332
 [ref-2]:https://www.youtube.com/watch?v=kw9R0nD69OU
