@@ -13,3 +13,11 @@ Let us talk about time series models.
 autoregressive process of order p
 
 $$Y_t = \phi_1 Y_{t-1}$$
+
+A formal way to test for stationarity is Augmented Dickey-Fuller test.
+
++ Autoregression model: a regression between a time series and itself lagged by a time step or steps
+
++ Moving average model: a regression between a time series and its own residuals lagged by a time step or steps
+
++ ARMA model: a combination of AR and MA

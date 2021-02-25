@@ -2,7 +2,7 @@
 layout: post
 title:  "A Look into Statistical Tests"
 ref: welcome
-date:   2021-01-22
+date:   2021-02-06
 tags: career
 lang: en
 ---
@@ -29,7 +29,7 @@ want to guard against having any false positives at all
 ### Correct for the FWER
 
 
-FWER 
+FWER
 probability of making one of more Type I errors in a family of tests, under the null hypothesis
 
 Controlling

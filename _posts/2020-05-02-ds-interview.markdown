@@ -109,7 +109,7 @@ When using Gaussian mixture model, how do you know it is applicable? (Normal dis
 + How can you deal with unbalanced binary classification?
 + What is the difference between convex and non-convex cost function?
 + What are the advantages of dropout layers and how do they work?
-+ What’s the difference between a clustered and non-clustered index? What are the advantages of each? 
++ What’s the difference between a clustered and non-clustered index? What are the advantages of each?
 + What are some of the steps for data wrangling and data cleaning before applying machine learning algorithms?
 + What kinds of methods can you use in order to analyse the topics over a set of documents?
 + When would you use linear regression vs multiple regression? How can multiple regression models be better or worse than linear regression models?
@@ -143,6 +143,7 @@ When using Gaussian mixture model, how do you know it is applicable? (Normal dis
 + What is a dimensionality reduction method and clearly explain how it works (e.g. What does a principle component in PCA represent)?
 + Explain your favorite machine learning algorithm and how exactly it works (e.g. Lloyd’s algorithm for K-Means, Decision Tree Construction).
 + Explain what is the difference between the weak and strong versions of the law of large numbers and the central limit theorem. When are they typically used? What are their requirements to be used?
+  + Weak strong version
 + Given a n*n matrix where all numbers are distinct, describe an algorithm that can find the maximum length path (starting from any cell) such that all cells along the path are in increasing order with a difference of 1: we can move in 4 directions from a given cell (i, j), i.e., we can move to (i+1, j) or (i, j+1) or (i-1, j) or (i, j-1) with the condition that the adjacent cells have a difference of 1. How many paths exist in total (side question)?
 + What are the support vectors in a SVM (support vector machine)?
 + Give an example of three random events X, Y, Z for which any pair are independent but all three are not mutually independent.
