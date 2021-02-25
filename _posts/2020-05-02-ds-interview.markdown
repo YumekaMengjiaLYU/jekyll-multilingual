@@ -26,6 +26,7 @@ Great resources
 + How to deal with unbalanced binary classification?
 + How to measure distance between data point?
 + Define variance.
+  + Variance is the expectation of the squared deviation of a random variable from its mean
 + What is the difference between box plot and histogram.
 + How do you solve the L2 regularized regression problem?
 + How to compute an inverse matrix faster by playing around with some computational tricks?
