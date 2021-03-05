@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "焦虑"
+ref: welcome
+date:   2021-02-26
+tags: deep-learning-lectures
+lang: 中文
+---
+神经质的症状，常见的例如对头痛、站起时头晕、精神恍惚感、心悸

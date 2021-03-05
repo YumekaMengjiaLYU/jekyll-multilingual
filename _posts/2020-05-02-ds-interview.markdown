@@ -16,15 +16,18 @@ Great resources
 + Can you explain the fundamentals of Naive Bayes? How do you set the threshold?
 + Can you explain what MapReduce is and how it works?
 + Can you explain SVM?
+  + SVM is a maximal margin classifier
 + How do you detect if a new observation is outlier? What is a bias-variance trade off?
 + Discuss how to randomly select a sample from a product user population.
 + How do you implement autocomplete?
 + Describe the working of gradient boost.
+  +
 + Find the maximum of sub sequence in an integer list.
 + What would you do to summarize a twitter feed.
 + Explain the steps of data wrangling and cleaning before appling ML algorithms.
 + How to deal with unbalanced binary classification?
 + How to measure distance between data point?
+  + Distance between data points
 + Define variance.
   + Variance is the expectation of the squared deviation of a random variable from its mean
 + What is the difference between box plot and histogram.
@@ -32,6 +35,7 @@ Great resources
 + How to compute an inverse matrix faster by playing around with some computational tricks?
 + How to perform a series of calculations without a calculator?
 + What is the difference between good and bad data visualization?
+  +
 + How do you find percentile? Write the code.
 + Find max sum subsequence from a sequence of values.
 + What are the different regularization metrics L1 and L2.
@@ -112,12 +116,19 @@ When using Gaussian mixture model, how do you know it is applicable? (Normal dis
 + What are the advantages of dropout layers and how do they work?
 + What’s the difference between a clustered and non-clustered index? What are the advantages of each?
 + What are some of the steps for data wrangling and data cleaning before applying machine learning algorithms?
+  + 
 + What kinds of methods can you use in order to analyse the topics over a set of documents?
 + When would you use linear regression vs multiple regression? How can multiple regression models be better or worse than linear regression models?
+  + In multiple regression, collinearity might exist,
 + What can joins in SQL be used for? What’s the difference between a left join, an inner join, and a full outer join?
 + Explain what a long-tailed distribution is and provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems?
+  + A long tail distribution has tails that taper off gradually rather than drop off sharply; a high frequency population is followed by a low frequency population, which gradually tails off asymptotically
+  + Examples include city population sizes, size of reserves in a certain geological region, size of companies.
+  +
 + What is an example of a probability distribution that has a finite mean, but infinite variance?
+  + Pareto distribution
 + What is data scrubbing? What’s one way to scrub data?
+  + Data scrubbing refers to the procedure of modifying or removing incomplete, incorrect, inaccurately formatted, or repeated data in a database. The key objective of data scrubbing is to make the data more accurate and consistent.
 + What is a Markov Decision Process and what is the goal for the decision maker? Which kinds of policies are the easiest to store and learn?
 + What is ensemble learning and what is the difference between bagging and boosting?
 + What is Occam’s Razor and how is stated in ML Theory?
@@ -134,6 +145,8 @@ When using Gaussian mixture model, how do you know it is applicable? (Normal dis
 + Define a SQL query. What is the difference between SELECT and UPDATE Query? How do you use SQL in SAS, Python, R languages?
 + How would you perform clustering on a million unique keywords, assuming you have 10 million data points, each one consisting of two keywords, and create a metric measuring how similar these two keywords are? How would you create this 10 million data points table in the first place?
 + What is the Markov Property and why is it useful for modeling systems?
+  + The Markov Property expresses the fact that at a given time step and knowing the current state, we won’t get any additional information about the future by gathering information about the past.
+  +
 + What is PAC learnability and what is a sufficient condition for an ERM to PAC learn?
 + Write a mock SQL Query to find the second highest salary of Employee in a table where Salary and Employee ID are given.
 + What are the assumptions and uses of logistic regression and how do they differ from those of linear regression?
@@ -142,6 +155,7 @@ When using Gaussian mixture model, how do you know it is applicable? (Normal dis
 + What is the hardest challenge you have ever confronted and how did you improve afterwards?
 + What is the best way to combat biases in your algorithms?
 + What is a dimensionality reduction method and clearly explain how it works (e.g. What does a principle component in PCA represent)?
+  + A principle component represents the direction of maximum variance in the data.
 + Explain your favorite machine learning algorithm and how exactly it works (e.g. Lloyd’s algorithm for K-Means, Decision Tree Construction).
 + Explain what is the difference between the weak and strong versions of the law of large numbers and the central limit theorem. When are they typically used? What are their requirements to be used?
   + Weak strong version
@@ -149,6 +163,7 @@ When using Gaussian mixture model, how do you know it is applicable? (Normal dis
 + What are the support vectors in a SVM (support vector machine)?
 + Give an example of three random events X, Y, Z for which any pair are independent but all three are not mutually independent.
 + How can you determine the optimal number of clusters in an unsupervised learning problem (give at least two examples)?
++ If there are 8 marbles of equal weight and 1 marble that weighs a little bit more (for a total of 9 marbles), how many weighings are required to determine which marble is the heaviest?
 
 
 
