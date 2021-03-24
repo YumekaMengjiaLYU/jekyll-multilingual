@@ -66,3 +66,5 @@ for successful implementation, expect the error distribution of lesion pixels to
 a latent constraint proposed to ensure latent consistency and enable more accurate detection of abnormal region
 
 natural competitive to the models we present is the autogan model
+
+https://surfer.nmr.mgh.harvard.edu/fswiki/Samseg
