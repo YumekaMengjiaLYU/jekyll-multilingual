@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Open Resources in BCI"
+ref: welcome
+date:   2021-03-31
+tags: career
+lang: en
+---
+
+https://d-nb.info/1023762099/34
